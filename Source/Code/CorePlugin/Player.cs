@@ -37,7 +37,7 @@ namespace TilemapJam
             if (DualityApp.Keyboard[Duality.Input.Key.Up]) input.Y = -1;
             else if (DualityApp.Keyboard[Duality.Input.Key.Down]) input.Y = 1;
 
-            if(DualityApp.Keyboard[Duality.Input.Key.Space] && Controller.Collisions.below) {
+			if(DualityApp.Keyboard.KeyHit (Duality.Input.Key.Space) && Controller.Collisions.below) {
                 velocity.Y = -jumpVelocity;
             }
 

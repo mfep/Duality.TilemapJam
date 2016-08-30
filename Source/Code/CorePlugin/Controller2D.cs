@@ -13,14 +13,6 @@ namespace TilemapJam
 		public float SkinWidth { get; set; }
         public int HorizontalRayCount { get; set; }
         public int VerticalRayCount { get; set; }
-        public float MaxClimbAngleDeg { get; set; }
-		private float MaxClimbAngleRad
-		{
-			get
-			{ 
-				return MathF.DegToRad (MaxClimbAngleDeg);
-			}
-		}
 
 	    private CollisionInfo collisions;
         public CollisionInfo Collisions
@@ -72,7 +64,10 @@ namespace TilemapJam
                 Vector2 rayOrigin = (directionX == -1) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
                 rayOrigin -= Vector2.UnitY * (horizontalRaySpacing * i);
 
-                VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);
+				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor) {
+					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);	
+				}
+                
 
                 RayCastCallback raycastCallback = data => 1.0f;
                 RayCastData rayCastData;                
@@ -80,17 +75,6 @@ namespace TilemapJam
                 if(RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitX * directionX * rayLength, raycastCallback, out rayCastData)) {
 
                     var distance = (rayOrigin - rayCastData.Pos).Length;
-                    float slopeAngle = Vector2.AngleBetween(rayCastData.Normal, -Vector2.UnitY);
-
-                    if (i == 0 && slopeAngle < MaxClimbAngleRad) {
-                        float distanceToSlopeStart = 0;
-                        if (slopeAngle != collisions.slopeAngleOld) {
-                            distanceToSlopeStart = distance - SkinWidth;
-                            velocity.X -= distanceToSlopeStart * directionX;
-                        }
-                        ClimbSlope(ref velocity, slopeAngle);
-                        velocity.X += distanceToSlopeStart * directionX;
-                    }
 
                     velocity.X = (distance - SkinWidth) * directionX;
                     rayLength = distance;
@@ -110,7 +94,9 @@ namespace TilemapJam
                 Vector2 rayOrigin = (directionY == -1) ? raycastOrigins.topLeft : raycastOrigins.bottomLeft;
                 rayOrigin += Vector2.UnitX * (verticalRaySpacing * i);
 
-                VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
+				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor) {
+					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
+				}
 
                 RayCastCallback raycastCallback = data => 1.0f;
                 RayCastData rayCastData;
@@ -123,20 +109,6 @@ namespace TilemapJam
                     collisions.below = directionY == 1;
                     collisions.above = directionY == -1;
                 }
-            }
-        }
-
-        private void ClimbSlope (ref Vector2 velocity, float slopeAngle)
-        {
-            float moveDistance = MathF.Abs (velocity.X);
-            float climbVelocityY = MathF.Sin (slopeAngle) * moveDistance;
-
-            if (velocity.Y <= climbVelocityY) {
-                velocity.Y = climbVelocityY;
-                velocity.X = MathF.Cos (slopeAngle) * moveDistance * MathF.Sign (velocity.X);
-                collisions.below = true;
-                collisions.climbingSlope = true;
-                collisions.slopeAngle = slopeAngle;
             }
         }
 
