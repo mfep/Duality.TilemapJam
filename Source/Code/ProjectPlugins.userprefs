@@ -1,9 +1,10 @@
-﻿<Properties StartupItem="CorePlugin\CorePlugin.csproj">
+﻿<Properties StartupItem="CorePlugin\CorePlugin.csproj" RefactoringSettings.EnableRefactorings="True" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CorePlugin\Controller2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CorePlugin\EmptyCSharpFile.cs">
     <Files>
-      <File FileName="CorePlugin\Controller2D.cs" Line="97" Column="80" />
+      <File FileName="CorePlugin\Controller2D.cs" Line="51" Column="36" />
       <File FileName="CorePlugin\Player.cs" Line="40" Column="59" />
+      <File FileName="CorePlugin\EmptyCSharpFile.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
