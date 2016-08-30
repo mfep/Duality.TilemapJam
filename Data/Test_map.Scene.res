@@ -89,8 +89,8 @@
                     <bounds dataType="Struct" type="Duality.Rect">
                       <H dataType="Float">48</H>
                       <W dataType="Float">32</W>
-                      <X dataType="Float">-274.497284</X>
-                      <Y dataType="Float">-151.006378</Y>
+                      <X dataType="Float">142.371948</X>
+                      <Y dataType="Float">380.378662</Y>
                     </bounds>
                     <collisions dataType="Struct" type="TilemapJam.Controller2D+CollisionInfo" />
                     <gameobj dataType="ObjectRef">2296195233</gameobj>
@@ -100,14 +100,14 @@
                   </item>
                   <item dataType="Struct" type="TilemapJam.Player" id="482699866">
                     <_x003C_AccelerationAirborne_x003E_k__BackingField dataType="Float">5</_x003C_AccelerationAirborne_x003E_k__BackingField>
-                    <_x003C_AccelerationGrounded_x003E_k__BackingField dataType="Float">20</_x003C_AccelerationGrounded_x003E_k__BackingField>
-                    <_x003C_JumpHeight_x003E_k__BackingField dataType="Float">300</_x003C_JumpHeight_x003E_k__BackingField>
+                    <_x003C_AccelerationGrounded_x003E_k__BackingField dataType="Float">30</_x003C_AccelerationGrounded_x003E_k__BackingField>
+                    <_x003C_JumpHeight_x003E_k__BackingField dataType="Float">150</_x003C_JumpHeight_x003E_k__BackingField>
                     <_x003C_MoveSpeed_x003E_k__BackingField dataType="Float">600</_x003C_MoveSpeed_x003E_k__BackingField>
-                    <_x003C_TimeToJumpApex_x003E_k__BackingField dataType="Float">0.35</_x003C_TimeToJumpApex_x003E_k__BackingField>
+                    <_x003C_TimeToJumpApex_x003E_k__BackingField dataType="Float">0.3</_x003C_TimeToJumpApex_x003E_k__BackingField>
                     <active dataType="Bool">true</active>
                     <gameobj dataType="ObjectRef">2296195233</gameobj>
-                    <gravity dataType="Float">4897.95947</gravity>
-                    <jumpVelocity dataType="Float">1714.28577</jumpVelocity>
+                    <gravity dataType="Float">3333.333</gravity>
+                    <jumpVelocity dataType="Float">999.999939</jumpVelocity>
                     <velocity dataType="Struct" type="Duality.Vector2" />
                   </item>
                   <item dataType="Struct" type="Duality.Components.Transform" id="361542869">
@@ -121,13 +121,13 @@
                     <ignoreParent dataType="Bool">false</ignoreParent>
                     <parentTransform />
                     <pos dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">-258.497284</X>
-                      <Y dataType="Float">-127.006378</Y>
+                      <X dataType="Float">158.371948</X>
+                      <Y dataType="Float">404.378662</Y>
                       <Z dataType="Float">0</Z>
                     </pos>
                     <posAbs dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">-258.497284</X>
-                      <Y dataType="Float">-127.006378</Y>
+                      <X dataType="Float">158.371948</X>
+                      <Y dataType="Float">404.378662</Y>
                       <Z dataType="Float">0</Z>
                     </posAbs>
                     <scale dataType="Float">1</scale>
@@ -276,7 +276,7 @@
                   <tileData dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapData" id="447107595" custom="true">
                     <body>
                       <version dataType="Int">3</version>
-                      <data dataType="Array" type="System.Byte[]" id="3897546870">H4sIAAAAAAAEAO1UQQoAIAxa157T/x/XOYhQx1bEvAyKLTVrmFm3witoceV5gluetKJ4gj+UFeVuunb6BBVqCvBFnOCpDx8GTMH7nO4CoEWr3yHti3p/p7207OKi1UCr7l76e9Q+J0H6FUdk1+luwYtyNw8TN1ReU7QNAAA=</data>
+                      <data dataType="Array" type="System.Byte[]" id="3897546870">H4sIAAAAAAAEAO2UUQoAIQhEZ387zt7/cPsdxDBtjhX4fgRBHTV7ATQUKTw+469woOk5QtItpqemS3uHvcKmLCxcd7KZCQJZob9ZhIDQp8GYbtqxYn3hjEVJ04TeLXPGHImQzHjTQ9J+RcE5lMR0ChX851so1HTz+AAMohu3tA0AAA==</data>
                     </body>
                   </tileData>
                   <tileset dataType="Struct" type="Duality.ContentRef`1[[Duality.Plugins.Tilemaps.Tileset]]">
@@ -294,7 +294,7 @@
                   <externalTilemap />
                   <gameobj dataType="ObjectRef">4263731582</gameobj>
                   <offset dataType="Float">-0</offset>
-                  <origin dataType="Enum" type="Duality.Alignment" name="Center" value="0" />
+                  <origin dataType="Enum" type="Duality.Alignment" name="TopLeft" value="5" />
                   <tileDepthMode dataType="Enum" type="Duality.Plugins.Tilemaps.TileDepthOffsetMode" name="Flat" value="0" />
                   <tileDepthOffset dataType="Int">0</tileDepthOffset>
                   <tileDepthScale dataType="Float">0</tileDepthScale>
@@ -374,16 +374,16 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">242</_version>
+                    <_version dataType="Int">390</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
                   <active dataType="Bool">true</active>
                   <gameobj dataType="ObjectRef">3142230422</gameobj>
-                  <origin dataType="Enum" type="Duality.Alignment" name="Center" value="0" />
+                  <origin dataType="Enum" type="Duality.Alignment" name="TopLeft" value="5" />
                   <roundedCorners dataType="Bool">false</roundedCorners>
-                  <shapeFriction dataType="Float">0.3</shapeFriction>
-                  <shapeRestitution dataType="Float">0.3</shapeRestitution>
+                  <shapeFriction dataType="Float">0.299999982</shapeFriction>
+                  <shapeRestitution dataType="Float">0.299999982</shapeRestitution>
                   <solidOuterEdges dataType="Bool">false</solidOuterEdges>
                   <source dataType="Array" type="Duality.Plugins.Tilemaps.TilemapCollisionSource[]" id="3566461121">
                     <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollisionSource">

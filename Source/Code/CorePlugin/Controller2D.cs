@@ -68,7 +68,6 @@ namespace TilemapJam
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);	
 				}
                 
-
                 RayCastCallback raycastCallback = data => 1.0f;
                 RayCastData rayCastData;                
 
@@ -92,7 +91,7 @@ namespace TilemapJam
 
             for (int i = 0; i < VerticalRayCount; i++) {
                 Vector2 rayOrigin = (directionY == -1) ? raycastOrigins.topLeft : raycastOrigins.bottomLeft;
-                rayOrigin += Vector2.UnitX * (verticalRaySpacing * i);
+				rayOrigin += Vector2.UnitX * (verticalRaySpacing * i + velocity.X);
 
 				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor) {
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
