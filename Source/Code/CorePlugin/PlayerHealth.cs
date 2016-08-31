@@ -3,7 +3,7 @@ using Duality;
 
 namespace TilemapJam
 {
-	[RequiredComponent (typeof (Player))]
+	[RequiredComponent (typeof (PlayerControl))]
 	public class PlayerHealth : Component
 	{
 		public void HitBySaw ()
@@ -21,7 +21,7 @@ namespace TilemapJam
 				Log.Game.WriteError ("GameManager component is missing from scene!");
 			}
 
-			GameObj.GetComponent<Player> ().Active = false;
+			GameObj.GetComponent<PlayerControl> ().Active = false;
 		}
 	}
 }

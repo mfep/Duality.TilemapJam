@@ -35,7 +35,7 @@ namespace TilemapJam
 
 		public void OnCollisionBegin (Component sender, CollisionEventArgs args)
 		{
-			var player = args.CollideWith.GetComponent<Player> ();
+			var player = args.CollideWith.GetComponent<PlayerControl> ();
 			if (player != null) {
 				PickedUpByPlayer ();
 			}

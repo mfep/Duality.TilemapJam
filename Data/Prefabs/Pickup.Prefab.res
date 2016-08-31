@@ -20,13 +20,13 @@
           <ignoreParent dataType="Bool">false</ignoreParent>
           <parentTransform />
           <pos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">734.509338</X>
-            <Y dataType="Float">346.321381</Y>
+            <X dataType="Float">941.6788</X>
+            <Y dataType="Float">474.106262</Y>
             <Z dataType="Float">0</Z>
           </pos>
           <posAbs dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">734.509338</X>
-            <Y dataType="Float">346.321381</Y>
+            <X dataType="Float">941.6788</X>
+            <Y dataType="Float">474.106262</Y>
             <Z dataType="Float">0</Z>
           </posAbs>
           <scale dataType="Float">1</scale>
@@ -35,18 +35,18 @@
           <velAbs dataType="Struct" type="Duality.Vector3" />
         </item>
         <item dataType="Struct" type="TilemapJam.Pickup" id="1090162829">
-          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Float">20</_x003C_IdleAmpl_x003E_k__BackingField>
+          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Float">10</_x003C_IdleAmpl_x003E_k__BackingField>
           <_x003C_IdleFreq_x003E_k__BackingField dataType="Float">0.3</_x003C_IdleFreq_x003E_k__BackingField>
           <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
           <_x003C_Score_x003E_k__BackingField dataType="Int">5</_x003C_Score_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
           <initialPos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">734.509338</X>
-            <Y dataType="Float">346.321381</Y>
+            <X dataType="Float">941.6788</X>
+            <Y dataType="Float">474.106262</Y>
             <Z dataType="Float">0</Z>
           </initialPos>
-          <phase dataType="Float">4.725117</phase>
+          <phase dataType="Float">2.01860428</phase>
         </item>
         <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="1191311791">
           <active dataType="Bool">true</active>
@@ -104,7 +104,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">2</_version>
+            <_version dataType="Int">3</_version>
           </shapes>
         </item>
       </_items>
