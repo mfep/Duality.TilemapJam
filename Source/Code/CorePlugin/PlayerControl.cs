@@ -4,6 +4,7 @@ using Duality;
 namespace TilemapJam
 {
     [RequiredComponent(typeof(Controller2D))]
+	[RequiredComponent(typeof(PlayerDrill))]
     public class PlayerControl : Component, ICmpUpdatable, ICmpInitializable
     {
         public float MoveSpeed { get; set; }
@@ -25,6 +26,14 @@ namespace TilemapJam
             }
         }
 
+		private PlayerDrill Drill
+		{
+			get
+			{
+				return GameObj.GetComponent<PlayerDrill> ();
+			}
+		}
+
         public void OnUpdate ()
         {
             if (Controller.Collisions.below || Controller.Collisions.above) {
@@ -37,9 +46,13 @@ namespace TilemapJam
             if (DualityApp.Keyboard[Duality.Input.Key.Up]) input.Y = -1;
             else if (DualityApp.Keyboard[Duality.Input.Key.Down]) input.Y = 1;
 
-			if(DualityApp.Keyboard.KeyHit (Duality.Input.Key.Space) && Controller.Collisions.below) {
+			if (DualityApp.Keyboard.KeyHit (Duality.Input.Key.Space) && Controller.Collisions.below) {
                 velocity.Y = -jumpVelocity;
             }
+
+			if (DualityApp.Keyboard.KeyHit (Duality.Input.Key.ControlLeft)) {
+				Drill.TryDrill (input);
+			}
 
             float targetVelocityX = input.X * MoveSpeed;
             velocity.X = MathF.Lerp (velocity.X, targetVelocityX, AccelerationGrounded / 100);

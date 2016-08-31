@@ -61,6 +61,7 @@
     <Compile Include="GameManager.cs" />
     <Compile Include="Pickup.cs" />
     <Compile Include="PlayerControl.cs" />
+    <Compile Include="PlayerDrill.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <PropertyGroup>
