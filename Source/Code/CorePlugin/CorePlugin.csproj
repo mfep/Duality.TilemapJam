@@ -47,6 +47,9 @@
     <Reference Include="DualityPrimitives">
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
+    <Reference Include="Tilemaps.core">
+      <HintPath>..\..\..\Plugins\Tilemaps.core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
@@ -55,6 +58,7 @@
     <Compile Include="Player.cs" />
     <Compile Include="SawComponent.cs" />
     <Compile Include="PlayerHealth.cs" />
+    <Compile Include="LevelManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <PropertyGroup>
