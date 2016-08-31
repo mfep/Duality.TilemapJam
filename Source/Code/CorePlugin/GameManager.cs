@@ -9,6 +9,7 @@ namespace TilemapJam
 	{
 		public ContentRef<Scene> NextLevel { get; set; }
 		public float LevelDelay { get; set; }
+		public int PlayerScore { get; private set; }
 
 		private List<FunctionInvoke> invokes = new List<FunctionInvoke> ();
 
@@ -32,6 +33,11 @@ namespace TilemapJam
 			AddInvoke (() => {
 				Scene.Reload ();
 			}, Time.GameTimer + TimeSpan.FromSeconds (LevelDelay));
+		}
+
+		public void PlayerPickup (int score)
+		{
+			PlayerScore += score;
 		}
 
 		struct FunctionInvoke

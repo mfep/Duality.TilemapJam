@@ -13,6 +13,7 @@ namespace TilemapJam
 		public float SkinWidth { get; set; }
         public int HorizontalRayCount { get; set; }
         public int VerticalRayCount { get; set; }
+		public CollisionCategory rayCollisions { get; set; }
 
 	    private CollisionInfo collisions;
         public CollisionInfo Collisions
@@ -68,7 +69,11 @@ namespace TilemapJam
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);	
 				}
                 
-                RayCastCallback raycastCallback = data => 1.0f;
+				RayCastCallback raycastCallback = data => {
+					if (data.Body.CollisionCategory == rayCollisions)
+						return 1.0f;
+					else return -1.0f;
+				};
                 RayCastData rayCastData;                
 
                 if(RigidBody.RayCast(rayOrigin, rayOrigin + Vector2.UnitX * directionX * rayLength, raycastCallback, out rayCastData)) {
@@ -97,7 +102,11 @@ namespace TilemapJam
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
 				}
 
-                RayCastCallback raycastCallback = data => 1.0f;
+				RayCastCallback raycastCallback = data => {
+					if (data.Body.CollisionCategory == rayCollisions)
+						return 1.0f;
+					else return -1.0f;
+				};
                 RayCastData rayCastData;
 
                 if (RigidBody.RayCast (rayOrigin, rayOrigin + Vector2.UnitY * directionY * rayLength, raycastCallback, out rayCastData)) {

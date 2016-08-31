@@ -1,13 +1,13 @@
 ﻿<Properties StartupItem="CorePlugin\CorePlugin.csproj" RefactoringSettings.EnableRefactorings="True" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CorePlugin\Pickup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CorePlugin\SawComponent.cs">
     <Files>
-      <File FileName="CorePlugin\Controller2D.cs" Line="1" Column="1" />
+      <File FileName="CorePlugin\Controller2D.cs" Line="75" Column="20" />
       <File FileName="CorePlugin\Player.cs" Line="17" Column="3" />
       <File FileName="CorePlugin\SawComponent.cs" Line="16" Column="12" />
-      <File FileName="CorePlugin\PlayerHealth.cs" Line="19" Column="31" />
-      <File FileName="CorePlugin\LevelManager.cs" Line="14" Column="4" />
-      <File FileName="CorePlugin\Pickup.cs" Line="8" Column="3" />
+      <File FileName="CorePlugin\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="CorePlugin\LevelManager.cs" Line="1" Column="1" />
+      <File FileName="CorePlugin\Pickup.cs" Line="37" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
