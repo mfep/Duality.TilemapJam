@@ -9,6 +9,8 @@ namespace TilemapJam
 	{
 		public float DrillDistance { get; set; }
 
+		const int emptyTile = 33;
+
 		public bool TryDrill (Vector2 direction)
 		{
 			if (direction == Vector2.Zero) {
@@ -41,7 +43,12 @@ namespace TilemapJam
 			var tilemap = rayCastData.GameObj.GetComponent<TilemapCollider> ().CollisionSource [0].SourceTilemap;
 			var tileCoord = GetTileCoord (rayCastData.Pos + EpsVec, tilemap);
 
-			tilemap.SetTile (tileCoord.X, tileCoord.Y, new Tile (1));
+			try {
+				tilemap.SetTile (tileCoord.X, tileCoord.Y, new Tile (emptyTile));	
+			}
+			catch (IndexOutOfRangeException /*exception*/) {
+				// do fucking nothing
+			}
 		}
 
 		// TODO notice this only works for this special aligned tilemap

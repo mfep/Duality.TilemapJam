@@ -20,13 +20,13 @@
           <ignoreParent dataType="Bool">false</ignoreParent>
           <parentTransform />
           <pos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">941.6788</X>
-            <Y dataType="Float">474.106262</Y>
+            <X dataType="Float">736</X>
+            <Y dataType="Float">352</Y>
             <Z dataType="Float">0</Z>
           </pos>
           <posAbs dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">941.6788</X>
-            <Y dataType="Float">474.106262</Y>
+            <X dataType="Float">736</X>
+            <Y dataType="Float">352</Y>
             <Z dataType="Float">0</Z>
           </posAbs>
           <scale dataType="Float">1</scale>
@@ -42,11 +42,11 @@
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
           <initialPos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">941.6788</X>
-            <Y dataType="Float">474.106262</Y>
+            <X dataType="Float">736</X>
+            <Y dataType="Float">352</Y>
             <Z dataType="Float">0</Z>
           </initialPos>
-          <phase dataType="Float">2.01860428</phase>
+          <phase dataType="Float">1.50518775</phase>
         </item>
         <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="1191311791">
           <active dataType="Bool">true</active>
@@ -62,14 +62,14 @@
           <offset dataType="Int">-1</offset>
           <pixelGrid dataType="Bool">false</pixelGrid>
           <rect dataType="Struct" type="Duality.Rect">
-            <H dataType="Float">32</H>
-            <W dataType="Float">32</W>
-            <X dataType="Float">-16</X>
-            <Y dataType="Float">-16</Y>
+            <H dataType="Float">45</H>
+            <W dataType="Float">24</W>
+            <X dataType="Float">-12</X>
+            <Y dataType="Float">-22</Y>
           </rect>
           <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
           <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-            <contentPath dataType="String">Default:Material:DualityIcon</contentPath>
+            <contentPath dataType="String">Data\Sprites\repa.Material.res</contentPath>
           </sharedMat>
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
         </item>
@@ -104,7 +104,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">3</_version>
+            <_version dataType="Int">4</_version>
           </shapes>
         </item>
       </_items>
