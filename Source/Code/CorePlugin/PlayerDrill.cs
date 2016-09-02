@@ -11,12 +11,20 @@ namespace TilemapJam
 
 		const int emptyTile = 33;
 
+		ShovelAnimation ShovelAnim
+		{
+			get
+			{
+				return GameObj.GetComponent<ShovelAnimation> ();
+			}
+		}
+
 		public bool TryDrill (Vector2 direction)
 		{
 			if (direction == Vector2.Zero) {
 				return false;
 			}
-
+				
 			Vector2 rayOrigin = GameObj.Transform.Pos.Xy;
 			Vector2 rayEnd = rayOrigin + direction.Normalized * DrillDistance;
 
@@ -37,7 +45,11 @@ namespace TilemapJam
 		}
 
 		void DoDrill (RayCastData rayCastData, Vector2 direction)
-		{			
+		{
+			if (ShovelAnim != null) {
+				ShovelAnim.StartAnimation (direction.X);
+			}
+
 			Vector2 EpsVec = direction.Normalized;		
 
 			var tilemap = rayCastData.GameObj.GetComponent<TilemapCollider> ().CollisionSource [0].SourceTilemap;

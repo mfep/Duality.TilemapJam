@@ -31,7 +31,7 @@
                     <vertexArraysFree dataType="Struct" type="System.Collections.Generic.List`1[[Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]]]]" id="402919296">
                       <_items dataType="Array" type="Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]][]" id="2236457372" length="4" />
                       <_size dataType="Int">0</_size>
-                      <_version dataType="Int">7273</_version>
+                      <_version dataType="Int">11380</_version>
                     </vertexArraysFree>
                     <vertexArraysUsed dataType="Struct" type="System.Collections.Generic.List`1[[Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]]]]" id="474293454">
                       <_items dataType="Array" type="Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]][]" id="2646006098" length="4">
@@ -113,7 +113,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">237.69</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.28515625</X>
@@ -130,7 +130,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">243.15</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.30859375</X>
@@ -147,7 +147,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">243.15</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.30859375</X>
@@ -164,7 +164,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">237.69</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.28515625</X>
@@ -181,7 +181,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">244.06</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -198,7 +198,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">250.43</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -215,7 +215,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">250.43</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -232,7 +232,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">244.06</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -249,7 +249,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">252.25</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15625</X>
@@ -266,7 +266,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">257.71</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1796875</X>
@@ -283,7 +283,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">257.71</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1796875</X>
@@ -300,7 +300,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">252.25</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15625</X>
@@ -317,7 +317,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">261.35</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -334,7 +334,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">263.17</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -351,7 +351,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">263.17</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -368,7 +368,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">261.35</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -385,7 +385,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">266.81</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.16015625</X>
@@ -402,7 +402,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">272.27</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.18359375</X>
@@ -419,7 +419,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">272.27</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.18359375</X>
@@ -436,7 +436,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">266.81</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.16015625</X>
@@ -453,7 +453,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">273.18</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -470,7 +470,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">279.55</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -487,7 +487,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">279.55</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -504,7 +504,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">273.18</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -521,7 +521,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">283.19</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -538,7 +538,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">285.01</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -555,7 +555,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">285.01</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -572,7 +572,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">283.19</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -589,7 +589,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">288.65</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.22265625</X>
@@ -606,7 +606,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">294.11</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.24609375</X>
@@ -623,7 +623,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">294.11</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.24609375</X>
@@ -640,7 +640,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">288.65</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.22265625</X>
@@ -657,7 +657,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">295.93</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1875</X>
@@ -674,7 +674,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">301.39</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.2109375</X>
@@ -691,7 +691,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">301.39</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.2109375</X>
@@ -708,7 +708,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">295.93</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1875</X>
@@ -725,7 +725,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">303.21</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.12890625</X>
@@ -742,7 +742,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">308.67</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15234375</X>
@@ -759,7 +759,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">308.67</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15234375</X>
@@ -776,7 +776,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">303.21</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.12890625</X>
@@ -793,7 +793,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">311.4</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.37109375</X>
@@ -810,7 +810,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">315.95</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.390625</X>
@@ -827,7 +827,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">315.95</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.390625</X>
@@ -844,7 +844,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">311.4</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">2568</Z>
+                                <Z dataType="Float">3937</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.37109375</X>
@@ -2140,7 +2140,7 @@
                         </item>
                       </_items>
                       <_size dataType="Int">2</_size>
-                      <_version dataType="Int">7275</_version>
+                      <_version dataType="Int">11382</_version>
                     </vertexArraysUsed>
                   </buffer>
                   <gameobj dataType="ObjectRef">2618526563</gameobj>
@@ -2251,10 +2251,120 @@
             <smoothness dataType="Float">1</smoothness>
             <targetObj dataType="Struct" type="Duality.GameObject" id="2296195233">
               <active dataType="Bool">true</active>
-              <children />
-              <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2339854260">
-                <_items dataType="Array" type="Duality.Component[]" id="3549188004" length="8">
+              <children dataType="Struct" type="System.Collections.Generic.List`1[[Duality.GameObject]]" id="2339854260">
+                <_items dataType="Array" type="Duality.GameObject[]" id="3549188004" length="4">
+                  <item dataType="Struct" type="Duality.GameObject" id="1737088351">
+                    <active dataType="Bool">true</active>
+                    <children />
+                    <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2322935427">
+                      <_items dataType="Array" type="Duality.Component[]" id="1461082918" length="4">
+                        <item dataType="Struct" type="Duality.Components.Transform" id="4097403283">
+                          <active dataType="Bool">true</active>
+                          <angle dataType="Float">0</angle>
+                          <angleAbs dataType="Float">0</angleAbs>
+                          <angleVel dataType="Float">0</angleVel>
+                          <angleVelAbs dataType="Float">0</angleVelAbs>
+                          <deriveAngle dataType="Bool">true</deriveAngle>
+                          <gameobj dataType="ObjectRef">1737088351</gameobj>
+                          <ignoreParent dataType="Bool">false</ignoreParent>
+                          <parentTransform dataType="Struct" type="Duality.Components.Transform" id="361542869">
+                            <active dataType="Bool">true</active>
+                            <angle dataType="Float">0</angle>
+                            <angleAbs dataType="Float">0</angleAbs>
+                            <angleVel dataType="Float">0</angleVel>
+                            <angleVelAbs dataType="Float">0</angleVelAbs>
+                            <deriveAngle dataType="Bool">true</deriveAngle>
+                            <gameobj dataType="ObjectRef">2296195233</gameobj>
+                            <ignoreParent dataType="Bool">false</ignoreParent>
+                            <parentTransform />
+                            <pos dataType="Struct" type="Duality.Vector3">
+                              <X dataType="Float">305.196259</X>
+                              <Y dataType="Float">428.188</Y>
+                              <Z dataType="Float">0</Z>
+                            </pos>
+                            <posAbs dataType="Struct" type="Duality.Vector3">
+                              <X dataType="Float">305.196259</X>
+                              <Y dataType="Float">428.188</Y>
+                              <Z dataType="Float">0</Z>
+                            </posAbs>
+                            <scale dataType="Float">1</scale>
+                            <scaleAbs dataType="Float">1</scaleAbs>
+                            <vel dataType="Struct" type="Duality.Vector3" />
+                            <velAbs dataType="Struct" type="Duality.Vector3" />
+                          </parentTransform>
+                          <pos dataType="Struct" type="Duality.Vector3" />
+                          <posAbs dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">305.196259</X>
+                            <Y dataType="Float">428.188</Y>
+                            <Z dataType="Float">0</Z>
+                          </posAbs>
+                          <scale dataType="Float">1</scale>
+                          <scaleAbs dataType="Float">1</scaleAbs>
+                          <vel dataType="Struct" type="Duality.Vector3" />
+                          <velAbs dataType="Struct" type="Duality.Vector3" />
+                        </item>
+                        <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3379254919">
+                          <active dataType="Bool">true</active>
+                          <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
+                            <A dataType="Byte">255</A>
+                            <B dataType="Byte">255</B>
+                            <G dataType="Byte">255</G>
+                            <R dataType="Byte">255</R>
+                          </colorTint>
+                          <customMat />
+                          <flipMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
+                          <gameobj dataType="ObjectRef">1737088351</gameobj>
+                          <offset dataType="Int">-2</offset>
+                          <pixelGrid dataType="Bool">false</pixelGrid>
+                          <rect dataType="Struct" type="Duality.Rect">
+                            <H dataType="Float">28</H>
+                            <W dataType="Float">74</W>
+                            <X dataType="Float">-37</X>
+                            <Y dataType="Float">-14</Y>
+                          </rect>
+                          <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
+                          <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                            <contentPath dataType="String">Data\Sprites\Shovel\shovel.Material.res</contentPath>
+                          </sharedMat>
+                          <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
+                        </item>
+                      </_items>
+                      <_size dataType="Int">2</_size>
+                      <_version dataType="Int">2</_version>
+                    </compList>
+                    <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="341583288" surrogate="true">
+                      <header />
+                      <body>
+                        <keys dataType="Array" type="System.Object[]" id="2730658281">
+                          <item dataType="Type" id="2004904718" value="Duality.Components.Transform" />
+                          <item dataType="Type" id="1746624842" value="Duality.Components.Renderers.SpriteRenderer" />
+                        </keys>
+                        <values dataType="Array" type="System.Object[]" id="2651055296">
+                          <item dataType="ObjectRef">4097403283</item>
+                          <item dataType="ObjectRef">3379254919</item>
+                        </values>
+                      </body>
+                    </compMap>
+                    <compTransform dataType="ObjectRef">4097403283</compTransform>
+                    <identifier dataType="Struct" type="System.Guid" surrogate="true">
+                      <header>
+                        <data dataType="Array" type="System.Byte[]" id="3682778187">/5Zcs9Ua+UuFo85bRbR+WQ==</data>
+                      </header>
+                      <body />
+                    </identifier>
+                    <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                    <name dataType="String">Shovel</name>
+                    <parent dataType="ObjectRef">2296195233</parent>
+                    <prefabLink />
+                  </item>
+                </_items>
+                <_size dataType="Int">1</_size>
+                <_version dataType="Int">1</_version>
+              </children>
+              <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3501237750">
+                <_items dataType="Array" type="Duality.Component[]" id="671353502">
                   <item dataType="Struct" type="TilemapJam.Controller2D" id="2963691113">
+                    <_x003C_DebugRays_x003E_k__BackingField dataType="Bool">false</_x003C_DebugRays_x003E_k__BackingField>
                     <_x003C_HorizontalRayCount_x003E_k__BackingField dataType="Int">4</_x003C_HorizontalRayCount_x003E_k__BackingField>
                     <_x003C_rayCollisions_x003E_k__BackingField dataType="Enum" type="Duality.Components.Physics.CollisionCategory" name="Cat2" value="2" />
                     <_x003C_SkinWidth_x003E_k__BackingField dataType="Float">2</_x003C_SkinWidth_x003E_k__BackingField>
@@ -2272,31 +2382,7 @@
                     <raycastOrigins dataType="Struct" type="TilemapJam.Controller2D+RayCastOrigins" />
                     <verticalRaySpacing dataType="Float">12.666667</verticalRaySpacing>
                   </item>
-                  <item dataType="Struct" type="Duality.Components.Transform" id="361542869">
-                    <active dataType="Bool">true</active>
-                    <angle dataType="Float">0</angle>
-                    <angleAbs dataType="Float">0</angleAbs>
-                    <angleVel dataType="Float">0</angleVel>
-                    <angleVelAbs dataType="Float">0</angleVelAbs>
-                    <deriveAngle dataType="Bool">true</deriveAngle>
-                    <gameobj dataType="ObjectRef">2296195233</gameobj>
-                    <ignoreParent dataType="Bool">false</ignoreParent>
-                    <parentTransform />
-                    <pos dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">305.196259</X>
-                      <Y dataType="Float">428.188</Y>
-                      <Z dataType="Float">0</Z>
-                    </pos>
-                    <posAbs dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">305.196259</X>
-                      <Y dataType="Float">428.188</Y>
-                      <Z dataType="Float">0</Z>
-                    </posAbs>
-                    <scale dataType="Float">1</scale>
-                    <scaleAbs dataType="Float">1</scaleAbs>
-                    <vel dataType="Struct" type="Duality.Vector3" />
-                    <velAbs dataType="Struct" type="Duality.Vector3" />
-                  </item>
+                  <item dataType="ObjectRef">361542869</item>
                   <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3938361801">
                     <active dataType="Bool">true</active>
                     <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
@@ -2340,15 +2426,15 @@
                     <linearDamp dataType="Float">0.3</linearDamp>
                     <linearVel dataType="Struct" type="Duality.Vector2" />
                     <revolutions dataType="Float">0</revolutions>
-                    <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="2572581505">
-                      <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="2085135662" length="4">
-                        <item dataType="Struct" type="Duality.Components.Physics.PolyShapeInfo" id="4166604624">
+                    <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="2087164109">
+                      <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="3259914278" length="4">
+                        <item dataType="Struct" type="Duality.Components.Physics.PolyShapeInfo" id="407292160">
                           <density dataType="Float">1</density>
                           <friction dataType="Float">0.3</friction>
                           <parent dataType="ObjectRef">1064004461</parent>
                           <restitution dataType="Float">0.3</restitution>
                           <sensor dataType="Bool">false</sensor>
-                          <vertices dataType="Array" type="Duality.Vector2[]" id="626564028">
+                          <vertices dataType="Array" type="Duality.Vector2[]" id="954372764">
                             <item dataType="Struct" type="Duality.Vector2">
                               <X dataType="Float">-16</X>
                               <Y dataType="Float">24</Y>
@@ -2393,23 +2479,43 @@
                     <active dataType="Bool">true</active>
                     <gameobj dataType="ObjectRef">2296195233</gameobj>
                   </item>
+                  <item dataType="Struct" type="TilemapJam.ShovelAnimation" id="3500108476">
+                    <_x003C_AnimTime_x003E_k__BackingField dataType="Float">0.2</_x003C_AnimTime_x003E_k__BackingField>
+                    <_x003C_EndPos_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                      <X dataType="Float">100</X>
+                      <Y dataType="Float">0</Y>
+                    </_x003C_EndPos_x003E_k__BackingField>
+                    <_x003C_Playing_x003E_k__BackingField dataType="Bool">false</_x003C_Playing_x003E_k__BackingField>
+                    <_x003C_Shovel_x003E_k__BackingField dataType="ObjectRef">4097403283</_x003C_Shovel_x003E_k__BackingField>
+                    <_x003C_ShovelRenderer_x003E_k__BackingField dataType="ObjectRef">3379254919</_x003C_ShovelRenderer_x003E_k__BackingField>
+                    <_x003C_StartPos_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                      <X dataType="Float">50</X>
+                      <Y dataType="Float">0</Y>
+                    </_x003C_StartPos_x003E_k__BackingField>
+                    <_x003C_StayTime_x003E_k__BackingField dataType="Float">0.07</_x003C_StayTime_x003E_k__BackingField>
+                    <active dataType="Bool">true</active>
+                    <direction dataType="Float">0</direction>
+                    <gameobj dataType="ObjectRef">2296195233</gameobj>
+                    <startTime dataType="Float">0</startTime>
+                  </item>
                 </_items>
-                <_size dataType="Int">7</_size>
-                <_version dataType="Int">9</_version>
+                <_size dataType="Int">8</_size>
+                <_version dataType="Int">10</_version>
               </compList>
-              <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3501237750" surrogate="true">
+              <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2083981328" surrogate="true">
                 <header />
                 <body>
-                  <keys dataType="Array" type="System.Object[]" id="671353502">
-                    <item dataType="Type" id="1525023632" value="TilemapJam.Controller2D" />
-                    <item dataType="Type" id="3879377646" value="Duality.Components.Transform" />
-                    <item dataType="Type" id="1733290604" value="Duality.Components.Renderers.SpriteRenderer" />
-                    <item dataType="Type" id="2980030226" value="Duality.Components.Physics.RigidBody" />
-                    <item dataType="Type" id="345371976" value="TilemapJam.PlayerHealth" />
-                    <item dataType="Type" id="562233702" value="TilemapJam.PlayerControl" />
-                    <item dataType="Type" id="290570116" value="TilemapJam.PlayerDrill" />
+                  <keys dataType="Array" type="System.Object[]" id="2992653832">
+                    <item dataType="Type" id="2272611692" value="TilemapJam.Controller2D" />
+                    <item dataType="ObjectRef">2004904718</item>
+                    <item dataType="ObjectRef">1746624842</item>
+                    <item dataType="Type" id="3180210230" value="Duality.Components.Physics.RigidBody" />
+                    <item dataType="Type" id="1341766712" value="TilemapJam.PlayerHealth" />
+                    <item dataType="Type" id="4178820370" value="TilemapJam.PlayerControl" />
+                    <item dataType="Type" id="1756365092" value="TilemapJam.PlayerDrill" />
+                    <item dataType="Type" id="1109736846" value="TilemapJam.ShovelAnimation" />
                   </keys>
-                  <values dataType="Array" type="System.Object[]" id="441255306">
+                  <values dataType="Array" type="System.Object[]" id="2984115678">
                     <item dataType="ObjectRef">2963691113</item>
                     <item dataType="ObjectRef">361542869</item>
                     <item dataType="ObjectRef">3938361801</item>
@@ -2417,13 +2523,14 @@
                     <item dataType="ObjectRef">108972226</item>
                     <item dataType="ObjectRef">4248450397</item>
                     <item dataType="ObjectRef">4212119945</item>
+                    <item dataType="ObjectRef">3500108476</item>
                   </values>
                 </body>
               </compMap>
               <compTransform dataType="ObjectRef">361542869</compTransform>
               <identifier dataType="Struct" type="System.Guid" surrogate="true">
                 <header>
-                  <data dataType="Array" type="System.Byte[]" id="3961743726">W2WJ31R8sE2j6ytOliNwSg==</data>
+                  <data dataType="Array" type="System.Byte[]" id="1042926068">W2WJ31R8sE2j6ytOliNwSg==</data>
                 </header>
                 <body />
               </identifier>
@@ -2442,7 +2549,7 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="362371924">
-            <item dataType="ObjectRef">3879377646</item>
+            <item dataType="ObjectRef">2004904718</item>
             <item dataType="Type" id="2085481188" value="Duality.Components.Camera" />
             <item dataType="Type" id="2731662870" value="Duality.Components.SoundListener" />
             <item dataType="Type" id="3719535840" value="CameraController.SmoothPositionThresholdCameraController" />
@@ -2547,7 +2654,7 @@
               <header />
               <body>
                 <keys dataType="Array" type="System.Object[]" id="4015294792">
-                  <item dataType="ObjectRef">3879377646</item>
+                  <item dataType="ObjectRef">2004904718</item>
                   <item dataType="Type" id="3447642220" value="Duality.Plugins.Tilemaps.Tilemap" />
                   <item dataType="Type" id="1332214838" value="Duality.Plugins.Tilemaps.TilemapRenderer" />
                 </keys>
@@ -2613,7 +2720,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1288</_version>
+                    <_version dataType="Int">1396</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -2639,8 +2746,8 @@
               <header />
               <body>
                 <keys dataType="Array" type="System.Object[]" id="37425168">
-                  <item dataType="ObjectRef">3879377646</item>
-                  <item dataType="ObjectRef">2980030226</item>
+                  <item dataType="ObjectRef">2004904718</item>
+                  <item dataType="ObjectRef">3180210230</item>
                   <item dataType="Type" id="1304387388" value="Duality.Plugins.Tilemaps.TilemapCollider" />
                 </keys>
                 <values dataType="Array" type="System.Object[]" id="1526854894">
@@ -2695,10 +2802,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3199949354">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="Type" id="146314528" value="TilemapJam.Pickup" />
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3378882522">
                         <item dataType="ObjectRef">182971120</item>
@@ -2737,7 +2844,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="MemberInfo" id="970792482" value="P:Duality.Components.Transform:RelativePos" />
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">736</X>
@@ -2751,7 +2858,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">1733290604</componentType>
+                          <componentType dataType="ObjectRef">1746624842</componentType>
                           <prop dataType="MemberInfo" id="4173268038" value="P:Duality.Components.Renderers.SpriteRenderer:SharedMaterial" />
                           <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                             <contentPath dataType="String">Data\Sprites\Carrot\Carrot.Material.res</contentPath>
@@ -2763,7 +2870,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">1733290604</componentType>
+                          <componentType dataType="ObjectRef">1746624842</componentType>
                           <prop dataType="MemberInfo" id="525494026" value="P:Duality.Components.Renderers.SpriteRenderer:Rect" />
                           <val dataType="Struct" type="Duality.Rect">
                             <H dataType="Float">45</H>
@@ -2811,10 +2918,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2896626348">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4275847606">
                         <item dataType="ObjectRef">2373282462</item>
@@ -2853,7 +2960,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">672</X>
@@ -2900,10 +3007,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1261652622">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1367275594">
                         <item dataType="ObjectRef">1481994380</item>
@@ -2942,7 +3049,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">608</X>
@@ -2989,10 +3096,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2028048820">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4175666678">
                         <item dataType="ObjectRef">1052358070</item>
@@ -3031,7 +3138,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">672</X>
@@ -3078,10 +3185,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3176053676">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="263508918">
                         <item dataType="ObjectRef">3105261470</item>
@@ -3120,7 +3227,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">736</X>
@@ -3167,10 +3274,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1503089592">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1216516318">
                         <item dataType="ObjectRef">655392802</item>
@@ -3209,7 +3316,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">800</X>
@@ -3256,10 +3363,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2893019532">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1374725622">
                         <item dataType="ObjectRef">1645912958</item>
@@ -3298,7 +3405,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1440</X>
@@ -3345,10 +3452,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3600100196">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1957882390">
                         <item dataType="ObjectRef">2174383334</item>
@@ -3387,7 +3494,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1248</X>
@@ -3434,10 +3541,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3874659374">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3712515274">
                         <item dataType="ObjectRef">2997230380</item>
@@ -3476,7 +3583,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1344</X>
@@ -3523,10 +3630,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3214572601">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3899986176">
                         <item dataType="ObjectRef">2521121767</item>
@@ -3565,7 +3672,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1536</X>
@@ -3612,10 +3719,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3105995264">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1532956622">
                         <item dataType="ObjectRef">3202086330</item>
@@ -3654,7 +3761,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1568</X>
@@ -3701,10 +3808,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="239944537">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3744336896">
                         <item dataType="ObjectRef">2364153735</item>
@@ -3743,7 +3850,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1760</X>
@@ -3790,10 +3897,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="689561066">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2727767002">
                         <item dataType="ObjectRef">2071159344</item>
@@ -3832,7 +3939,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2208</X>
@@ -3879,10 +3986,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1282969115">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3779515752">
                         <item dataType="ObjectRef">3686060597</item>
@@ -3921,7 +4028,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1888</X>
@@ -3968,10 +4075,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2349650016">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="829013646">
                         <item dataType="ObjectRef">2552018778</item>
@@ -4010,7 +4117,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2016</X>
@@ -4057,10 +4164,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3206777865">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3792065088">
                         <item dataType="ObjectRef">699972695</item>
@@ -4099,7 +4206,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1952</X>
@@ -4146,10 +4253,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1982063236">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3168606358">
                         <item dataType="ObjectRef">1495374406</item>
@@ -4188,7 +4295,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1952</X>
@@ -4235,10 +4342,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3743532364">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1998975990">
                         <item dataType="ObjectRef">2415921086</item>
@@ -4277,7 +4384,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2464</X>
@@ -4324,10 +4431,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="75454094">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="645591114">
                         <item dataType="ObjectRef">1030634636</item>
@@ -4366,7 +4473,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2592</X>
@@ -4413,10 +4520,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2871497128">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3240185758">
                         <item dataType="ObjectRef">4179698066</item>
@@ -4455,7 +4562,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -4502,10 +4609,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3842449578">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1351428314">
                         <item dataType="ObjectRef">2335590768</item>
@@ -4544,7 +4651,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -4591,10 +4698,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2769537120">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2302533262">
                         <item dataType="ObjectRef">3093192538</item>
@@ -4633,7 +4740,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -4680,10 +4787,10 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1300961980">
-                        <item dataType="ObjectRef">3879377646</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1733290604</item>
-                        <item dataType="ObjectRef">2980030226</item>
+                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2160984726">
                         <item dataType="ObjectRef">2397045038</item>
@@ -4722,7 +4829,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">3879377646</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">3040</X>
@@ -4835,8 +4942,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1381839466">
-                        <item dataType="ObjectRef">3879377646</item>
-                        <item dataType="ObjectRef">1733290604</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2912547546">
                         <item dataType="ObjectRef">1940093652</item>
@@ -4919,8 +5026,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2091117395">
-                        <item dataType="ObjectRef">3879377646</item>
-                        <item dataType="ObjectRef">1733290604</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2772015992">
                         <item dataType="ObjectRef">1172850953</item>
@@ -5003,8 +5110,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1862483906">
-                        <item dataType="ObjectRef">3879377646</item>
-                        <item dataType="ObjectRef">1733290604</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1704289802">
                         <item dataType="ObjectRef">1096746220</item>
@@ -5067,7 +5174,7 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="1086114212">
-            <item dataType="ObjectRef">3879377646</item>
+            <item dataType="ObjectRef">2004904718</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="2483136278">
             <item dataType="ObjectRef">1078066935</item>
@@ -5190,10 +5297,10 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="494412846">
-            <item dataType="ObjectRef">3879377646</item>
+            <item dataType="ObjectRef">2004904718</item>
             <item dataType="Type" id="4201272144" value="TilemapJam.SawComponent" />
-            <item dataType="ObjectRef">1733290604</item>
-            <item dataType="ObjectRef">2980030226</item>
+            <item dataType="ObjectRef">1746624842</item>
+            <item dataType="ObjectRef">3180210230</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="922410186">
             <item dataType="ObjectRef">2747523758</item>
@@ -5274,6 +5381,7 @@
     <item dataType="ObjectRef">3142230422</item>
     <item dataType="ObjectRef">1177763527</item>
     <item dataType="ObjectRef">3830546052</item>
+    <item dataType="ObjectRef">1737088351</item>
     <item dataType="ObjectRef">2117623484</item>
     <item dataType="ObjectRef">12967530</item>
     <item dataType="ObjectRef">3416646744</item>

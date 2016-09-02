@@ -63,6 +63,7 @@
     <Compile Include="PlayerControl.cs" />
     <Compile Include="PlayerDrill.cs" />
     <Compile Include="UIRenderer.cs" />
+    <Compile Include="ShovelAnimation.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <PropertyGroup>

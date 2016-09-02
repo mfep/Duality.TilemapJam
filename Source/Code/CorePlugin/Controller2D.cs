@@ -14,6 +14,7 @@ namespace TilemapJam
         public int HorizontalRayCount { get; set; }
         public int VerticalRayCount { get; set; }
 		public CollisionCategory rayCollisions { get; set; }
+		public bool DebugRays { get; set; }
 
 	    private CollisionInfo collisions;
         public CollisionInfo Collisions
@@ -65,7 +66,7 @@ namespace TilemapJam
                 Vector2 rayOrigin = (directionX == -1) ? raycastOrigins.bottomLeft : raycastOrigins.bottomRight;
                 rayOrigin -= Vector2.UnitY * (horizontalRaySpacing * i);
 
-				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor) {
+				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor && DebugRays) {
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, directionX * rayLength, 0);	
 				}
                 
@@ -98,7 +99,7 @@ namespace TilemapJam
                 Vector2 rayOrigin = (directionY == -1) ? raycastOrigins.topLeft : raycastOrigins.bottomLeft;
 				rayOrigin += Vector2.UnitX * (verticalRaySpacing * i + velocity.X);
 
-				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor) {
+				if (DualityApp.ExecEnvironment == DualityApp.ExecutionEnvironment.Editor && DebugRays) {
 					VisualLog.Default.DrawVector (rayOrigin.X, rayOrigin.Y, 0, 0, directionY * rayLength);
 				}
 
