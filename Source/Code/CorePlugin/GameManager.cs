@@ -5,13 +5,41 @@ using Duality.Resources;
 
 namespace TilemapJam
 {
-	public class GameManager : Component, ICmpUpdatable
+	public class GameManager : Component, ICmpUpdatable, ICmpInitializable
 	{
 		public ContentRef<Scene> NextLevel { get; set; }
 		public float LevelDelay { get; set; }
-		public int PlayerScore { get; private set; }
+		public UIRenderer PlayerScoreRenderer { get; set; }
+
+		int playerScore;
+		public int PlayerScore
+		{
+			get
+			{
+				return playerScore;
+			}
+
+			private set
+			{
+				playerScore = value;
+				UpdateScoreUI ();
+			}
+		}
 
 		private List<FunctionInvoke> invokes = new List<FunctionInvoke> ();
+
+		#region ICmpInitializable implementation
+
+		public void OnInit (InitContext context)
+		{
+			PlayerScore = 0;
+		}
+
+		public void OnShutdown (ShutdownContext context)
+		{			
+		}
+
+		#endregion
 
 		public void OnUpdate ()
 		{
@@ -38,6 +66,11 @@ namespace TilemapJam
 		public void PlayerPickup (int score)
 		{
 			PlayerScore += score;
+		}
+
+		void UpdateScoreUI ()
+		{
+			PlayerScoreRenderer.TextString = String.Format ("Score: {0}", playerScore);
 		}
 
 		struct FunctionInvoke
