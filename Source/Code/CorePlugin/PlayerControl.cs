@@ -1,5 +1,6 @@
 ﻿using System;
 using Duality;
+using Duality.Components.Renderers;
 
 namespace TilemapJam
 {
@@ -34,6 +35,14 @@ namespace TilemapJam
 			}
 		}
 
+		private SpriteRenderer Renderer
+		{
+			get
+			{
+				return GameObj.GetComponent<SpriteRenderer> ();	
+			}
+		}
+
         public void OnUpdate ()
         {
             if (Controller.Collisions.below || Controller.Collisions.above) {
@@ -51,8 +60,12 @@ namespace TilemapJam
             }
 
 			if (DualityApp.Keyboard.KeyHit (Duality.Input.Key.ControlLeft)) {
-				Drill.TryDrill (input);
+				Drill.TryDrill (new Vector2 (input.X, 0));
 			}
+
+			if (Renderer != null && input.X != 0) {
+				Renderer.Flip = input.X > 0 ? SpriteRenderer.FlipMode.None : SpriteRenderer.FlipMode.Horizontal;
+			}				
 
             float targetVelocityX = input.X * MoveSpeed;
             velocity.X = MathF.Lerp (velocity.X, targetVelocityX, AccelerationGrounded / 100);
