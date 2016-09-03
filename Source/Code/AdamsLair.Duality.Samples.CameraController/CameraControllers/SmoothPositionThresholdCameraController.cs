@@ -9,10 +9,11 @@ using Duality.Drawing;
 
 namespace CameraController
 {
-	[RequiredComponent(typeof(Camera))]
 	[RequiredComponent(typeof(Transform))]
 	public class SmoothPositionThresholdCameraController : Component, ICmpUpdatable, ICameraController
 	{
+		public Camera camera { get; set; }
+
 		private float smoothness = 1.0f;
 		private float thresholdDist = 150.0f;
 		private GameObject targetObj = null;
@@ -41,8 +42,12 @@ namespace CameraController
 
 		void ICmpUpdatable.OnUpdate()
 		{
+			if (camera == null) {
+				Log.Game.WriteWarning ("Camera is missing from SmoothPositionThresholdCameraController");
+				return;
+			}
+
 			Transform transform = this.GameObj.Transform;
-			Camera camera = this.GameObj.GetComponent<Camera>();
 
 			// The position to focus on.
 			Vector3 focusPos = this.targetObj.Transform.Pos;

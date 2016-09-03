@@ -3,8 +3,6 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>8.0.30703</ProductVersion>
-    <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{3FC49A5C-EDF1-4AE6-9EF6-6635296102EF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -55,7 +53,7 @@
     <Reference Include="DualityPrimitives, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\DualityPrimitives.dll</HintPath>
     </Reference>
-    <Reference Include="Duality, Version=2.7.4.0, Culture=neutral, PublicKeyToken=null">
+    <Reference Include="Duality, Version=2.7.5.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\Duality.dll</HintPath>
     </Reference>
   </ItemGroup>

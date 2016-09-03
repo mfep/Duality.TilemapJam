@@ -55,80 +55,142 @@
             <parent dataType="ObjectRef">2167552561</parent>
             <prefabLink />
           </item>
-        </_items>
-        <_size dataType="Int">1</_size>
-        <_version dataType="Int">3</_version>
-      </children>
-      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2481936760">
-        <_items dataType="Array" type="Duality.Component[]" id="2476167993">
-          <item dataType="Struct" type="Duality.Components.Transform" id="232900197">
+          <item dataType="Struct" type="Duality.GameObject" id="157503828">
             <active dataType="Bool">true</active>
-            <angle dataType="Float">0</angle>
-            <angleAbs dataType="Float">0</angleAbs>
-            <angleVel dataType="Float">0</angleVel>
-            <angleVelAbs dataType="Float">0</angleVelAbs>
-            <deriveAngle dataType="Bool">true</deriveAngle>
-            <gameobj dataType="ObjectRef">2167552561</gameobj>
-            <ignoreParent dataType="Bool">false</ignoreParent>
-            <parentTransform />
-            <pos dataType="Struct" type="Duality.Vector3">
-              <X dataType="Float">192</X>
-              <Y dataType="Float">288</Y>
-              <Z dataType="Float">-480</Z>
-            </pos>
-            <posAbs dataType="Struct" type="Duality.Vector3">
-              <X dataType="Float">192</X>
-              <Y dataType="Float">288</Y>
-              <Z dataType="Float">-480</Z>
-            </posAbs>
-            <scale dataType="Float">1</scale>
-            <scaleAbs dataType="Float">1</scaleAbs>
-            <vel dataType="Struct" type="Duality.Vector3" />
-            <velAbs dataType="Struct" type="Duality.Vector3" />
-          </item>
-          <item dataType="Struct" type="Duality.Components.Camera" id="2704828368">
-            <active dataType="Bool">true</active>
-            <farZ dataType="Float">10000</farZ>
-            <focusDist dataType="Float">500</focusDist>
-            <gameobj dataType="ObjectRef">2167552561</gameobj>
-            <nearZ dataType="Float">0</nearZ>
-            <passes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Camera+Pass]]" id="2748121086">
-              <_items dataType="Array" type="Duality.Components.Camera+Pass[]" id="4006124944" length="4">
-                <item dataType="Struct" type="Duality.Components.Camera+Pass" id="4029557052">
-                  <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
-                    <A dataType="Byte">255</A>
-                    <B dataType="Byte">220</B>
-                    <G dataType="Byte">210</G>
-                    <R dataType="Byte">139</R>
-                  </clearColor>
-                  <clearDepth dataType="Float">1</clearDepth>
-                  <clearFlags dataType="Enum" type="Duality.Drawing.ClearFlag" name="All" value="3" />
-                  <input />
-                  <matrixMode dataType="Enum" type="Duality.Drawing.RenderMatrix" name="PerspectiveWorld" value="0" />
-                  <output dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.RenderTarget]]" />
-                  <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="AllGroups" value="2147483647" />
+            <children />
+            <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4067296432">
+              <_items dataType="Array" type="Duality.Component[]" id="4134863804" length="4">
+                <item dataType="Struct" type="Duality.Components.Transform" id="2517818760">
+                  <active dataType="Bool">true</active>
+                  <angle dataType="Float">0</angle>
+                  <angleAbs dataType="Float">0</angleAbs>
+                  <angleVel dataType="Float">0</angleVel>
+                  <angleVelAbs dataType="Float">0</angleVelAbs>
+                  <deriveAngle dataType="Bool">true</deriveAngle>
+                  <gameobj dataType="ObjectRef">157503828</gameobj>
+                  <ignoreParent dataType="Bool">false</ignoreParent>
+                  <parentTransform dataType="Struct" type="Duality.Components.Transform" id="232900197">
+                    <active dataType="Bool">true</active>
+                    <angle dataType="Float">0</angle>
+                    <angleAbs dataType="Float">0</angleAbs>
+                    <angleVel dataType="Float">0</angleVel>
+                    <angleVelAbs dataType="Float">0</angleVelAbs>
+                    <deriveAngle dataType="Bool">true</deriveAngle>
+                    <gameobj dataType="ObjectRef">2167552561</gameobj>
+                    <ignoreParent dataType="Bool">false</ignoreParent>
+                    <parentTransform />
+                    <pos dataType="Struct" type="Duality.Vector3">
+                      <X dataType="Float">192</X>
+                      <Y dataType="Float">288</Y>
+                      <Z dataType="Float">-480</Z>
+                    </pos>
+                    <posAbs dataType="Struct" type="Duality.Vector3">
+                      <X dataType="Float">192</X>
+                      <Y dataType="Float">288</Y>
+                      <Z dataType="Float">-480</Z>
+                    </posAbs>
+                    <scale dataType="Float">1</scale>
+                    <scaleAbs dataType="Float">1</scaleAbs>
+                    <vel dataType="Struct" type="Duality.Vector3" />
+                    <velAbs dataType="Struct" type="Duality.Vector3" />
+                  </parentTransform>
+                  <pos dataType="Struct" type="Duality.Vector3" />
+                  <posAbs dataType="Struct" type="Duality.Vector3">
+                    <X dataType="Float">192</X>
+                    <Y dataType="Float">288</Y>
+                    <Z dataType="Float">-480</Z>
+                  </posAbs>
+                  <scale dataType="Float">1</scale>
+                  <scaleAbs dataType="Float">1</scaleAbs>
+                  <vel dataType="Struct" type="Duality.Vector3" />
+                  <velAbs dataType="Struct" type="Duality.Vector3" />
                 </item>
-                <item dataType="Struct" type="Duality.Components.Camera+Pass" id="1549460374">
-                  <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba" />
-                  <clearDepth dataType="Float">1</clearDepth>
-                  <clearFlags dataType="Enum" type="Duality.Drawing.ClearFlag" name="None" value="0" />
-                  <input />
-                  <matrixMode dataType="Enum" type="Duality.Drawing.RenderMatrix" name="OrthoScreen" value="1" />
-                  <output dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.RenderTarget]]" />
+                <item dataType="Struct" type="Duality.Components.Camera" id="694779635">
+                  <active dataType="Bool">true</active>
+                  <farZ dataType="Float">10000</farZ>
+                  <focusDist dataType="Float">500</focusDist>
+                  <gameobj dataType="ObjectRef">157503828</gameobj>
+                  <nearZ dataType="Float">0</nearZ>
+                  <passes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Camera+Pass]]" id="1390712223">
+                    <_items dataType="Array" type="Duality.Components.Camera+Pass[]" id="333525358" length="4">
+                      <item dataType="Struct" type="Duality.Components.Camera+Pass" id="4055300176">
+                        <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba">
+                          <A dataType="Byte">0</A>
+                          <B dataType="Byte">220</B>
+                          <G dataType="Byte">210</G>
+                          <R dataType="Byte">139</R>
+                        </clearColor>
+                        <clearDepth dataType="Float">1</clearDepth>
+                        <clearFlags dataType="Enum" type="Duality.Drawing.ClearFlag" name="All" value="3" />
+                        <input />
+                        <matrixMode dataType="Enum" type="Duality.Drawing.RenderMatrix" name="PerspectiveWorld" value="0" />
+                        <output dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.RenderTarget]]" />
+                        <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="AllGroups" value="2147483647" />
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Camera+Pass" id="3496307054">
+                        <clearColor dataType="Struct" type="Duality.Drawing.ColorRgba" />
+                        <clearDepth dataType="Float">1</clearDepth>
+                        <clearFlags dataType="Enum" type="Duality.Drawing.ClearFlag" name="None" value="0" />
+                        <input />
+                        <matrixMode dataType="Enum" type="Duality.Drawing.RenderMatrix" name="OrthoScreen" value="1" />
+                        <output dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.RenderTarget]]" />
+                        <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
+                      </item>
+                    </_items>
+                    <_size dataType="Int">2</_size>
+                    <_version dataType="Int">2</_version>
+                  </passes>
+                  <perspective dataType="Enum" type="Duality.Drawing.PerspectiveMode" name="Parallax" value="1" />
                   <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
                 </item>
+                <item dataType="Struct" type="TilemapJam.ScreenShake" id="3859154404">
+                  <active dataType="Bool">true</active>
+                  <gameobj dataType="ObjectRef">157503828</gameobj>
+                </item>
               </_items>
-              <_size dataType="Int">2</_size>
-              <_version dataType="Int">2</_version>
-            </passes>
-            <perspective dataType="Enum" type="Duality.Drawing.PerspectiveMode" name="Parallax" value="1" />
-            <visibilityMask dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="All" value="4294967295" />
+              <_size dataType="Int">3</_size>
+              <_version dataType="Int">3</_version>
+            </compList>
+            <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2279366510" surrogate="true">
+              <header />
+              <body>
+                <keys dataType="Array" type="System.Object[]" id="1031908482">
+                  <item dataType="Type" id="377201296" value="Duality.Components.Transform" />
+                  <item dataType="Type" id="247820014" value="Duality.Components.Camera" />
+                  <item dataType="Type" id="858228588" value="TilemapJam.ScreenShake" />
+                </keys>
+                <values dataType="Array" type="System.Object[]" id="1416806538">
+                  <item dataType="ObjectRef">2517818760</item>
+                  <item dataType="ObjectRef">694779635</item>
+                  <item dataType="ObjectRef">3859154404</item>
+                </values>
+              </body>
+            </compMap>
+            <compTransform dataType="ObjectRef">2517818760</compTransform>
+            <identifier dataType="Struct" type="System.Guid" surrogate="true">
+              <header>
+                <data dataType="Array" type="System.Byte[]" id="3801466866">QxhRAzJR3kmLAVuFeoQtyQ==</data>
+              </header>
+              <body />
+            </identifier>
+            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            <name dataType="String">CamRig</name>
+            <parent dataType="ObjectRef">2167552561</parent>
+            <prefabLink />
           </item>
+        </_items>
+        <_size dataType="Int">2</_size>
+        <_version dataType="Int">4</_version>
+      </children>
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2481936760">
+        <_items dataType="Array" type="Duality.Component[]" id="2476167993" length="4">
+          <item dataType="ObjectRef">232900197</item>
           <item dataType="Struct" type="Duality.Components.SoundListener" id="2821033932">
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2167552561</gameobj>
           </item>
           <item dataType="Struct" type="CameraController.SmoothPositionThresholdCameraController" id="2197643025">
+            <_x003C_camera_x003E_k__BackingField dataType="ObjectRef">694779635</_x003C_camera_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">2167552561</gameobj>
             <smoothness dataType="Float">1</smoothness>
@@ -219,8 +281,8 @@
                       <header />
                       <body>
                         <keys dataType="Array" type="System.Object[]" id="2730658281">
-                          <item dataType="Type" id="2004904718" value="Duality.Components.Transform" />
-                          <item dataType="Type" id="1746624842" value="Duality.Components.Renderers.SpriteRenderer" />
+                          <item dataType="ObjectRef">377201296</item>
+                          <item dataType="Type" id="2004904718" value="Duality.Components.Renderers.SpriteRenderer" />
                         </keys>
                         <values dataType="Array" type="System.Object[]" id="2651055296">
                           <item dataType="ObjectRef">4097403283</item>
@@ -375,8 +437,8 @@
                 <body>
                   <keys dataType="Array" type="System.Object[]" id="2992653832">
                     <item dataType="Type" id="2272611692" value="TilemapJam.Controller2D" />
+                    <item dataType="ObjectRef">377201296</item>
                     <item dataType="ObjectRef">2004904718</item>
-                    <item dataType="ObjectRef">1746624842</item>
                     <item dataType="Type" id="3180210230" value="Duality.Components.Physics.RigidBody" />
                     <item dataType="Type" id="1341766712" value="TilemapJam.PlayerHealth" />
                     <item dataType="Type" id="4178820370" value="TilemapJam.PlayerControl" />
@@ -410,21 +472,19 @@
             <thresholdDist dataType="Float">200</thresholdDist>
           </item>
         </_items>
-        <_size dataType="Int">4</_size>
-        <_version dataType="Int">4</_version>
+        <_size dataType="Int">3</_size>
+        <_version dataType="Int">5</_version>
       </compList>
       <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="365816377" surrogate="true">
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="362371924">
-            <item dataType="ObjectRef">2004904718</item>
-            <item dataType="Type" id="2085481188" value="Duality.Components.Camera" />
-            <item dataType="Type" id="2731662870" value="Duality.Components.SoundListener" />
-            <item dataType="Type" id="3719535840" value="CameraController.SmoothPositionThresholdCameraController" />
+            <item dataType="ObjectRef">377201296</item>
+            <item dataType="Type" id="2085481188" value="Duality.Components.SoundListener" />
+            <item dataType="Type" id="2731662870" value="CameraController.SmoothPositionThresholdCameraController" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="1262134710">
             <item dataType="ObjectRef">232900197</item>
-            <item dataType="ObjectRef">2704828368</item>
             <item dataType="ObjectRef">2821033932</item>
             <item dataType="ObjectRef">2197643025</item>
           </values>
@@ -522,7 +582,7 @@
               <header />
               <body>
                 <keys dataType="Array" type="System.Object[]" id="4015294792">
-                  <item dataType="ObjectRef">2004904718</item>
+                  <item dataType="ObjectRef">377201296</item>
                   <item dataType="Type" id="3447642220" value="Duality.Plugins.Tilemaps.Tilemap" />
                   <item dataType="Type" id="1332214838" value="Duality.Plugins.Tilemaps.TilemapRenderer" />
                 </keys>
@@ -588,7 +648,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1480</_version>
+                    <_version dataType="Int">1552</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -614,7 +674,7 @@
               <header />
               <body>
                 <keys dataType="Array" type="System.Object[]" id="37425168">
-                  <item dataType="ObjectRef">2004904718</item>
+                  <item dataType="ObjectRef">377201296</item>
                   <item dataType="ObjectRef">3180210230</item>
                   <item dataType="Type" id="1304387388" value="Duality.Plugins.Tilemaps.TilemapCollider" />
                 </keys>
@@ -670,9 +730,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3199949354">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="Type" id="146314528" value="TilemapJam.Pickup" />
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3378882522">
@@ -712,7 +772,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="MemberInfo" id="970792482" value="P:Duality.Components.Transform:RelativePos" />
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">736</X>
@@ -726,7 +786,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">1746624842</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="MemberInfo" id="4173268038" value="P:Duality.Components.Renderers.SpriteRenderer:SharedMaterial" />
                           <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
                             <contentPath dataType="String">Data\Sprites\Carrot\Carrot.Material.res</contentPath>
@@ -738,7 +798,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">1746624842</componentType>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
                           <prop dataType="MemberInfo" id="525494026" value="P:Duality.Components.Renderers.SpriteRenderer:Rect" />
                           <val dataType="Struct" type="Duality.Rect">
                             <H dataType="Float">45</H>
@@ -786,9 +846,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2896626348">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4275847606">
@@ -828,7 +888,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">672</X>
@@ -875,9 +935,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1261652622">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1367275594">
@@ -917,7 +977,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">608</X>
@@ -964,9 +1024,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2028048820">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4175666678">
@@ -1006,7 +1066,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">672</X>
@@ -1053,9 +1113,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3176053676">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="263508918">
@@ -1095,7 +1155,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">736</X>
@@ -1142,9 +1202,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1503089592">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1216516318">
@@ -1184,7 +1244,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">800</X>
@@ -1231,9 +1291,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2893019532">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1374725622">
@@ -1273,7 +1333,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1440</X>
@@ -1320,9 +1380,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3600100196">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1957882390">
@@ -1362,7 +1422,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1248</X>
@@ -1409,9 +1469,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3874659374">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3712515274">
@@ -1451,7 +1511,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1344</X>
@@ -1498,9 +1558,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3214572601">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3899986176">
@@ -1540,7 +1600,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1536</X>
@@ -1587,9 +1647,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3105995264">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1532956622">
@@ -1629,7 +1689,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1568</X>
@@ -1676,9 +1736,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="239944537">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3744336896">
@@ -1718,7 +1778,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1760</X>
@@ -1765,9 +1825,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="689561066">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2727767002">
@@ -1807,7 +1867,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2208</X>
@@ -1854,9 +1914,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1282969115">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3779515752">
@@ -1896,7 +1956,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1888</X>
@@ -1943,9 +2003,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2349650016">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="829013646">
@@ -1985,7 +2045,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2016</X>
@@ -2032,9 +2092,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3206777865">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3792065088">
@@ -2074,7 +2134,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1952</X>
@@ -2121,9 +2181,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1982063236">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3168606358">
@@ -2163,7 +2223,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">1952</X>
@@ -2210,9 +2270,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3743532364">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1998975990">
@@ -2252,7 +2312,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2464</X>
@@ -2299,9 +2359,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="75454094">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="645591114">
@@ -2341,7 +2401,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2592</X>
@@ -2388,9 +2448,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2871497128">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3240185758">
@@ -2430,7 +2490,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -2477,9 +2537,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="3842449578">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1351428314">
@@ -2519,7 +2579,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -2566,9 +2626,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2769537120">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2302533262">
@@ -2608,7 +2668,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">2656</X>
@@ -2655,9 +2715,9 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1300961980">
-                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">146314528</item>
-                        <item dataType="ObjectRef">1746624842</item>
+                        <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2160984726">
@@ -2697,7 +2757,7 @@
                             <_size dataType="Int">0</_size>
                             <_version dataType="Int">1</_version>
                           </childIndex>
-                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <componentType dataType="ObjectRef">377201296</componentType>
                           <prop dataType="ObjectRef">970792482</prop>
                           <val dataType="Struct" type="Duality.Vector3">
                             <X dataType="Float">3040</X>
@@ -2810,8 +2870,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1381839466">
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
-                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2912547546">
                         <item dataType="ObjectRef">1940093652</item>
@@ -2894,8 +2954,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="2091117395">
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
-                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2772015992">
                         <item dataType="ObjectRef">1172850953</item>
@@ -2978,8 +3038,8 @@
                     <header />
                     <body>
                       <keys dataType="Array" type="System.Object[]" id="1862483906">
+                        <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
-                        <item dataType="ObjectRef">1746624842</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1704289802">
                         <item dataType="ObjectRef">1096746220</item>
@@ -3042,7 +3102,7 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="1086114212">
-            <item dataType="ObjectRef">2004904718</item>
+            <item dataType="ObjectRef">377201296</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="2483136278">
             <item dataType="ObjectRef">1078066935</item>
@@ -3063,7 +3123,7 @@
     </item>
     <item dataType="ObjectRef">2296195233</item>
     <item dataType="Struct" type="Duality.GameObject" id="387208826">
-      <active dataType="Bool">true</active>
+      <active dataType="Bool">false</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1330108772">
         <_items dataType="Array" type="Duality.Component[]" id="2278247364">
@@ -3165,9 +3225,9 @@
         <header />
         <body>
           <keys dataType="Array" type="System.Object[]" id="494412846">
-            <item dataType="ObjectRef">2004904718</item>
+            <item dataType="ObjectRef">377201296</item>
             <item dataType="Type" id="4201272144" value="TilemapJam.SawComponent" />
-            <item dataType="ObjectRef">1746624842</item>
+            <item dataType="ObjectRef">2004904718</item>
             <item dataType="ObjectRef">3180210230</item>
           </keys>
           <values dataType="Array" type="System.Object[]" id="922410186">
@@ -3239,6 +3299,7 @@
       <prefabLink />
     </item>
     <item dataType="ObjectRef">2618526563</item>
+    <item dataType="ObjectRef">157503828</item>
     <item dataType="ObjectRef">4263731582</item>
     <item dataType="ObjectRef">3142230422</item>
     <item dataType="ObjectRef">1177763527</item>

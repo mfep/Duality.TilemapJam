@@ -19,6 +19,14 @@ namespace TilemapJam
 			}
 		}
 
+        ScreenShake Shake
+        {
+            get
+            {
+                return GameObj.ParentScene.FindComponent<ScreenShake> ();
+            }
+        }
+
 		public bool TryDrill (Vector2 direction)
 		{
 			if (direction == Vector2.Zero) {
@@ -49,6 +57,9 @@ namespace TilemapJam
 			if (ShovelAnim != null) {
 				ShovelAnim.StartAnimation (direction.X);
 			}
+            if (Shake != null) {
+                Shake.InitShake (30, new Vector2 (20), 0.1f);
+            }
 
 			Vector2 EpsVec = direction.Normalized;		
 
