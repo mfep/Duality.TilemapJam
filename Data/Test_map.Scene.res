@@ -588,7 +588,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1432</_version>
+                    <_version dataType="Int">1480</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -3087,8 +3087,8 @@
               <Y dataType="Float">288</Y>
               <Z dataType="Float">0</Z>
             </posAbs>
-            <scale dataType="Float">2</scale>
-            <scaleAbs dataType="Float">2</scaleAbs>
+            <scale dataType="Float">1</scale>
+            <scaleAbs dataType="Float">1</scaleAbs>
             <vel dataType="Struct" type="Duality.Vector3" />
             <velAbs dataType="Struct" type="Duality.Vector3" />
           </item>
@@ -3112,14 +3112,14 @@
             <offset dataType="Int">-1</offset>
             <pixelGrid dataType="Bool">false</pixelGrid>
             <rect dataType="Struct" type="Duality.Rect">
-              <H dataType="Float">256</H>
-              <W dataType="Float">256</W>
-              <X dataType="Float">-128</X>
-              <Y dataType="Float">-128</Y>
+              <H dataType="Float">512</H>
+              <W dataType="Float">512</W>
+              <X dataType="Float">-256</X>
+              <Y dataType="Float">-256</Y>
             </rect>
             <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
             <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-              <contentPath dataType="String">Default:Material:DualityIcon</contentPath>
+              <contentPath dataType="String">Data\Sprites\Saw\saw.Material.res</contentPath>
             </sharedMat>
             <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
           </item>
@@ -3148,7 +3148,7 @@
                   <friction dataType="Float">0.3</friction>
                   <parent dataType="ObjectRef">3449985350</parent>
                   <position dataType="Struct" type="Duality.Vector2" />
-                  <radius dataType="Float">128</radius>
+                  <radius dataType="Float">250</radius>
                   <restitution dataType="Float">0.3</restitution>
                   <sensor dataType="Bool">true</sensor>
                 </item>
