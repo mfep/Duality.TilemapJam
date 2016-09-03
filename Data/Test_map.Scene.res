@@ -31,7 +31,7 @@
                     <vertexArraysFree dataType="Struct" type="System.Collections.Generic.List`1[[Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]]]]" id="402919296">
                       <_items dataType="Array" type="Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]][]" id="2236457372" length="4" />
                       <_size dataType="Int">0</_size>
-                      <_version dataType="Int">11380</_version>
+                      <_version dataType="Int">11413</_version>
                     </vertexArraysFree>
                     <vertexArraysUsed dataType="Struct" type="System.Collections.Generic.List`1[[Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]]]]" id="474293454">
                       <_items dataType="Array" type="Duality.RawList`1[[Duality.Drawing.VertexC1P3T2]][]" id="2646006098" length="4">
@@ -113,7 +113,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">237.69</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.28515625</X>
@@ -130,7 +130,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">243.15</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.30859375</X>
@@ -147,7 +147,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">243.15</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.30859375</X>
@@ -164,7 +164,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">237.69</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.28515625</X>
@@ -181,7 +181,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">244.06</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -198,7 +198,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">250.43</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -215,7 +215,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">250.43</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -232,7 +232,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">244.06</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -249,7 +249,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">252.25</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15625</X>
@@ -266,7 +266,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">257.71</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1796875</X>
@@ -283,7 +283,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">257.71</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1796875</X>
@@ -300,7 +300,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">252.25</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15625</X>
@@ -317,7 +317,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">261.35</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -334,7 +334,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">263.17</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -351,7 +351,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">263.17</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -368,7 +368,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">261.35</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -385,7 +385,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">266.81</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.16015625</X>
@@ -402,7 +402,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">272.27</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.18359375</X>
@@ -419,7 +419,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">272.27</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.18359375</X>
@@ -436,7 +436,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">266.81</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.16015625</X>
@@ -453,7 +453,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">273.18</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -470,7 +470,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">279.55</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -487,7 +487,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">279.55</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.08984375</X>
@@ -504,7 +504,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">273.18</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0625</X>
@@ -521,7 +521,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">283.19</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -538,7 +538,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">285.01</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -555,7 +555,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">285.01</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.0546875</X>
@@ -572,7 +572,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">283.19</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.03515625</X>
@@ -589,7 +589,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">288.65</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.22265625</X>
@@ -606,7 +606,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">294.11</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.24609375</X>
@@ -623,7 +623,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">294.11</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.24609375</X>
@@ -640,7 +640,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">288.65</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.22265625</X>
@@ -657,7 +657,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">295.93</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1875</X>
@@ -674,7 +674,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">301.39</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.2109375</X>
@@ -691,7 +691,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">301.39</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.2109375</X>
@@ -708,7 +708,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">295.93</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.1875</X>
@@ -725,7 +725,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">303.21</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.12890625</X>
@@ -742,7 +742,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">308.67</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15234375</X>
@@ -759,7 +759,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">308.67</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.15234375</X>
@@ -776,7 +776,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">303.21</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.12890625</X>
@@ -793,7 +793,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">311.4</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.37109375</X>
@@ -810,7 +810,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">315.95</X>
                                 <Y dataType="Float">266.5</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.390625</X>
@@ -827,7 +827,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">315.95</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.390625</X>
@@ -844,7 +844,7 @@
                               <Pos dataType="Struct" type="Duality.Vector3">
                                 <X dataType="Float">311.4</X>
                                 <Y dataType="Float">281.97</Y>
-                                <Z dataType="Float">3937</Z>
+                                <Z dataType="Float">3948</Z>
                               </Pos>
                               <TexCoord dataType="Struct" type="Duality.Vector2">
                                 <X dataType="Float">0.37109375</X>
@@ -2140,7 +2140,7 @@
                         </item>
                       </_items>
                       <_size dataType="Int">2</_size>
-                      <_version dataType="Int">11382</_version>
+                      <_version dataType="Int">11415</_version>
                     </vertexArraysUsed>
                   </buffer>
                   <gameobj dataType="ObjectRef">2618526563</gameobj>
@@ -2720,7 +2720,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1396</_version>
+                    <_version dataType="Int">1408</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -5195,7 +5195,7 @@
     </item>
     <item dataType="ObjectRef">2296195233</item>
     <item dataType="Struct" type="Duality.GameObject" id="387208826">
-      <active dataType="Bool">false</active>
+      <active dataType="Bool">true</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1330108772">
         <_items dataType="Array" type="Duality.Component[]" id="2278247364">
