@@ -16,6 +16,7 @@ namespace TilemapJam
 		public CollisionCategory rayCollisions { get; set; }
 		public bool DebugRays { get; set; }
 
+		[DontSerialize]
 	    private CollisionInfo collisions;
         public CollisionInfo Collisions
 		{
@@ -25,10 +26,14 @@ namespace TilemapJam
 			}
 		}
 
+		[DontSerialize]
 	    private float horizontalRaySpacing;
+		[DontSerialize]
         private float verticalRaySpacing;
 
+		[DontSerialize]
         private Rect bounds;
+		[DontSerialize]
         private RayCastOrigins raycastOrigins;
 
         public void OnInit (InitContext context)

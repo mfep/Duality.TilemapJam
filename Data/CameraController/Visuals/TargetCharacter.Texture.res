@@ -1,5 +1,6 @@
 ﻿<root dataType="Struct" type="Duality.Resources.Texture" id="129723834">
   <anisoFilter dataType="Bool">false</anisoFilter>
+  <assetInfo />
   <basePixmap dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Pixmap]]">
     <contentPath dataType="String">Data\CameraController\Visuals\TargetCharacter.Pixmap.res</contentPath>
   </basePixmap>
@@ -10,7 +11,6 @@
     <X dataType="Float">256</X>
     <Y dataType="Float">256</Y>
   </size>
-  <sourcePath />
   <texSizeMode dataType="Enum" type="Duality.Drawing.TextureSizeMode" name="Enlarge" value="0" />
   <wrapX dataType="Enum" type="Duality.Drawing.TextureWrapMode" name="Clamp" value="0" />
   <wrapY dataType="Enum" type="Duality.Drawing.TextureWrapMode" name="Clamp" value="0" />

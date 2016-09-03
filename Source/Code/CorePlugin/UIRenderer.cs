@@ -11,6 +11,7 @@ namespace TilemapJam
 		public ColorRgba FontColor { get; set; }
 		public String TextString { get; set; }
 
+		[DontSerialize]
 		CanvasBuffer buffer = new CanvasBuffer ();
 
 		public bool IsVisible (Duality.Drawing.IDrawDevice device)

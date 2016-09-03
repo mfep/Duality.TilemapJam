@@ -15,7 +15,9 @@ namespace TilemapJam
 		public float AnimTime { get; set; }
 		public float StayTime { get; set; }
 
+		[DontSerialize]
 		float startTime;
+		[DontSerialize]
 		float direction;
 
 		public void OnUpdate ()

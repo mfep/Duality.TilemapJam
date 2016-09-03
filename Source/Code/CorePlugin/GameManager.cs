@@ -11,6 +11,7 @@ namespace TilemapJam
 		public float LevelDelay { get; set; }
 		public UIRenderer PlayerScoreRenderer { get; set; }
 
+		[DontSerialize]
 		int playerScore;
 		public int PlayerScore
 		{
@@ -26,6 +27,7 @@ namespace TilemapJam
 			}
 		}
 
+		[DontSerialize]
 		private List<FunctionInvoke> invokes = new List<FunctionInvoke> ();
 
 		#region ICmpInitializable implementation

@@ -13,7 +13,9 @@ namespace TilemapJam
 		public int Score { get; set; }
 
 		static Random random = new Random (Time.StartupTime.Millisecond);
+		[DontSerialize]
 		Vector3 initialPos;
+		[DontSerialize]
 		float phase;
 
 		public void OnUpdate ()

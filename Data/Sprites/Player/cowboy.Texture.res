@@ -8,8 +8,8 @@
   <filterMin dataType="Enum" type="Duality.Drawing.TextureMinFilter" name="LinearMipmapLinear" value="5" />
   <pixelformat dataType="Enum" type="Duality.Drawing.TexturePixelFormat" name="Rgba" value="3" />
   <size dataType="Struct" type="Duality.Vector2">
-    <X dataType="Float">31</X>
-    <Y dataType="Float">32</Y>
+    <X dataType="Float">42</X>
+    <Y dataType="Float">44</Y>
   </size>
   <texSizeMode dataType="Enum" type="Duality.Drawing.TextureSizeMode" name="Enlarge" value="0" />
   <wrapX dataType="Enum" type="Duality.Drawing.TextureWrapMode" name="Clamp" value="0" />

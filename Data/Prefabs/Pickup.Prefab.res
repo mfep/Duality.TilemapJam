@@ -41,12 +41,6 @@
           <_x003C_Score_x003E_k__BackingField dataType="Int">5</_x003C_Score_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
-          <initialPos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">736</X>
-            <Y dataType="Float">352</Y>
-            <Z dataType="Float">0</Z>
-          </initialPos>
-          <phase dataType="Float">1.50518775</phase>
         </item>
         <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="1191311791">
           <active dataType="Bool">true</active>

@@ -14,9 +14,11 @@ namespace TilemapJam
         public float AccelerationGrounded { get; set; }
         public float AccelerationAirborne { get; set; }
 
+		[DontSerialize]
         float gravity;
+		[DontSerialize]
         float jumpVelocity;
-
+		[DontSerialize]
         Vector2 velocity;
 
         private Controller2D Controller
