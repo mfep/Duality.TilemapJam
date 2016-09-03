@@ -7,6 +7,13 @@ namespace TilemapJam
 	[RequiredComponent (typeof (Transform))]
 	public class ScreenShake : Component, ICmpUpdatable
 	{
+		public struct ShakeData
+		{
+			public float Freq { get; set; }
+			public Vector2 Amp { get; set; }
+			public float TimeExponent { get; set; }
+		}
+
 		[DontSerialize]
 		Vector2[] noiseArray = new Vector2[0];
 		[DontSerialize]
@@ -22,16 +29,16 @@ namespace TilemapJam
 		[DontSerialize]
 		static Random random = new Random (Time.StartupTime.Millisecond);
 
-		public void InitShake (float freq, Vector2 amp, float timeExponent)
+		public void InitShake (ShakeData data)
 		{
-			if (timeExponent <= 0f) {
+			if (data.TimeExponent <= 0f) {
 				Log.Game.WriteError ("TimeExponent should be positive");
-				timeExponent = 1f;
+				data.TimeExponent = 1f;
 			}
 
-			float duration = timeExponent * durationMult;
-			int randomCount = (int)(duration * freq);
-			float randomPeriodTime = 1f / freq;
+			float duration = data.TimeExponent * durationMult;
+			int randomCount = (int)(duration * data.Freq);
+			float randomPeriodTime = 1f / data.Freq;
 			int sampleCount = (int)(duration * 60f * Time.TimeMult);
 			float sampleTime = 1f / 60f / Time.TimeMult;
 
@@ -39,7 +46,7 @@ namespace TilemapJam
 			noiseTimes = new float[randomCount];
 			for (int index = 1; index < randomCount; index++) {
 				noiseTimes [index] = randomPeriodTime * index;
-				noiseArray [index] = random.NextVector2 (amp.X / -2, amp.Y / -2, amp.X, amp.Y) * MathF.Exp (-1f / timeExponent * noiseTimes [index]);
+				noiseArray [index] = random.NextVector2 (data.Amp.X / -2, data.Amp.Y / -2, data.Amp.X, data.Amp.Y) * MathF.Exp (-1f / data.TimeExponent * noiseTimes [index]);
 			}
 
 			noiseIndex = 0;

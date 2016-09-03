@@ -8,6 +8,7 @@ namespace TilemapJam
 	public class PlayerDrill : Component
 	{
 		public float DrillDistance { get; set; }
+		public ScreenShake.ShakeData ShakeData { get; set; }
 
 		const int emptyTile = 33;
 
@@ -58,7 +59,7 @@ namespace TilemapJam
 				ShovelAnim.StartAnimation (direction.X);
 			}
             if (Shake != null) {
-                Shake.InitShake (30, new Vector2 (20), 0.1f);
+                Shake.InitShake (ShakeData);
             }
 
 			Vector2 EpsVec = direction.Normalized;		

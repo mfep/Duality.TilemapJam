@@ -408,6 +408,14 @@
                   </item>
                   <item dataType="Struct" type="TilemapJam.PlayerDrill" id="4212119945">
                     <_x003C_DrillDistance_x003E_k__BackingField dataType="Float">70</_x003C_DrillDistance_x003E_k__BackingField>
+                    <_x003C_ShakeData_x003E_k__BackingField dataType="Struct" type="TilemapJam.ScreenShake+ShakeData">
+                      <_x003C_Amp_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                        <X dataType="Float">20</X>
+                        <Y dataType="Float">20</Y>
+                      </_x003C_Amp_x003E_k__BackingField>
+                      <_x003C_Freq_x003E_k__BackingField dataType="Float">30</_x003C_Freq_x003E_k__BackingField>
+                      <_x003C_TimeExponent_x003E_k__BackingField dataType="Float">0.1</_x003C_TimeExponent_x003E_k__BackingField>
+                    </_x003C_ShakeData_x003E_k__BackingField>
                     <active dataType="Bool">true</active>
                     <gameobj dataType="ObjectRef">2296195233</gameobj>
                   </item>
@@ -648,7 +656,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1552</_version>
+                    <_version dataType="Int">1588</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -3123,7 +3131,7 @@
     </item>
     <item dataType="ObjectRef">2296195233</item>
     <item dataType="Struct" type="Duality.GameObject" id="387208826">
-      <active dataType="Bool">false</active>
+      <active dataType="Bool">true</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1330108772">
         <_items dataType="Array" type="Duality.Component[]" id="2278247364">
