@@ -656,7 +656,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1828</_version>
+                    <_version dataType="Int">1936</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -3318,9 +3318,22 @@
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1990420122">
+                        <_x003C_IdleAmpl_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">50</X>
+                          <Y dataType="Float">0</Y>
+                        </_x003C_IdleAmpl_x003E_k__BackingField>
+                        <_x003C_IdleFreq_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">0.2</X>
+                          <Y dataType="Float">0</Y>
+                        </_x003C_IdleFreq_x003E_k__BackingField>
+                        <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4010132449</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
+                    <_size dataType="Int">3</_size>
+                    <_version dataType="Int">3</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="191029024" surrogate="true">
                     <header />
@@ -3328,10 +3341,12 @@
                       <keys dataType="Array" type="System.Object[]" id="873508267">
                         <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3802203464">
                         <item dataType="ObjectRef">2075480085</item>
                         <item dataType="ObjectRef">1357331721</item>
+                        <item dataType="ObjectRef">1990420122</item>
                       </values>
                     </body>
                   </compMap>
@@ -3402,9 +3417,22 @@
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3662278208">
+                        <_x003C_IdleAmpl_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">0</X>
+                          <Y dataType="Float">10</Y>
+                        </_x003C_IdleAmpl_x003E_k__BackingField>
+                        <_x003C_IdleFreq_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">0</X>
+                          <Y dataType="Float">2</Y>
+                        </_x003C_IdleFreq_x003E_k__BackingField>
+                        <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1387023239</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
+                    <_size dataType="Int">3</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3730237568" surrogate="true">
                     <header />
@@ -3412,10 +3440,12 @@
                       <keys dataType="Array" type="System.Object[]" id="1775916461">
                         <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2165111160">
                         <item dataType="ObjectRef">3747338171</item>
                         <item dataType="ObjectRef">3029189807</item>
+                        <item dataType="ObjectRef">3662278208</item>
                       </values>
                     </body>
                   </compMap>
@@ -3488,7 +3518,7 @@
                       </item>
                     </_items>
                     <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
+                    <_version dataType="Int">4</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1175977208" surrogate="true">
                     <header />
@@ -3570,9 +3600,22 @@
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1471327626">
+                        <_x003C_IdleAmpl_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">100</X>
+                          <Y dataType="Float">0</Y>
+                        </_x003C_IdleAmpl_x003E_k__BackingField>
+                        <_x003C_IdleFreq_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+                          <X dataType="Float">0.1</X>
+                          <Y dataType="Float">0</Y>
+                        </_x003C_IdleFreq_x003E_k__BackingField>
+                        <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">3491039953</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
+                    <_size dataType="Int">3</_size>
+                    <_version dataType="Int">3</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3060924320" surrogate="true">
                     <header />
@@ -3580,10 +3623,12 @@
                       <keys dataType="Array" type="System.Object[]" id="3821940923">
                         <item dataType="ObjectRef">377201296</item>
                         <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3767052328">
                         <item dataType="ObjectRef">1556387589</item>
                         <item dataType="ObjectRef">838239225</item>
+                        <item dataType="ObjectRef">1471327626</item>
                       </values>
                     </body>
                   </compMap>
@@ -3656,7 +3701,7 @@
                       </item>
                     </_items>
                     <_size dataType="Int">2</_size>
-                    <_version dataType="Int">2</_version>
+                    <_version dataType="Int">4</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3437631328" surrogate="true">
                     <header />
