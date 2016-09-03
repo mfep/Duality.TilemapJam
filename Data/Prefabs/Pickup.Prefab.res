@@ -35,9 +35,6 @@
           <velAbs dataType="Struct" type="Duality.Vector3" />
         </item>
         <item dataType="Struct" type="TilemapJam.Pickup" id="1090162829">
-          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Float">10</_x003C_IdleAmpl_x003E_k__BackingField>
-          <_x003C_IdleFreq_x003E_k__BackingField dataType="Float">0.3</_x003C_IdleFreq_x003E_k__BackingField>
-          <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
           <_x003C_Score_x003E_k__BackingField dataType="Int">5</_x003C_Score_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
@@ -98,12 +95,18 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">5</_version>
+            <_version dataType="Int">6</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="TilemapJam.IdleMovement" id="1824400192">
-          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Float">10</_x003C_IdleAmpl_x003E_k__BackingField>
-          <_x003C_IdleFreq_x003E_k__BackingField dataType="Float">0.3</_x003C_IdleFreq_x003E_k__BackingField>
+          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+            <X dataType="Float">0</X>
+            <Y dataType="Float">10</Y>
+          </_x003C_IdleAmpl_x003E_k__BackingField>
+          <_x003C_IdleFreq_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
+            <X dataType="Float">0</X>
+            <Y dataType="Float">0.3</Y>
+          </_x003C_IdleFreq_x003E_k__BackingField>
           <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
