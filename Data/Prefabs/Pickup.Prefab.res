@@ -8,7 +8,7 @@
     <active dataType="Bool">true</active>
     <children />
     <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1136467820">
-      <_items dataType="Array" type="Duality.Component[]" id="1512261476">
+      <_items dataType="Array" type="Duality.Component[]" id="1512261476" length="8">
         <item dataType="Struct" type="Duality.Components.Transform" id="1909460155">
           <active dataType="Bool">true</active>
           <angle dataType="Float">0</angle>
@@ -98,12 +98,19 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">4</_version>
+            <_version dataType="Int">5</_version>
           </shapes>
         </item>
+        <item dataType="Struct" type="TilemapJam.IdleMovement" id="1824400192">
+          <_x003C_IdleAmpl_x003E_k__BackingField dataType="Float">10</_x003C_IdleAmpl_x003E_k__BackingField>
+          <_x003C_IdleFreq_x003E_k__BackingField dataType="Float">0.3</_x003C_IdleFreq_x003E_k__BackingField>
+          <_x003C_IdleMove_x003E_k__BackingField dataType="Bool">true</_x003C_IdleMove_x003E_k__BackingField>
+          <active dataType="Bool">true</active>
+          <gameobj dataType="ObjectRef">3844112519</gameobj>
+        </item>
       </_items>
-      <_size dataType="Int">4</_size>
-      <_version dataType="Int">4</_version>
+      <_size dataType="Int">5</_size>
+      <_version dataType="Int">5</_version>
     </compList>
     <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="553231414" surrogate="true">
       <header />
@@ -113,12 +120,14 @@
           <item dataType="Type" id="3344597966" value="TilemapJam.Pickup" />
           <item dataType="Type" id="725050524" value="Duality.Components.Renderers.SpriteRenderer" />
           <item dataType="Type" id="952353490" value="Duality.Components.Physics.RigidBody" />
+          <item dataType="Type" id="3744015544" value="TilemapJam.IdleMovement" />
         </keys>
         <values dataType="Array" type="System.Object[]" id="3137984954">
           <item dataType="ObjectRef">1909460155</item>
           <item dataType="ObjectRef">1090162829</item>
           <item dataType="ObjectRef">1191311791</item>
           <item dataType="ObjectRef">2611921747</item>
+          <item dataType="ObjectRef">1824400192</item>
         </values>
       </body>
     </compMap>

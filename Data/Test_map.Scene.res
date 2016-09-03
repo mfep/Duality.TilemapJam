@@ -410,8 +410,8 @@
                     <_x003C_DrillDistance_x003E_k__BackingField dataType="Float">70</_x003C_DrillDistance_x003E_k__BackingField>
                     <_x003C_ShakeData_x003E_k__BackingField dataType="Struct" type="TilemapJam.ScreenShake+ShakeData">
                       <_x003C_Amp_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
-                        <X dataType="Float">10</X>
-                        <Y dataType="Float">10</Y>
+                        <X dataType="Float">15</X>
+                        <Y dataType="Float">15</Y>
                       </_x003C_Amp_x003E_k__BackingField>
                       <_x003C_Freq_x003E_k__BackingField dataType="Float">30</_x003C_Freq_x003E_k__BackingField>
                       <_x003C_TimeExponent_x003E_k__BackingField dataType="Float">0.1</_x003C_TimeExponent_x003E_k__BackingField>
@@ -656,7 +656,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1768</_version>
+                    <_version dataType="Int">1804</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -713,7 +713,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="572223080">
-                    <_items dataType="Array" type="Duality.Component[]" id="1182764076">
+                    <_items dataType="Array" type="Duality.Component[]" id="1182764076" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="182971120">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2117623484</gameobj>
@@ -730,9 +730,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2117623484</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="97911157">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2117623484</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="285139742" surrogate="true">
                     <header />
@@ -742,12 +746,14 @@
                         <item dataType="Type" id="146314528" value="TilemapJam.Pickup" />
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="Type" id="691486606" value="TilemapJam.IdleMovement" />
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3378882522">
                         <item dataType="ObjectRef">182971120</item>
                         <item dataType="ObjectRef">3658641090</item>
                         <item dataType="ObjectRef">3759790052</item>
                         <item dataType="ObjectRef">885432712</item>
+                        <item dataType="ObjectRef">97911157</item>
                       </values>
                     </body>
                   </compMap>
@@ -829,7 +835,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2406605358">
-                    <_items dataType="Array" type="Duality.Component[]" id="2920686416">
+                    <_items dataType="Array" type="Duality.Component[]" id="2920686416" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2373282462">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">12967530</gameobj>
@@ -846,9 +852,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">12967530</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2288222499">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">12967530</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1513344202" surrogate="true">
                     <header />
@@ -858,12 +868,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4275847606">
                         <item dataType="ObjectRef">2373282462</item>
                         <item dataType="ObjectRef">1553985136</item>
                         <item dataType="ObjectRef">1655134098</item>
                         <item dataType="ObjectRef">3075744054</item>
+                        <item dataType="ObjectRef">2288222499</item>
                       </values>
                     </body>
                   </compMap>
@@ -918,7 +930,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2427394692">
-                    <_items dataType="Array" type="Duality.Component[]" id="3275351108">
+                    <_items dataType="Array" type="Duality.Component[]" id="3275351108" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="1481994380">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3416646744</gameobj>
@@ -935,9 +947,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3416646744</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1396934417">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">3416646744</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3315869846" surrogate="true">
                     <header />
@@ -947,12 +963,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1367275594">
                         <item dataType="ObjectRef">1481994380</item>
                         <item dataType="ObjectRef">662697054</item>
                         <item dataType="ObjectRef">763846016</item>
                         <item dataType="ObjectRef">2184455972</item>
+                        <item dataType="ObjectRef">1396934417</item>
                       </values>
                     </body>
                   </compMap>
@@ -1007,7 +1025,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2829535814">
-                    <_items dataType="Array" type="Duality.Component[]" id="2698321920">
+                    <_items dataType="Array" type="Duality.Component[]" id="2698321920" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="1052358070">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2987010434</gameobj>
@@ -1024,9 +1042,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2987010434</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="967298107">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2987010434</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2050035130" surrogate="true">
                     <header />
@@ -1036,12 +1058,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="4175666678">
                         <item dataType="ObjectRef">1052358070</item>
                         <item dataType="ObjectRef">233060744</item>
                         <item dataType="ObjectRef">334209706</item>
                         <item dataType="ObjectRef">1754819662</item>
+                        <item dataType="ObjectRef">967298107</item>
                       </values>
                     </body>
                   </compMap>
@@ -1096,7 +1120,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="399477038">
-                    <_items dataType="Array" type="Duality.Component[]" id="1710606160">
+                    <_items dataType="Array" type="Duality.Component[]" id="1710606160" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="3105261470">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">744946538</gameobj>
@@ -1113,9 +1137,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">744946538</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3020201507">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">744946538</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="238780618" surrogate="true">
                     <header />
@@ -1125,12 +1153,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="263508918">
                         <item dataType="ObjectRef">3105261470</item>
                         <item dataType="ObjectRef">2285964144</item>
                         <item dataType="ObjectRef">2387113106</item>
                         <item dataType="ObjectRef">3807723062</item>
+                        <item dataType="ObjectRef">3020201507</item>
                       </values>
                     </body>
                   </compMap>
@@ -1185,7 +1215,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="671335970">
-                    <_items dataType="Array" type="Duality.Component[]" id="2283285776">
+                    <_items dataType="Array" type="Duality.Component[]" id="2283285776" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="655392802">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2590045166</gameobj>
@@ -1202,9 +1232,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2590045166</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="570332839">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2590045166</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2682316042" surrogate="true">
                     <header />
@@ -1214,12 +1248,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1216516318">
                         <item dataType="ObjectRef">655392802</item>
                         <item dataType="ObjectRef">4131062772</item>
                         <item dataType="ObjectRef">4232211734</item>
                         <item dataType="ObjectRef">1357854394</item>
+                        <item dataType="ObjectRef">570332839</item>
                       </values>
                     </body>
                   </compMap>
@@ -1274,7 +1310,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3797734606">
-                    <_items dataType="Array" type="Duality.Component[]" id="4293033936">
+                    <_items dataType="Array" type="Duality.Component[]" id="4293033936" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="1645912958">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3580565322</gameobj>
@@ -1291,9 +1327,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3580565322</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1560852995">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">3580565322</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="225300298" surrogate="true">
                     <header />
@@ -1303,12 +1343,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1374725622">
                         <item dataType="ObjectRef">1645912958</item>
                         <item dataType="ObjectRef">826615632</item>
                         <item dataType="ObjectRef">927764594</item>
                         <item dataType="ObjectRef">2348374550</item>
+                        <item dataType="ObjectRef">1560852995</item>
                       </values>
                     </body>
                   </compMap>
@@ -1363,7 +1405,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4085402518">
-                    <_items dataType="Array" type="Duality.Component[]" id="2100574240">
+                    <_items dataType="Array" type="Duality.Component[]" id="2100574240" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2174383334">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4109035698</gameobj>
@@ -1380,9 +1422,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4109035698</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2089323371">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4109035698</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2260539098" surrogate="true">
                     <header />
@@ -1392,12 +1438,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1957882390">
                         <item dataType="ObjectRef">2174383334</item>
                         <item dataType="ObjectRef">1355086008</item>
                         <item dataType="ObjectRef">1456234970</item>
                         <item dataType="ObjectRef">2876844926</item>
+                        <item dataType="ObjectRef">2089323371</item>
                       </values>
                     </body>
                   </compMap>
@@ -1452,7 +1500,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2794041700">
-                    <_items dataType="Array" type="Duality.Component[]" id="4243954628">
+                    <_items dataType="Array" type="Duality.Component[]" id="4243954628" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2997230380">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">636915448</gameobj>
@@ -1469,9 +1517,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">636915448</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2912170417">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">636915448</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3795726870" surrogate="true">
                     <header />
@@ -1481,12 +1533,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3712515274">
                         <item dataType="ObjectRef">2997230380</item>
                         <item dataType="ObjectRef">2177933054</item>
                         <item dataType="ObjectRef">2279082016</item>
                         <item dataType="ObjectRef">3699691972</item>
+                        <item dataType="ObjectRef">2912170417</item>
                       </values>
                     </body>
                   </compMap>
@@ -1541,7 +1595,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3562328403">
-                    <_items dataType="Array" type="Duality.Component[]" id="3113082726">
+                    <_items dataType="Array" type="Duality.Component[]" id="3113082726" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2521121767">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">160806835</gameobj>
@@ -1558,9 +1612,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">160806835</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2436061804">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">160806835</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1339963256" surrogate="true">
                     <header />
@@ -1570,12 +1628,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3899986176">
                         <item dataType="ObjectRef">2521121767</item>
                         <item dataType="ObjectRef">1701824441</item>
                         <item dataType="ObjectRef">1802973403</item>
                         <item dataType="ObjectRef">3223583359</item>
+                        <item dataType="ObjectRef">2436061804</item>
                       </values>
                     </body>
                   </compMap>
@@ -1630,7 +1690,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1099039674">
-                    <_items dataType="Array" type="Duality.Component[]" id="3604279296">
+                    <_items dataType="Array" type="Duality.Component[]" id="3604279296" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="3202086330">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">841771398</gameobj>
@@ -1647,9 +1707,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">841771398</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3117026367">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">841771398</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3843440058" surrogate="true">
                     <header />
@@ -1659,12 +1723,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1532956622">
                         <item dataType="ObjectRef">3202086330</item>
                         <item dataType="ObjectRef">2382789004</item>
                         <item dataType="ObjectRef">2483937966</item>
                         <item dataType="ObjectRef">3904547922</item>
+                        <item dataType="ObjectRef">3117026367</item>
                       </values>
                     </body>
                   </compMap>
@@ -1719,7 +1785,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3053113651">
-                    <_items dataType="Array" type="Duality.Component[]" id="51715110">
+                    <_items dataType="Array" type="Duality.Component[]" id="51715110" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2364153735">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3838803</gameobj>
@@ -1736,9 +1802,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3838803</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2279093772">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">3838803</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2043760312" surrogate="true">
                     <header />
@@ -1748,12 +1818,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3744336896">
                         <item dataType="ObjectRef">2364153735</item>
                         <item dataType="ObjectRef">1544856409</item>
                         <item dataType="ObjectRef">1646005371</item>
                         <item dataType="ObjectRef">3066615327</item>
+                        <item dataType="ObjectRef">2279093772</item>
                       </values>
                     </body>
                   </compMap>
@@ -1808,7 +1880,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2082267176">
-                    <_items dataType="Array" type="Duality.Component[]" id="2375994796">
+                    <_items dataType="Array" type="Duality.Component[]" id="2375994796" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2071159344">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4005811708</gameobj>
@@ -1825,9 +1897,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4005811708</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1986099381">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4005811708</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3642972830" surrogate="true">
                     <header />
@@ -1837,12 +1913,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2727767002">
                         <item dataType="ObjectRef">2071159344</item>
                         <item dataType="ObjectRef">1251862018</item>
                         <item dataType="ObjectRef">1353010980</item>
                         <item dataType="ObjectRef">2773620936</item>
+                        <item dataType="ObjectRef">1986099381</item>
                       </values>
                     </body>
                   </compMap>
@@ -1897,7 +1975,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="157193265">
-                    <_items dataType="Array" type="Duality.Component[]" id="3133866030">
+                    <_items dataType="Array" type="Duality.Component[]" id="3133866030" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="3686060597">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">1325745665</gameobj>
@@ -1914,9 +1992,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">1325745665</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3601000634">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1325745665</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2705735264" surrogate="true">
                     <header />
@@ -1926,12 +2008,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3779515752">
                         <item dataType="ObjectRef">3686060597</item>
                         <item dataType="ObjectRef">2866763271</item>
                         <item dataType="ObjectRef">2967912233</item>
                         <item dataType="ObjectRef">93554893</item>
+                        <item dataType="ObjectRef">3601000634</item>
                       </values>
                     </body>
                   </compMap>
@@ -1986,7 +2070,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4171564314">
-                    <_items dataType="Array" type="Duality.Component[]" id="3916053888">
+                    <_items dataType="Array" type="Duality.Component[]" id="3916053888" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2552018778">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">191703846</gameobj>
@@ -2003,9 +2087,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">191703846</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2466958815">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">191703846</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2182238522" surrogate="true">
                     <header />
@@ -2015,12 +2103,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="829013646">
                         <item dataType="ObjectRef">2552018778</item>
                         <item dataType="ObjectRef">1732721452</item>
                         <item dataType="ObjectRef">1833870414</item>
                         <item dataType="ObjectRef">3254480370</item>
+                        <item dataType="ObjectRef">2466958815</item>
                       </values>
                     </body>
                   </compMap>
@@ -2075,7 +2165,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="922381155">
-                    <_items dataType="Array" type="Duality.Component[]" id="3149864678">
+                    <_items dataType="Array" type="Duality.Component[]" id="3149864678" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="699972695">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2634625059</gameobj>
@@ -2092,9 +2182,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2634625059</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="614912732">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2634625059</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3836715256" surrogate="true">
                     <header />
@@ -2104,12 +2198,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3792065088">
                         <item dataType="ObjectRef">699972695</item>
                         <item dataType="ObjectRef">4175642665</item>
                         <item dataType="ObjectRef">4276791627</item>
                         <item dataType="ObjectRef">1402434287</item>
+                        <item dataType="ObjectRef">614912732</item>
                       </values>
                     </body>
                   </compMap>
@@ -2164,7 +2260,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3165159862">
-                    <_items dataType="Array" type="Duality.Component[]" id="1925259616">
+                    <_items dataType="Array" type="Duality.Component[]" id="1925259616" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="1495374406">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3430026770</gameobj>
@@ -2181,9 +2277,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">3430026770</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="1410314443">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">3430026770</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="4193769626" surrogate="true">
                     <header />
@@ -2193,12 +2293,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3168606358">
                         <item dataType="ObjectRef">1495374406</item>
                         <item dataType="ObjectRef">676077080</item>
                         <item dataType="ObjectRef">777226042</item>
                         <item dataType="ObjectRef">2197835998</item>
+                        <item dataType="ObjectRef">1410314443</item>
                       </values>
                     </body>
                   </compMap>
@@ -2253,7 +2355,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2044495758">
-                    <_items dataType="Array" type="Duality.Component[]" id="1714283728">
+                    <_items dataType="Array" type="Duality.Component[]" id="1714283728" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2415921086">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">55606154</gameobj>
@@ -2270,9 +2372,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">55606154</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2330861123">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">55606154</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2330698826" surrogate="true">
                     <header />
@@ -2282,12 +2388,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1998975990">
                         <item dataType="ObjectRef">2415921086</item>
                         <item dataType="ObjectRef">1596623760</item>
                         <item dataType="ObjectRef">1697772722</item>
                         <item dataType="ObjectRef">3118382678</item>
+                        <item dataType="ObjectRef">2330861123</item>
                       </values>
                     </body>
                   </compMap>
@@ -2342,7 +2450,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2005175940">
-                    <_items dataType="Array" type="Duality.Component[]" id="1969058884">
+                    <_items dataType="Array" type="Duality.Component[]" id="1969058884" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="1030634636">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2965287000</gameobj>
@@ -2359,9 +2467,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">2965287000</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="945574673">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2965287000</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3361478806" surrogate="true">
                     <header />
@@ -2371,12 +2483,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="645591114">
                         <item dataType="ObjectRef">1030634636</item>
                         <item dataType="ObjectRef">211337310</item>
                         <item dataType="ObjectRef">312486272</item>
                         <item dataType="ObjectRef">1733096228</item>
+                        <item dataType="ObjectRef">945574673</item>
                       </values>
                     </body>
                   </compMap>
@@ -2431,7 +2545,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4067276978">
-                    <_items dataType="Array" type="Duality.Component[]" id="1554043600">
+                    <_items dataType="Array" type="Duality.Component[]" id="1554043600" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="4179698066">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">1819383134</gameobj>
@@ -2448,9 +2562,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">1819383134</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="4094638103">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1819383134</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1403358794" surrogate="true">
                     <header />
@@ -2460,12 +2578,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="3240185758">
                         <item dataType="ObjectRef">4179698066</item>
                         <item dataType="ObjectRef">3360400740</item>
                         <item dataType="ObjectRef">3461549702</item>
                         <item dataType="ObjectRef">587192362</item>
+                        <item dataType="ObjectRef">4094638103</item>
                       </values>
                     </body>
                   </compMap>
@@ -2520,7 +2640,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="648801256">
-                    <_items dataType="Array" type="Duality.Component[]" id="2482263084">
+                    <_items dataType="Array" type="Duality.Component[]" id="2482263084" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2335590768">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4270243132</gameobj>
@@ -2537,9 +2657,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">4270243132</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2250530805">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4270243132</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3852585758" surrogate="true">
                     <header />
@@ -2549,12 +2673,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="1351428314">
                         <item dataType="ObjectRef">2335590768</item>
                         <item dataType="ObjectRef">1516293442</item>
                         <item dataType="ObjectRef">1617442404</item>
                         <item dataType="ObjectRef">3038052360</item>
+                        <item dataType="ObjectRef">2250530805</item>
                       </values>
                     </body>
                   </compMap>
@@ -2609,7 +2735,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3804196122">
-                    <_items dataType="Array" type="Duality.Component[]" id="1943002496">
+                    <_items dataType="Array" type="Duality.Component[]" id="1943002496" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="3093192538">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">732877606</gameobj>
@@ -2626,9 +2752,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">732877606</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3008132575">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">732877606</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3356127546" surrogate="true">
                     <header />
@@ -2638,12 +2768,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2302533262">
                         <item dataType="ObjectRef">3093192538</item>
                         <item dataType="ObjectRef">2273895212</item>
                         <item dataType="ObjectRef">2375044174</item>
                         <item dataType="ObjectRef">3795654130</item>
+                        <item dataType="ObjectRef">3008132575</item>
                       </values>
                     </body>
                   </compMap>
@@ -2698,7 +2830,7 @@
                   <active dataType="Bool">true</active>
                   <children />
                   <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3303655326">
-                    <_items dataType="Array" type="Duality.Component[]" id="1520273296">
+                    <_items dataType="Array" type="Duality.Component[]" id="1520273296" length="8">
                       <item dataType="Struct" type="Duality.Components.Transform" id="2397045038">
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">36730106</gameobj>
@@ -2715,9 +2847,13 @@
                         <active dataType="Bool">true</active>
                         <gameobj dataType="ObjectRef">36730106</gameobj>
                       </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2311985075">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">36730106</gameobj>
+                      </item>
                     </_items>
-                    <_size dataType="Int">4</_size>
-                    <_version dataType="Int">4</_version>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
                   </compList>
                   <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="647510410" surrogate="true">
                     <header />
@@ -2727,12 +2863,14 @@
                         <item dataType="ObjectRef">146314528</item>
                         <item dataType="ObjectRef">2004904718</item>
                         <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
                       </keys>
                       <values dataType="Array" type="System.Object[]" id="2160984726">
                         <item dataType="ObjectRef">2397045038</item>
                         <item dataType="ObjectRef">1577747712</item>
                         <item dataType="ObjectRef">1678896674</item>
                         <item dataType="ObjectRef">3099506630</item>
+                        <item dataType="ObjectRef">2311985075</item>
                       </values>
                     </body>
                   </compMap>
@@ -3764,8 +3902,8 @@
     <item dataType="ObjectRef">3142230422</item>
     <item dataType="ObjectRef">1177763527</item>
     <item dataType="ObjectRef">3830546052</item>
-    <item dataType="ObjectRef">1737088351</item>
     <item dataType="ObjectRef">2607788899</item>
+    <item dataType="ObjectRef">1737088351</item>
     <item dataType="ObjectRef">2117623484</item>
     <item dataType="ObjectRef">12967530</item>
     <item dataType="ObjectRef">3416646744</item>
@@ -3793,10 +3931,10 @@
     <item dataType="ObjectRef">3107503317</item>
     <item dataType="ObjectRef">3031398584</item>
     <item dataType="ObjectRef">4010132449</item>
-    <item dataType="ObjectRef">3971940435</item>
-    <item dataType="ObjectRef">607594305</item>
-    <item dataType="ObjectRef">3491039953</item>
     <item dataType="ObjectRef">1387023239</item>
+    <item dataType="ObjectRef">3971940435</item>
+    <item dataType="ObjectRef">3491039953</item>
+    <item dataType="ObjectRef">607594305</item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />
 </root>
