@@ -67,12 +67,24 @@ namespace TilemapJam
 			var tilemap = rayCastData.GameObj.GetComponent<TilemapCollider> ().CollisionSource [0].SourceTilemap;
 			var tileCoord = GetTileCoord (rayCastData.Pos + EpsVec, tilemap);
 
+            //Profile.BeginMeasure ("Measure");
+
 			try {
-				tilemap.SetTile (tileCoord.X, tileCoord.Y, new Tile (emptyTile));	
+                // TODO what about performance
+                Grid<Tile> tiles = tilemap.BeginUpdateTiles ();
+                var tileset = tilemap.Tileset;
+                tilemap.SetTile (tileCoord.X, tileCoord.Y, new Tile (emptyTile));
+                var updateGrid = new Grid<bool> (tilemap.Size.X, tilemap.Size.Y);
+                updateGrid.Fill (true, 0, 0, tilemap.Size.X, tilemap.Size.Y);
+				Tile.UpdateAutoTileCon (tiles, updateGrid, 0, 0, tilemap.Size.X, tilemap.Size.Y, tileset);
+                tilemap.EndUpdateTiles ();
 			}
 			catch (IndexOutOfRangeException /*exception*/) {
 				// do fucking nothing
 			}
+
+            //Profile.EndMeasure ("Measure");
+            //Profile.SaveTextReport ("measure.txt");
 		}
 
 		// TODO notice this only works for this special aligned tilemap
