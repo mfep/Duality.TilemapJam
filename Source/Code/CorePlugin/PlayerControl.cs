@@ -1,6 +1,7 @@
 ﻿using System;
 using Duality;
 using Duality.Components.Renderers;
+using MFEP.Duality.Plugins.InputPlugin;
 
 namespace TilemapJam
 {
@@ -52,16 +53,16 @@ namespace TilemapJam
             }
 
             Vector2 input = Vector2.Zero;
-            if (DualityApp.Keyboard[Duality.Input.Key.Left]) input.X = -1;
-            else if (DualityApp.Keyboard[Duality.Input.Key.Right]) input.X = 1;
-            if (DualityApp.Keyboard[Duality.Input.Key.Up]) input.Y = -1;
-            else if (DualityApp.Keyboard[Duality.Input.Key.Down]) input.Y = 1;
+            if (InputManager.IsButtonPressed ("Left")) input.X = -1;
+			else if (InputManager.IsButtonPressed ("Right")) input.X = 1;
+//            if (DualityApp.Keyboard[Duality.Input.Key.Up]) input.Y = -1;
+//            else if (DualityApp.Keyboard[Duality.Input.Key.Down]) input.Y = 1;
 
-			if (DualityApp.Keyboard.KeyHit (Duality.Input.Key.Space) && Controller.Collisions.below) {
+			if (InputManager.IsButtonHit ("Jump") && Controller.Collisions.below) {
                 velocity.Y = -jumpVelocity;
             }
 
-			if (DualityApp.Keyboard.KeyHit (Duality.Input.Key.ControlLeft)) {
+			if (InputManager.IsButtonHit ("Drill")) {
 				Drill.TryDrill (new Vector2 (input.X, 0));
 			}
 

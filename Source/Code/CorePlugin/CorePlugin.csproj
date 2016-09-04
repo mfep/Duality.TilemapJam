@@ -53,6 +53,9 @@
     <Reference Include="SnowyPeak.Duality.Frozen.FX.core">
       <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.FX.core.dll</HintPath>
     </Reference>
+    <Reference Include="InputPlugin.core">
+      <HintPath>..\..\..\Plugins\InputPlugin.core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
