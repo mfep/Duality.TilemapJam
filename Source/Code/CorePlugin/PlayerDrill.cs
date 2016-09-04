@@ -69,14 +69,13 @@ namespace TilemapJam
 
             //Profile.BeginMeasure ("Measure");
 
-			try {
-                // TODO what about performance
+			try {                
                 Grid<Tile> tiles = tilemap.BeginUpdateTiles ();
                 var tileset = tilemap.Tileset;
                 tilemap.SetTile (tileCoord.X, tileCoord.Y, new Tile (emptyTile));
                 var updateGrid = new Grid<bool> (tilemap.Size.X, tilemap.Size.Y);
                 updateGrid.Fill (true, 0, 0, tilemap.Size.X, tilemap.Size.Y);
-				Tile.UpdateAutoTileCon (tiles, updateGrid, 0, 0, tilemap.Size.X, tilemap.Size.Y, tileset);
+				Tile.UpdateAutoTileCon (tiles, updateGrid, tileCoord.X - 1, tileCoord.Y - 1, 3, 3, tileset);
                 tilemap.EndUpdateTiles ();
 			}
 			catch (IndexOutOfRangeException /*exception*/) {

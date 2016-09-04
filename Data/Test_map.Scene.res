@@ -80,13 +80,13 @@
                     <ignoreParent dataType="Bool">false</ignoreParent>
                     <parentTransform />
                     <pos dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">192</X>
-                      <Y dataType="Float">288</Y>
+                      <X dataType="Float">-416.4071</X>
+                      <Y dataType="Float">284.681427</Y>
                       <Z dataType="Float">-480</Z>
                     </pos>
                     <posAbs dataType="Struct" type="Duality.Vector3">
-                      <X dataType="Float">192</X>
-                      <Y dataType="Float">288</Y>
+                      <X dataType="Float">-416.4071</X>
+                      <Y dataType="Float">284.681427</Y>
                       <Z dataType="Float">-480</Z>
                     </posAbs>
                     <scale dataType="Float">1</scale>
@@ -96,8 +96,8 @@
                   </parentTransform>
                   <pos dataType="Struct" type="Duality.Vector3" />
                   <posAbs dataType="Struct" type="Duality.Vector3">
-                    <X dataType="Float">192</X>
-                    <Y dataType="Float">288</Y>
+                    <X dataType="Float">-416.4071</X>
+                    <Y dataType="Float">284.681427</Y>
                     <Z dataType="Float">-480</Z>
                   </posAbs>
                   <scale dataType="Float">1</scale>
@@ -656,7 +656,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1936</_version>
+                    <_version dataType="Int">1948</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
