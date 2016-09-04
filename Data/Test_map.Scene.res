@@ -316,10 +316,17 @@
               <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3501237750">
                 <_items dataType="Array" type="Duality.Component[]" id="671353502">
                   <item dataType="Struct" type="TilemapJam.Controller2D" id="2963691113">
+                    <_x003C_CustomRect_x003E_k__BackingField dataType="Struct" type="Duality.Rect">
+                      <H dataType="Float">38</H>
+                      <W dataType="Float">20</W>
+                      <X dataType="Float">-10</X>
+                      <Y dataType="Float">-19</Y>
+                    </_x003C_CustomRect_x003E_k__BackingField>
                     <_x003C_DebugRays_x003E_k__BackingField dataType="Bool">false</_x003C_DebugRays_x003E_k__BackingField>
                     <_x003C_HorizontalRayCount_x003E_k__BackingField dataType="Int">4</_x003C_HorizontalRayCount_x003E_k__BackingField>
                     <_x003C_rayCollisions_x003E_k__BackingField dataType="Enum" type="Duality.Components.Physics.CollisionCategory" name="Cat2" value="2" />
                     <_x003C_SkinWidth_x003E_k__BackingField dataType="Float">2</_x003C_SkinWidth_x003E_k__BackingField>
+                    <_x003C_UseCustomRect_x003E_k__BackingField dataType="Bool">true</_x003C_UseCustomRect_x003E_k__BackingField>
                     <_x003C_VerticalRayCount_x003E_k__BackingField dataType="Int">4</_x003C_VerticalRayCount_x003E_k__BackingField>
                     <active dataType="Bool">true</active>
                     <gameobj dataType="ObjectRef">2296195233</gameobj>
@@ -663,7 +670,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">2368</_version>
+                    <_version dataType="Int">2416</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">

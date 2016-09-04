@@ -15,6 +15,8 @@ namespace TilemapJam
         public int VerticalRayCount { get; set; }
 		public CollisionCategory rayCollisions { get; set; }
 		public bool DebugRays { get; set; }
+		public bool UseCustomRect { get; set; }
+		public Rect CustomRect { get; set; }
 
 		[DontSerialize]
 	    private CollisionInfo collisions;
@@ -128,6 +130,16 @@ namespace TilemapJam
 
         private void CalculateBounds ()
         {
+			if (UseCustomRect) {
+				bounds = new Rect (
+					GameObj.Transform.Pos.X + CustomRect.X,
+					GameObj.Transform.Pos.Y + CustomRect.Y,
+					CustomRect.W,
+					CustomRect.H
+				);
+				return;
+			}
+
             var spriteRenderer = GameObj.GetComponent<SpriteRenderer> ();
             var animSpriteRenderer = GameObj.GetComponent<AnimSpriteRenderer> ();
             if (spriteRenderer != null) {
