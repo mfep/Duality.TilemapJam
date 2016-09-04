@@ -224,7 +224,7 @@
   </autoTileConfig>
   <baseMaterial dataType="Struct" type="Duality.Drawing.BatchInfo" id="2035693768">
     <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="All" value="3" />
-    <hashCode dataType="Int">2037530597</hashCode>
+    <hashCode dataType="Int">327529082</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -232,7 +232,7 @@
       <R dataType="Byte">255</R>
     </mainColor>
     <technique dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.DrawTechnique]]">
-      <contentPath dataType="String">Default:DrawTechnique:Mask</contentPath>
+      <contentPath dataType="String">Data\Tileset\Shader\Psy_DrawTech.DrawTechnique.res</contentPath>
     </technique>
     <textures dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[Duality.ContentRef`1[[Duality.Resources.Texture]]]]" id="2696347487" surrogate="true">
       <header />
