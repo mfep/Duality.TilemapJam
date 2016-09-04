@@ -50,6 +50,9 @@
     <Reference Include="Tilemaps.core">
       <HintPath>..\..\..\Plugins\Tilemaps.core.dll</HintPath>
     </Reference>
+    <Reference Include="SnowyPeak.Duality.Frozen.FX.core">
+      <HintPath>..\..\..\Plugins\SnowyPeak.Duality.Frozen.FX.core.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
@@ -66,6 +69,7 @@
     <Compile Include="ShovelAnimation.cs" />
     <Compile Include="ScreenShake.cs" />
     <Compile Include="IdleMovement.cs" />
+    <Compile Include="FXManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <PropertyGroup>

@@ -2,7 +2,7 @@
   <assetInfo />
   <info dataType="Struct" type="Duality.Drawing.BatchInfo" id="427169525">
     <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="None" value="0" />
-    <hashCode dataType="Int">327529082</hashCode>
+    <hashCode dataType="Int">-85210196</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -20,7 +20,12 @@
         </mainTex>
       </body>
     </textures>
-    <uniforms />
+    <uniforms dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[System.Single[]]]" id="649525530" surrogate="true">
+      <header />
+      <body>
+        <GameTime dataType="Array" type="System.Single[]" id="411997508">0</GameTime>
+      </body>
+    </uniforms>
   </info>
 </root>
 <!-- XmlFormatterBase Document Separator -->

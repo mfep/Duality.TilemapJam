@@ -28,6 +28,14 @@ namespace TilemapJam
             }
         }
 
+		FXManager fxManager
+		{
+			get
+			{
+				return GameObj.ParentScene.FindComponent<FXManager> ();
+			}
+		}
+
 		public bool TryDrill (Vector2 direction)
 		{
 			if (direction == Vector2.Zero) {
@@ -54,18 +62,16 @@ namespace TilemapJam
 		}
 
 		void DoDrill (RayCastData rayCastData, Vector2 direction)
-		{
-			if (ShovelAnim != null) {
-				ShovelAnim.StartAnimation (direction.X);
-			}
-            if (Shake != null) {
-                Shake.InitShake (ShakeData);
-            }
-
+		{			
 			Vector2 EpsVec = direction.Normalized;		
 
 			var tilemap = rayCastData.GameObj.GetComponent<TilemapCollider> ().CollisionSource [0].SourceTilemap;
 			var tileCoord = GetTileCoord (rayCastData.Pos + EpsVec, tilemap);
+			if (IsTileCoordBorder (tileCoord, tilemap)) {
+				return;
+			}
+
+			DrillFX (direction, rayCastData);
 
             //Profile.BeginMeasure ("Measure");
 
@@ -94,6 +100,25 @@ namespace TilemapJam
 			point.X = (int)(pos.X / tilesize.X);
 			point.Y = (int)(pos.Y / tilesize.Y);
 			return point;
+		}
+
+		bool IsTileCoordBorder (Point2 coord, Tilemap tilemap)
+		{
+			var size = tilemap.Size;
+			return coord.X <= 0 || coord.Y <= 0 || coord.X >= (size.X - 1) || coord.Y >= (size.Y - 1);
+		}
+
+		void DrillFX (Vector2 direction, RayCastData rayCastData)
+		{
+			if (ShovelAnim != null) {
+				ShovelAnim.StartAnimation (direction.X);
+			}
+			if (Shake != null) {
+				Shake.InitShake (ShakeData);
+			}
+			if (fxManager != null) {
+				fxManager.CreateParticleSystem (rayCastData.Pos);
+			}
 		}
 	}
 }

@@ -7,14 +7,13 @@
     </sourceFileHint>
   </assetInfo>
   <source dataType="String">uniform sampler2D mainTex;
-varying vec2 pos;
+uniform float GameTime;
+varying vec2 screenPos;
 
 void main()
-{
-	// gl_FragColor = gl_Color * texture2D(mainTex, gl_TexCoord[0].st);
-	vec2 uv = gl_TexCoord[0].st;
-	vec4 sam = texture2D(mainTex, uv);
-	gl_FragColor = vec4 (pos, 1, sam.a);
+{	
+	vec4 sam = texture2D(mainTex, gl_TexCoord[0].st);
+	gl_FragColor = vec4 (screenPos, 0.5+0.5*sin(GameTime), sam.a * gl_Color.a);
 }</source>
 </root>
 <!-- XmlFormatterBase Document Separator -->

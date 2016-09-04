@@ -6,14 +6,14 @@
       <item dataType="String">{Name}.vert</item>
     </sourceFileHint>
   </assetInfo>
-  <source dataType="String">varying vec2 pos;
+  <source dataType="String">varying vec2 screenPos;
 
 void main()
 {
 	gl_Position = ftransform();
 	gl_TexCoord[0] = gl_MultiTexCoord0;
 	gl_FrontColor = gl_Color;
-	pos = gl_Position.xy;
+	screenPos = gl_Position.xy;
 }</source>
 </root>
 <!-- XmlFormatterBase Document Separator -->

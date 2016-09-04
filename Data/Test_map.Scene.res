@@ -656,7 +656,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">1960</_version>
+                    <_version dataType="Int">2272</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -3012,7 +3012,7 @@
                       <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="1221945288">
                         <active dataType="Bool">true</active>
                         <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
-                          <A dataType="Byte">0</A>
+                          <A dataType="Byte">255</A>
                           <B dataType="Byte">0</B>
                           <G dataType="Byte">94</G>
                           <R dataType="Byte">74</R>
@@ -3096,7 +3096,7 @@
                       <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="454702589">
                         <active dataType="Bool">true</active>
                         <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
-                          <A dataType="Byte">0</A>
+                          <A dataType="Byte">255</A>
                           <B dataType="Byte">0</B>
                           <G dataType="Byte">94</G>
                           <R dataType="Byte">74</R>
@@ -3180,7 +3180,7 @@
                       <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="378597856">
                         <active dataType="Bool">true</active>
                         <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
-                          <A dataType="Byte">0</A>
+                          <A dataType="Byte">255</A>
                           <B dataType="Byte">0</B>
                           <G dataType="Byte">94</G>
                           <R dataType="Byte">74</R>
@@ -3792,7 +3792,7 @@
     </item>
     <item dataType="ObjectRef">2296195233</item>
     <item dataType="Struct" type="Duality.GameObject" id="387208826">
-      <active dataType="Bool">true</active>
+      <active dataType="Bool">false</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="1330108772">
         <_items dataType="Array" type="Duality.Component[]" id="2278247364">
@@ -3938,9 +3938,17 @@
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">1121741521</gameobj>
           </item>
+          <item dataType="Struct" type="TilemapJam.FXManager" id="564932316">
+            <_x003C_ParticleSystem_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+              <contentPath dataType="String">Data\Prefabs\FXPoint.Prefab.res</contentPath>
+            </_x003C_ParticleSystem_x003E_k__BackingField>
+            <_x003C_ParticleSystemDuration_x003E_k__BackingField dataType="Float">0.7</_x003C_ParticleSystemDuration_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1121741521</gameobj>
+          </item>
         </_items>
-        <_size dataType="Int">2</_size>
-        <_version dataType="Int">2</_version>
+        <_size dataType="Int">3</_size>
+        <_version dataType="Int">3</_version>
       </compList>
       <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1867210936" surrogate="true">
         <header />
@@ -3948,10 +3956,12 @@
           <keys dataType="Array" type="System.Object[]" id="4084914265">
             <item dataType="Type" id="1030416334" value="TilemapJam.LevelManager" />
             <item dataType="Type" id="121718090" value="TilemapJam.GameManager" />
+            <item dataType="Type" id="3361156990" value="TilemapJam.FXManager" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="2070838272">
             <item dataType="ObjectRef">2349303492</item>
             <item dataType="ObjectRef">1835683132</item>
+            <item dataType="ObjectRef">564932316</item>
           </values>
         </body>
       </compMap>
