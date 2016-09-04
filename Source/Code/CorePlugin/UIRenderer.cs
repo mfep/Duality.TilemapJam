@@ -8,6 +8,8 @@ namespace TilemapJam
 	public class UIRenderer : Component, ICmpRenderer
 	{
 		public ContentRef<Font> DisplayFont { get; set; }
+		public ContentRef<Material> ScoreIconMat { get; set; }
+		public Vector2 ScoreIconSize { get; set; }
 		public ColorRgba FontColor { get; set; }
 		public String TextString { get; set; }
 
@@ -24,21 +26,28 @@ namespace TilemapJam
 		public void Draw (Duality.Drawing.IDrawDevice device)
 		{
 			Canvas canvas = new Canvas (device, buffer);
-			var state = canvas.State;
-			state.ColorTint = FontColor;
-			if (DisplayFont != null) {
-				state.TextFont = DisplayFont;	
-			}
-			canvas.State = state;
-			var x = DualityApp.TargetResolution.X / 2;
-			var y = 50;
-			canvas.DrawText (new[] { TextString }, x, y, 0, Duality.Alignment.Center, true);
+			DrawScore (canvas);
 		}
 
 		public float BoundRadius {
 			get {
 				return 5000f;
 			}
+		}
+
+		void DrawScore (Canvas canvas)
+		{
+			const float margin = 10f;
+
+			// draw score icon
+			canvas.State.SetMaterial (ScoreIconMat);
+			canvas.State.ColorTint = ColorRgba.White;
+			canvas.FillRect (margin, margin, ScoreIconSize.X, ScoreIconSize.Y);
+
+			// draw score text
+			canvas.State.ColorTint = FontColor;
+			canvas.State.TextFont = DisplayFont;
+			canvas.DrawText (new[] { TextString }, 2 * margin + ScoreIconSize.X, margin + ScoreIconSize.Y / 2, 0, Duality.Alignment.Left, false);
 		}
 	}
 }

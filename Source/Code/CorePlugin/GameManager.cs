@@ -30,8 +30,6 @@ namespace TilemapJam
 		[DontSerialize]
 		private List<FunctionInvoke> invokes = new List<FunctionInvoke> ();
 
-		#region ICmpInitializable implementation
-
 		public void OnInit (InitContext context)
 		{
 			PlayerScore = 0;
@@ -40,8 +38,6 @@ namespace TilemapJam
 		public void OnShutdown (ShutdownContext context)
 		{			
 		}
-
-		#endregion
 
 		public void OnUpdate ()
 		{
@@ -72,7 +68,7 @@ namespace TilemapJam
 
 		void UpdateScoreUI ()
 		{
-			PlayerScoreRenderer.TextString = String.Format ("Score: {0}", playerScore);
+			PlayerScoreRenderer.TextString = String.Format ("{0}", playerScore);
 		}
 
 		struct FunctionInvoke

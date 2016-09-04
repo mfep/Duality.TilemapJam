@@ -20,13 +20,13 @@
           <ignoreParent dataType="Bool">false</ignoreParent>
           <parentTransform />
           <pos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">736</X>
-            <Y dataType="Float">352</Y>
+            <X dataType="Float">3040</X>
+            <Y dataType="Float">224</Y>
             <Z dataType="Float">0</Z>
           </pos>
           <posAbs dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">736</X>
-            <Y dataType="Float">352</Y>
+            <X dataType="Float">3040</X>
+            <Y dataType="Float">224</Y>
             <Z dataType="Float">0</Z>
           </posAbs>
           <scale dataType="Float">1</scale>
@@ -35,7 +35,7 @@
           <velAbs dataType="Struct" type="Duality.Vector3" />
         </item>
         <item dataType="Struct" type="TilemapJam.Pickup" id="1090162829">
-          <_x003C_Score_x003E_k__BackingField dataType="Int">5</_x003C_Score_x003E_k__BackingField>
+          <_x003C_Score_x003E_k__BackingField dataType="Int">1</_x003C_Score_x003E_k__BackingField>
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
         </item>
@@ -95,7 +95,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">6</_version>
+            <_version dataType="Int">99</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="TilemapJam.IdleMovement" id="1824400192">
