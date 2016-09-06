@@ -2,7 +2,7 @@
   <assetInfo />
   <info dataType="Struct" type="Duality.Drawing.BatchInfo" id="427169525">
     <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="None" value="0" />
-    <hashCode dataType="Int">-1870770024</hashCode>
+    <hashCode dataType="Int">1332800885</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -16,20 +16,20 @@
       <header />
       <body>
         <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-          <contentPath dataType="String">Default:Texture:White</contentPath>
+          <contentPath dataType="String">Data\Sprites\Saw\saw_spiral.Texture.res</contentPath>
         </mainTex>
         <noiseTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-          <contentPath dataType="String">Data\Tileset\Shader\noise.Texture.res</contentPath>
+          <contentPath dataType="String">Default:Texture:White</contentPath>
         </noiseTex>
       </body>
     </textures>
     <uniforms dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[System.Single[]]]" id="649525530" surrogate="true">
       <header />
       <body>
-        <GameTime dataType="Array" type="System.Single[]" id="411997508">0</GameTime>
-        <CameraFocusDist dataType="Array" type="System.Single[]" id="1885627030">0</CameraFocusDist>
-        <CameraParallax dataType="Array" type="System.Single[]" id="766962944">0</CameraParallax>
-        <CameraPosition dataType="Array" type="System.Single[]" id="1352645666">0, 0, 0</CameraPosition>
+        <CameraFocusDist dataType="Array" type="System.Single[]" id="411997508">0</CameraFocusDist>
+        <CameraParallax dataType="Array" type="System.Single[]" id="1885627030">0</CameraParallax>
+        <CameraPosition dataType="Array" type="System.Single[]" id="766962944">0, 0, 0</CameraPosition>
+        <GameTime dataType="Array" type="System.Single[]" id="1352645666">0</GameTime>
       </body>
     </uniforms>
   </info>

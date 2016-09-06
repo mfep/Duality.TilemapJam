@@ -223,8 +223,8 @@
     <_version dataType="Int">3</_version>
   </autoTileConfig>
   <baseMaterial dataType="Struct" type="Duality.Drawing.BatchInfo" id="2035693768">
-    <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="All" value="3" />
-    <hashCode dataType="Int">327529082</hashCode>
+    <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="None" value="0" />
+    <hashCode dataType="Int">-1870770024</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -240,9 +240,20 @@
         <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
           <contentPath dataType="String">Default:Texture:White</contentPath>
         </mainTex>
+        <noiseTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
+          <contentPath dataType="String">Data\Tileset\Shader\noise.Texture.res</contentPath>
+        </noiseTex>
       </body>
     </textures>
-    <uniforms />
+    <uniforms dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[System.Single[]]]" id="847900448" surrogate="true">
+      <header />
+      <body>
+        <GameTime dataType="Array" type="System.Single[]" id="855378517">0</GameTime>
+        <CameraFocusDist dataType="Array" type="System.Single[]" id="1844585800">0</CameraFocusDist>
+        <CameraParallax dataType="Array" type="System.Single[]" id="2240739423">0</CameraParallax>
+        <CameraPosition dataType="Array" type="System.Single[]" id="2301142486">0, 0, 0</CameraPosition>
+      </body>
+    </uniforms>
   </baseMaterial>
   <renderConfig dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Plugins.Tilemaps.TilesetRenderInput]]" id="876525375">
     <_items dataType="Array" type="Duality.Plugins.Tilemaps.TilesetRenderInput[]" id="295733828" length="4">

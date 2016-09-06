@@ -40,7 +40,12 @@
         </item>
         <item dataType="Struct" type="SnowyPeak.Duality.Plugin.Frozen.FX.Components.ParticleEmitter" id="1999936582">
           <_x003C_AlignParticlesWithDirection_x003E_k__BackingField dataType="Bool">false</_x003C_AlignParticlesWithDirection_x003E_k__BackingField>
-          <_x003C_ColorEnd_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba" />
+          <_x003C_ColorEnd_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
+            <A dataType="Byte">0</A>
+            <B dataType="Byte">255</B>
+            <G dataType="Byte">255</G>
+            <R dataType="Byte">255</R>
+          </_x003C_ColorEnd_x003E_k__BackingField>
           <_x003C_ColorStart_x003E_k__BackingField dataType="Struct" type="Duality.Drawing.ColorRgba">
             <A dataType="Byte">255</A>
             <B dataType="Byte">255</B>
