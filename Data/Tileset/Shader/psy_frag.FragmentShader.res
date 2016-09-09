@@ -40,7 +40,6 @@ void main()
 	vec3 col = mix (col1, col2, khi);
 		
 	gl_FragColor = vec4 (mix (mix(col1, col2 * 0.8, screen), col, noiseSample * 2), pow(texSample.a * gl_Color.a, alphaPow));
-	// gl_FragColor = vec4 (vec3 (screen), texSample.a * gl_Color.a);
 }</source>
 </root>
 <!-- XmlFormatterBase Document Separator -->
