@@ -1,6 +1,7 @@
 ﻿using System;
 using Duality;
 using Duality.Plugins.Tilemaps;
+using Duality.Resources;
 
 namespace TilemapJam
 {
@@ -11,6 +12,7 @@ namespace TilemapJam
 		public SawComponent Saw { get; set; }
 		public int ScoreToPass { get; set; }
 		public Exit exit { get; set; }
+        public ContentRef<Sound> LevelMusic { get; set; }
 
 		void CalculateSawSpeed ()
 		{
@@ -22,6 +24,7 @@ namespace TilemapJam
 		{
 			if (context == InitContext.Activate && DualityApp.ExecContext == DualityApp.ExecutionContext.Game) {
 				CalculateSawSpeed ();
+                MusicManager.PlayMusic (LevelMusic);
 			}
 		}
 
