@@ -73,6 +73,7 @@
     <Compile Include="ScreenShake.cs" />
     <Compile Include="IdleMovement.cs" />
     <Compile Include="FXManager.cs" />
+    <Compile Include="Exit.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <PropertyGroup>

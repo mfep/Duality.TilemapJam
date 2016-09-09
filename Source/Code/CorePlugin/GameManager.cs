@@ -5,6 +5,7 @@ using Duality.Resources;
 
 namespace TilemapJam
 {
+	[RequiredComponent (typeof (LevelManager))]
 	public class GameManager : Component, ICmpUpdatable, ICmpInitializable
 	{
 		public ContentRef<Scene> NextLevel { get; set; }
@@ -24,6 +25,7 @@ namespace TilemapJam
 			{
 				playerScore = value;
 				UpdateScoreUI ();
+				levelManager.PlayerPickedupScore (playerScore);
 			}
 		}
 
@@ -39,6 +41,14 @@ namespace TilemapJam
 			{
 				playerDrillCount = value;
 				UpdatePlayerDrillUI ();
+			}
+		}
+
+		LevelManager levelManager
+		{
+			get
+			{
+				return GameObj.GetComponent<LevelManager> ();
 			}
 		}
 
@@ -59,7 +69,7 @@ namespace TilemapJam
 		{
 			foreach (var invoke in invokes.ToArray ())
 			{
-				if (invoke.CheckCall (Time.GameTimer)) {
+				if (invoke.CheckCall (Time.MainTimer)) {
 					invokes.Remove (invoke);
 				}
 			}
@@ -74,7 +84,7 @@ namespace TilemapJam
 		{
 			AddInvoke (() => {
 				Scene.Reload ();
-			}, Time.GameTimer + TimeSpan.FromSeconds (LevelDelay));
+			}, Time.MainTimer + TimeSpan.FromSeconds (LevelDelay));
 		}
 
 		public void PlayerPickup (int count, Pickup.Type type)
@@ -87,7 +97,7 @@ namespace TilemapJam
 		{
 			if (PlayerUIRenderer == null)
 				return;
-			PlayerUIRenderer.ScoreString = String.Format ("{0}", playerScore);
+			PlayerUIRenderer.ScoreString = String.Format ("{0}/{1}", playerScore, levelManager.ScoreToPass);
 		}
 
 		void UpdatePlayerDrillUI ()
@@ -95,6 +105,16 @@ namespace TilemapJam
 			if (PlayerUIRenderer == null)
 				return;
 			PlayerUIRenderer.DrillString = String.Format ("{0}", playerDrillCount);
+		}
+
+		public void PlayerReachedExit () {
+			Time.Freeze ();
+			AddInvoke (() => {
+				if (NextLevel != null) {
+					Time.Resume ();
+					Scene.SwitchTo (NextLevel);
+				}
+			}, Time.MainTimer + TimeSpan.FromSeconds (LevelDelay));
 		}
 
 		struct FunctionInvoke

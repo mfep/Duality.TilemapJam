@@ -9,14 +9,14 @@ namespace TilemapJam
 		public Tilemap Map { get; set; }
 		public float LevelTime { get; set; }
 		public SawComponent Saw { get; set; }
+		public int ScoreToPass { get; set; }
+		public Exit exit { get; set; }
 
 		void CalculateSawSpeed ()
 		{
 			float mapSizeX = Map.Size.X * Map.Tileset.Res.TileSize.X;
 			Saw.HorizontalSpeed = mapSizeX / LevelTime;
 		}
-
-		#region ICmpInitializable implementation
 
 		public void OnInit (InitContext context)
 		{
@@ -29,7 +29,22 @@ namespace TilemapJam
 		{
 		}
 
-		#endregion
+		public void PlayerPickedupScore (int newScore)
+		{
+			if (newScore == ScoreToPass) {
+				OpenExit ();
+			}
+		}
+
+		void OpenExit ()
+		{
+			if (exit == null) {
+				Log.Game.WriteError ("Exit is missing");
+				return;
+			}
+
+			exit.Open ();
+		}
 	}
 }
 
