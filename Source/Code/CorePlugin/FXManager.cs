@@ -37,7 +37,7 @@ namespace TilemapJam
 				return;
 			}
 
-			var currentTime = Time.GameTimer;
+			var currentTime = Time.MainTimer;
 			var timeToDisableEmitting = currentTime.Add (TimeSpan.FromSeconds (ParticleSystemDuration - maxParticleLifetime));
 			var timeToDestroySystem = currentTime.Add (TimeSpan.FromSeconds (ParticleSystemDuration));
 

@@ -1,14 +1,17 @@
 ﻿using System;
 using Duality;
+using Duality.Drawing;
+using Duality.Components.Renderers;
 
 namespace TilemapJam
 {
 	[RequiredComponent (typeof (PlayerControl))]
-	public class PlayerHealth : Component
+    [RequiredComponent (typeof (SpriteRenderer))]
+    public class PlayerHealth : Component
 	{
 		public void HitBySaw ()
 		{
-			Log.Game.Write ("Player's been hit by a saw!");
+			InvokeParticleFX (GameObj.Transform.Pos.Xy);
 			PlayerDeath ();
 		}
 
@@ -22,6 +25,15 @@ namespace TilemapJam
 			}
 
 			GameObj.GetComponent<PlayerControl> ().Active = false;
+            GameObj.GetComponent<SpriteRenderer> ().ColorTint = ColorRgba.Red;
+		}
+
+		void InvokeParticleFX (Vector2 pos)
+		{
+			var fxMan = GameObj.ParentScene.FindComponent<FXManager> ();
+			if (fxMan != null) {
+				fxMan.CreateParticleSystem (pos);
+			}
 		}
 	}
 }
