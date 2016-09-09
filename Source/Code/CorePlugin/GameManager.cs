@@ -89,8 +89,10 @@ namespace TilemapJam
 
 		public void PlayerPickup (int count, Pickup.Type type)
 		{
-			if (type == Pickup.Type.Score)
-				PlayerScore += count;
+            if (type == Pickup.Type.Score)
+                PlayerScore += count;
+            else if (type == Pickup.Type.Drill)
+                PlayerDrillCount += count;
 		}
 
 		void UpdateScoreUI ()

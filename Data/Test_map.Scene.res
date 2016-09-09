@@ -678,7 +678,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">2812</_version>
+                    <_version dataType="Int">2822</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -2739,9 +2739,397 @@
                     </prefab>
                   </prefabLink>
                 </item>
+                <item dataType="Struct" type="Duality.GameObject" id="2947832006">
+                  <active dataType="Bool">true</active>
+                  <children />
+                  <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="837787770">
+                    <_items dataType="Array" type="Duality.Component[]" id="276427648" length="8">
+                      <item dataType="Struct" type="Duality.Components.Transform" id="1013179642">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2947832006</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.Pickup" id="193882316">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2947832006</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="295031278">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2947832006</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="1715641234">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2947832006</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="928119679">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2947832006</gameobj>
+                      </item>
+                    </_items>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
+                  </compList>
+                  <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1195311930" surrogate="true">
+                    <header />
+                    <body>
+                      <keys dataType="Array" type="System.Object[]" id="521993152">
+                        <item dataType="ObjectRef">377201296</item>
+                        <item dataType="ObjectRef">146314528</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
+                      </keys>
+                      <values dataType="Array" type="System.Object[]" id="447708238">
+                        <item dataType="ObjectRef">1013179642</item>
+                        <item dataType="ObjectRef">193882316</item>
+                        <item dataType="ObjectRef">295031278</item>
+                        <item dataType="ObjectRef">1715641234</item>
+                        <item dataType="ObjectRef">928119679</item>
+                      </values>
+                    </body>
+                  </compMap>
+                  <compTransform dataType="ObjectRef">1013179642</compTransform>
+                  <identifier dataType="Struct" type="System.Guid" surrogate="true">
+                    <header>
+                      <data dataType="Array" type="System.Byte[]" id="4189146972">/RYcYah5KE6BzbfoeXHuEw==</data>
+                    </header>
+                    <body />
+                  </identifier>
+                  <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  <name dataType="String">DrillPickup</name>
+                  <parent dataType="ObjectRef">1177763527</parent>
+                  <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="3050307834">
+                    <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1573180160">
+                      <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3492932252" length="4">
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="4146971848">
+                            <_items dataType="Array" type="System.Int32[]" id="1151361644"></_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <prop dataType="ObjectRef">970792482</prop>
+                          <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                            <contentPath dataType="String">Data\Sprites\Shovel\shovel_icon.Material.res</contentPath>
+                          </val>
+                        </item>
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2058037982">
+                            <_items dataType="ObjectRef">1151361644</_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">377201296</componentType>
+                          <prop dataType="ObjectRef">3444258718</prop>
+                          <val dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">1440</X>
+                            <Y dataType="Float">224</Y>
+                            <Z dataType="Float">0</Z>
+                          </val>
+                        </item>
+                      </_items>
+                      <_size dataType="Int">2</_size>
+                      <_version dataType="Int">184</_version>
+                    </changes>
+                    <obj dataType="ObjectRef">2947832006</obj>
+                    <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+                      <contentPath dataType="String">Data\Prefabs\DrillPickup.Prefab.res</contentPath>
+                    </prefab>
+                  </prefabLink>
+                </item>
+                <item dataType="Struct" type="Duality.GameObject" id="1362053410">
+                  <active dataType="Bool">true</active>
+                  <children />
+                  <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2719740966">
+                    <_items dataType="Array" type="Duality.Component[]" id="4213422336" length="8">
+                      <item dataType="Struct" type="Duality.Components.Transform" id="3722368342">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1362053410</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.Pickup" id="2903071016">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1362053410</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3004219978">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1362053410</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="129862638">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1362053410</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="3637308379">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">1362053410</gameobj>
+                      </item>
+                    </_items>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
+                  </compList>
+                  <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1082027706" surrogate="true">
+                    <header />
+                    <body>
+                      <keys dataType="Array" type="System.Object[]" id="3913766804">
+                        <item dataType="ObjectRef">377201296</item>
+                        <item dataType="ObjectRef">146314528</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
+                      </keys>
+                      <values dataType="Array" type="System.Object[]" id="633740342">
+                        <item dataType="ObjectRef">3722368342</item>
+                        <item dataType="ObjectRef">2903071016</item>
+                        <item dataType="ObjectRef">3004219978</item>
+                        <item dataType="ObjectRef">129862638</item>
+                        <item dataType="ObjectRef">3637308379</item>
+                      </values>
+                    </body>
+                  </compMap>
+                  <compTransform dataType="ObjectRef">3722368342</compTransform>
+                  <identifier dataType="Struct" type="System.Guid" surrogate="true">
+                    <header>
+                      <data dataType="Array" type="System.Byte[]" id="658865712">NQoTxzyf4UOXDQn+IhEe9g==</data>
+                    </header>
+                    <body />
+                  </identifier>
+                  <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  <name dataType="String">DrillPickup</name>
+                  <parent dataType="ObjectRef">1177763527</parent>
+                  <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="874396454">
+                    <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2090620416">
+                      <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="3831045276" length="4">
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2426985672">
+                            <_items dataType="Array" type="System.Int32[]" id="686273132"></_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <prop dataType="ObjectRef">970792482</prop>
+                          <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                            <contentPath dataType="String">Data\Sprites\Shovel\shovel_icon.Material.res</contentPath>
+                          </val>
+                        </item>
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="1657199326">
+                            <_items dataType="Array" type="System.Int32[]" id="3943355274"></_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">377201296</componentType>
+                          <prop dataType="ObjectRef">3444258718</prop>
+                          <val dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">2208</X>
+                            <Y dataType="Float">224</Y>
+                            <Z dataType="Float">0</Z>
+                          </val>
+                        </item>
+                      </_items>
+                      <_size dataType="Int">2</_size>
+                      <_version dataType="Int">240</_version>
+                    </changes>
+                    <obj dataType="ObjectRef">1362053410</obj>
+                    <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+                      <contentPath dataType="String">Data\Prefabs\DrillPickup.Prefab.res</contentPath>
+                    </prefab>
+                  </prefabLink>
+                </item>
+                <item dataType="Struct" type="Duality.GameObject" id="4199467019">
+                  <active dataType="Bool">true</active>
+                  <children />
+                  <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="806596555">
+                    <_items dataType="Array" type="Duality.Component[]" id="1459446262" length="8">
+                      <item dataType="Struct" type="Duality.Components.Transform" id="2264814655">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4199467019</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.Pickup" id="1445517329">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4199467019</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="1546666291">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4199467019</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="2967276247">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4199467019</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="2179754692">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">4199467019</gameobj>
+                      </item>
+                    </_items>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
+                  </compList>
+                  <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="2666318408" surrogate="true">
+                    <header />
+                    <body>
+                      <keys dataType="Array" type="System.Object[]" id="1253647841">
+                        <item dataType="ObjectRef">377201296</item>
+                        <item dataType="ObjectRef">146314528</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
+                      </keys>
+                      <values dataType="Array" type="System.Object[]" id="307279904">
+                        <item dataType="ObjectRef">2264814655</item>
+                        <item dataType="ObjectRef">1445517329</item>
+                        <item dataType="ObjectRef">1546666291</item>
+                        <item dataType="ObjectRef">2967276247</item>
+                        <item dataType="ObjectRef">2179754692</item>
+                      </values>
+                    </body>
+                  </compMap>
+                  <compTransform dataType="ObjectRef">2264814655</compTransform>
+                  <identifier dataType="Struct" type="System.Guid" surrogate="true">
+                    <header>
+                      <data dataType="Array" type="System.Byte[]" id="1821085555">poPqRqTBbkuuiX0AMlmcww==</data>
+                    </header>
+                    <body />
+                  </identifier>
+                  <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  <name dataType="String">DrillPickup</name>
+                  <parent dataType="ObjectRef">1177763527</parent>
+                  <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="301915777">
+                    <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="419136068">
+                      <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="841656900" length="4">
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="1689867336">
+                            <_items dataType="Array" type="System.Int32[]" id="542086252"></_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <prop dataType="ObjectRef">970792482</prop>
+                          <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                            <contentPath dataType="String">Data\Sprites\Shovel\shovel_icon.Material.res</contentPath>
+                          </val>
+                        </item>
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2261835998">
+                            <_items dataType="ObjectRef">3943355274</_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">377201296</componentType>
+                          <prop dataType="ObjectRef">3444258718</prop>
+                          <val dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">2848</X>
+                            <Y dataType="Float">96</Y>
+                            <Z dataType="Float">0</Z>
+                          </val>
+                        </item>
+                      </_items>
+                      <_size dataType="Int">2</_size>
+                      <_version dataType="Int">290</_version>
+                    </changes>
+                    <obj dataType="ObjectRef">4199467019</obj>
+                    <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+                      <contentPath dataType="String">Data\Prefabs\DrillPickup.Prefab.res</contentPath>
+                    </prefab>
+                  </prefabLink>
+                </item>
+                <item dataType="Struct" type="Duality.GameObject" id="2293296073">
+                  <active dataType="Bool">true</active>
+                  <children />
+                  <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2020228153">
+                    <_items dataType="Array" type="Duality.Component[]" id="3079002318" length="8">
+                      <item dataType="Struct" type="Duality.Components.Transform" id="358643709">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2293296073</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.Pickup" id="3834313679">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2293296073</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Renderers.SpriteRenderer" id="3935462641">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2293296073</gameobj>
+                      </item>
+                      <item dataType="Struct" type="Duality.Components.Physics.RigidBody" id="1061105301">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2293296073</gameobj>
+                      </item>
+                      <item dataType="Struct" type="TilemapJam.IdleMovement" id="273583746">
+                        <active dataType="Bool">true</active>
+                        <gameobj dataType="ObjectRef">2293296073</gameobj>
+                      </item>
+                    </_items>
+                    <_size dataType="Int">5</_size>
+                    <_version dataType="Int">5</_version>
+                  </compList>
+                  <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="1754501376" surrogate="true">
+                    <header />
+                    <body>
+                      <keys dataType="Array" type="System.Object[]" id="2487153555">
+                        <item dataType="ObjectRef">377201296</item>
+                        <item dataType="ObjectRef">146314528</item>
+                        <item dataType="ObjectRef">2004904718</item>
+                        <item dataType="ObjectRef">3180210230</item>
+                        <item dataType="ObjectRef">691486606</item>
+                      </keys>
+                      <values dataType="Array" type="System.Object[]" id="374933240">
+                        <item dataType="ObjectRef">358643709</item>
+                        <item dataType="ObjectRef">3834313679</item>
+                        <item dataType="ObjectRef">3935462641</item>
+                        <item dataType="ObjectRef">1061105301</item>
+                        <item dataType="ObjectRef">273583746</item>
+                      </values>
+                    </body>
+                  </compMap>
+                  <compTransform dataType="ObjectRef">358643709</compTransform>
+                  <identifier dataType="Struct" type="System.Guid" surrogate="true">
+                    <header>
+                      <data dataType="Array" type="System.Byte[]" id="1231519865">1aKRPiGEwkmb1jL07wnT3g==</data>
+                    </header>
+                    <body />
+                  </identifier>
+                  <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  <name dataType="String">DrillPickup</name>
+                  <parent dataType="ObjectRef">1177763527</parent>
+                  <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="1356852155">
+                    <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="2130846484">
+                      <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="2043416676" length="4">
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="2559815368">
+                            <_items dataType="ObjectRef">3943355274</_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">2004904718</componentType>
+                          <prop dataType="ObjectRef">970792482</prop>
+                          <val dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+                            <contentPath dataType="String">Data\Sprites\Shovel\shovel_icon.Material.res</contentPath>
+                          </val>
+                        </item>
+                        <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                          <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="1385772766">
+                            <_items dataType="ObjectRef">3943355274</_items>
+                            <_size dataType="Int">0</_size>
+                            <_version dataType="Int">1</_version>
+                          </childIndex>
+                          <componentType dataType="ObjectRef">377201296</componentType>
+                          <prop dataType="ObjectRef">3444258718</prop>
+                          <val dataType="Struct" type="Duality.Vector3">
+                            <X dataType="Float">1632</X>
+                            <Y dataType="Float">224</Y>
+                            <Z dataType="Float">0</Z>
+                          </val>
+                        </item>
+                      </_items>
+                      <_size dataType="Int">2</_size>
+                      <_version dataType="Int">202</_version>
+                    </changes>
+                    <obj dataType="ObjectRef">2293296073</obj>
+                    <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
+                      <contentPath dataType="String">Data\Prefabs\DrillPickup.Prefab.res</contentPath>
+                    </prefab>
+                  </prefabLink>
+                </item>
               </_items>
-              <_size dataType="Int">23</_size>
-              <_version dataType="Int">27</_version>
+              <_size dataType="Int">27</_size>
+              <_version dataType="Int">31</_version>
             </children>
             <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="3992660288">
               <_items dataType="Array" type="Duality.Component[]" id="3804017149" length="0" />
@@ -4045,6 +4433,10 @@
     <item dataType="ObjectRef">3971940435</item>
     <item dataType="ObjectRef">3491039953</item>
     <item dataType="ObjectRef">607594305</item>
+    <item dataType="ObjectRef">2293296073</item>
+    <item dataType="ObjectRef">2947832006</item>
+    <item dataType="ObjectRef">1362053410</item>
+    <item dataType="ObjectRef">4199467019</item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />
 </root>
