@@ -26,6 +26,7 @@ namespace TilemapJam
 
 			GameObj.GetComponent<PlayerControl> ().Active = false;
             GameObj.GetComponent<SpriteRenderer> ().ColorTint = ColorRgba.Red;
+            SoundManager.PlaySound (SoundManager.SoundEnum.PlayerDeath);
 		}
 
 		void InvokeParticleFX (Vector2 pos)

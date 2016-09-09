@@ -89,6 +89,8 @@ namespace TilemapJam
 
 		public void PlayerPickup (int count, Pickup.Type type)
 		{
+            SoundManager.PlaySound (SoundManager.SoundEnum.Pickup);
+
             if (type == Pickup.Type.Score)
                 PlayerScore += count;
             else if (type == Pickup.Type.Drill)
@@ -110,6 +112,7 @@ namespace TilemapJam
 		}
 
 		public void PlayerReachedExit () {
+            SoundManager.PlaySound (SoundManager.SoundEnum.ExitReached);
 			Time.Freeze ();
 			AddInvoke (() => {
 				if (NextLevel != null) {

@@ -68,6 +68,7 @@
     <Compile Include="Pickup.cs" />
     <Compile Include="PlayerControl.cs" />
     <Compile Include="PlayerDrill.cs" />
+    <Compile Include="SoundManager.cs" />
     <Compile Include="UIRenderer.cs" />
     <Compile Include="ShovelAnimation.cs" />
     <Compile Include="ScreenShake.cs" />

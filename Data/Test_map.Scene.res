@@ -678,7 +678,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">2822</_version>
+                    <_version dataType="Int">2932</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -4394,6 +4394,57 @@
       <prefabLink />
     </item>
     <item dataType="ObjectRef">3175011924</item>
+    <item dataType="Struct" type="Duality.GameObject" id="4276590484">
+      <active dataType="Bool">true</active>
+      <children />
+      <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="4001090858">
+        <_items dataType="Array" type="Duality.Component[]" id="1295490336" length="4">
+          <item dataType="Struct" type="TilemapJam.SoundManager" id="1075814420">
+            <_x003C_Sound_Drill_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+              <contentPath dataType="String">Data\Sounds\drill.Sound.res</contentPath>
+            </_x003C_Sound_Drill_x003E_k__BackingField>
+            <_x003C_Sound_ExitReached_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+              <contentPath dataType="String">Data\Sounds\exit.Sound.res</contentPath>
+            </_x003C_Sound_ExitReached_x003E_k__BackingField>
+            <_x003C_Sound_Jump_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+              <contentPath dataType="String">Data\Sounds\jump.Sound.res</contentPath>
+            </_x003C_Sound_Jump_x003E_k__BackingField>
+            <_x003C_Sound_Pickup_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+              <contentPath dataType="String">Data\Sounds\pickup.Sound.res</contentPath>
+            </_x003C_Sound_Pickup_x003E_k__BackingField>
+            <_x003C_Sound_PlayerDeath_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
+              <contentPath dataType="String">Data\Sounds\playerDeath.Sound.res</contentPath>
+            </_x003C_Sound_PlayerDeath_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">4276590484</gameobj>
+          </item>
+        </_items>
+        <_size dataType="Int">1</_size>
+        <_version dataType="Int">1</_version>
+      </compList>
+      <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="3797143514" surrogate="true">
+        <header />
+        <body>
+          <keys dataType="Array" type="System.Object[]" id="2389563408">
+            <item dataType="Type" id="757415740" value="TilemapJam.SoundManager" />
+          </keys>
+          <values dataType="Array" type="System.Object[]" id="693261550">
+            <item dataType="ObjectRef">1075814420</item>
+          </values>
+        </body>
+      </compMap>
+      <compTransform />
+      <identifier dataType="Struct" type="System.Guid" surrogate="true">
+        <header>
+          <data dataType="Array" type="System.Byte[]" id="2543673068">Vdvx+xbYe0ygpt0WixzCug==</data>
+        </header>
+        <body />
+      </identifier>
+      <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+      <name dataType="String">SoundManager</name>
+      <parent />
+      <prefabLink />
+    </item>
     <item dataType="ObjectRef">157503828</item>
     <item dataType="ObjectRef">4263731582</item>
     <item dataType="ObjectRef">3142230422</item>
@@ -4425,6 +4476,10 @@
     <item dataType="ObjectRef">4270243132</item>
     <item dataType="ObjectRef">732877606</item>
     <item dataType="ObjectRef">36730106</item>
+    <item dataType="ObjectRef">2947832006</item>
+    <item dataType="ObjectRef">1362053410</item>
+    <item dataType="ObjectRef">4199467019</item>
+    <item dataType="ObjectRef">2293296073</item>
     <item dataType="ObjectRef">3874746016</item>
     <item dataType="ObjectRef">3107503317</item>
     <item dataType="ObjectRef">3031398584</item>
@@ -4433,10 +4488,6 @@
     <item dataType="ObjectRef">3971940435</item>
     <item dataType="ObjectRef">3491039953</item>
     <item dataType="ObjectRef">607594305</item>
-    <item dataType="ObjectRef">2293296073</item>
-    <item dataType="ObjectRef">2947832006</item>
-    <item dataType="ObjectRef">1362053410</item>
-    <item dataType="ObjectRef">4199467019</item>
   </serializeObj>
   <visibilityStrategy dataType="Struct" type="Duality.Components.DefaultRendererVisibilityStrategy" id="2035693768" />
 </root>

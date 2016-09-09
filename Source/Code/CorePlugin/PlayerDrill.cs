@@ -123,6 +123,8 @@ namespace TilemapJam
 
 		void DrillFX (Vector2 direction, RayCastData rayCastData)
 		{
+            SoundManager.PlaySound (SoundManager.SoundEnum.Drill);
+
 			if (ShovelAnim != null) {
 				ShovelAnim.StartAnimation (direction.X);
 			}

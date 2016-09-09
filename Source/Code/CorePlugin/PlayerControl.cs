@@ -59,6 +59,7 @@ namespace TilemapJam
 //            else if (DualityApp.Keyboard[Duality.Input.Key.Down]) input.Y = 1;
 
 			if (InputManager.IsButtonHit ("Jump") && Controller.Collisions.below) {
+                SoundManager.PlaySound (SoundManager.SoundEnum.Jump);
                 velocity.Y = -jumpVelocity;
             }
 
