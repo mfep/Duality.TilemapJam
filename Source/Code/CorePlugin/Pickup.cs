@@ -7,7 +7,12 @@ namespace TilemapJam
 	[RequiredComponent (typeof (Transform))]
 	public class Pickup : Component, ICmpCollisionListener
 	{
-		public int Score { get; set; }
+		public enum Type {
+			Score, Drill
+		}
+
+		public int Count { get; set; }
+		public Type type { get; set; }
 
 		public void OnCollisionBegin (Component sender, CollisionEventArgs args)
 		{
@@ -29,7 +34,7 @@ namespace TilemapJam
 		{
 			var gameManager = GameObj.ParentScene.FindComponent<GameManager> ();
 			if (gameManager != null) {
-				gameManager.PlayerPickup (Score);
+				gameManager.PlayerPickup (Count, type);
 			} else {
 				Log.Game.WriteError ("GameManager component is missing from scene!");
 			}

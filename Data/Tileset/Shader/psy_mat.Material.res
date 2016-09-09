@@ -2,7 +2,7 @@
   <assetInfo />
   <info dataType="Struct" type="Duality.Drawing.BatchInfo" id="427169525">
     <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="None" value="0" />
-    <hashCode dataType="Int">-1870770024</hashCode>
+    <hashCode dataType="Int">-545542877</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -30,6 +30,7 @@
         <CameraFocusDist dataType="Array" type="System.Single[]" id="1885627030">0</CameraFocusDist>
         <CameraParallax dataType="Array" type="System.Single[]" id="766962944">0</CameraParallax>
         <CameraPosition dataType="Array" type="System.Single[]" id="1352645666">0, 0, 0</CameraPosition>
+        <alphaPow dataType="Array" type="System.Single[]" id="3754462812">0.7</alphaPow>
       </body>
     </uniforms>
   </info>

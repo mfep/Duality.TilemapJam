@@ -9,7 +9,7 @@ namespace TilemapJam
 	{
 		public ContentRef<Scene> NextLevel { get; set; }
 		public float LevelDelay { get; set; }
-		public UIRenderer PlayerScoreRenderer { get; set; }
+		public UIRenderer PlayerUIRenderer { get; set; }
 
 		[DontSerialize]
 		int playerScore;
@@ -27,12 +27,28 @@ namespace TilemapJam
 			}
 		}
 
+		int playerDrillCount;
+		public int PlayerDrillCount
+		{
+			get
+			{
+				return playerDrillCount;
+			}
+
+			set
+			{
+				playerDrillCount = value;
+				UpdatePlayerDrillUI ();
+			}
+		}
+
 		[DontSerialize]
 		private List<FunctionInvoke> invokes = new List<FunctionInvoke> ();
 
 		public void OnInit (InitContext context)
 		{
-			PlayerScore = 0;
+            UpdateScoreUI ();
+            UpdatePlayerDrillUI ();
 		}
 
 		public void OnShutdown (ShutdownContext context)
@@ -61,14 +77,24 @@ namespace TilemapJam
 			}, Time.GameTimer + TimeSpan.FromSeconds (LevelDelay));
 		}
 
-		public void PlayerPickup (int score)
+		public void PlayerPickup (int count, Pickup.Type type)
 		{
-			PlayerScore += score;
+			if (type == Pickup.Type.Score)
+				PlayerScore += count;
 		}
 
 		void UpdateScoreUI ()
 		{
-			PlayerScoreRenderer.TextString = String.Format ("{0}", playerScore);
+			if (PlayerUIRenderer == null)
+				return;
+			PlayerUIRenderer.ScoreString = String.Format ("{0}", playerScore);
+		}
+
+		void UpdatePlayerDrillUI ()
+		{
+			if (PlayerUIRenderer == null)
+				return;
+			PlayerUIRenderer.DrillString = String.Format ("{0}", playerDrillCount);
 		}
 
 		struct FunctionInvoke

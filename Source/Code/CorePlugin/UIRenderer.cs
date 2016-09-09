@@ -9,12 +9,17 @@ namespace TilemapJam
 	{
 		public ContentRef<Font> DisplayFont { get; set; }
 		public ContentRef<Material> ScoreIconMat { get; set; }
+		public ContentRef<Material> DrillIconMat { get; set; }
 		public Vector2 ScoreIconSize { get; set; }
+        public Vector2 DrillIconSize { get; set; }
 		public ColorRgba FontColor { get; set; }
-		public String TextString { get; set; }
+		public string ScoreString { get; set; }
+		public string DrillString { get; set; }
 
 		[DontSerialize]
 		CanvasBuffer buffer = new CanvasBuffer ();
+
+		const float margin = 10f;
 
 		public bool IsVisible (Duality.Drawing.IDrawDevice device)
 		{
@@ -27,6 +32,7 @@ namespace TilemapJam
 		{
 			Canvas canvas = new Canvas (device, buffer);
 			DrawScore (canvas);
+			DrawDrill (canvas);
 		}
 
 		public float BoundRadius {
@@ -37,17 +43,34 @@ namespace TilemapJam
 
 		void DrawScore (Canvas canvas)
 		{
-			const float margin = 10f;
+            try {
+                canvas.State.SetMaterial (ScoreIconMat);
+                canvas.State.ColorTint = ColorRgba.White;
+                canvas.FillRect (margin, margin, ScoreIconSize.X, ScoreIconSize.Y);
 
-			// draw score icon
-			canvas.State.SetMaterial (ScoreIconMat);
-			canvas.State.ColorTint = ColorRgba.White;
-			canvas.FillRect (margin, margin, ScoreIconSize.X, ScoreIconSize.Y);
+                canvas.State.ColorTint = FontColor;
+                canvas.State.TextFont = DisplayFont;
+                canvas.DrawText (new[] { ScoreString }, 2 * margin + ScoreIconSize.X, margin + ScoreIconSize.Y / 2, 0, Duality.Alignment.Left, false);
+            }
+            catch (NullReferenceException /*ex*/) {
+                // do fckn nothing
+            }
+		}
 
-			// draw score text
-			canvas.State.ColorTint = FontColor;
-			canvas.State.TextFont = DisplayFont;
-			canvas.DrawText (new[] { TextString }, 2 * margin + ScoreIconSize.X, margin + ScoreIconSize.Y / 2, 0, Duality.Alignment.Left, false);
+		void DrawDrill (Canvas canvas)
+		{
+            try {
+                canvas.State.SetMaterial (DrillIconMat);
+                canvas.State.ColorTint = ColorRgba.White;
+                canvas.FillRect (margin, 2 * margin + ScoreIconSize.Y, DrillIconSize.X, DrillIconSize.Y);
+
+                canvas.State.ColorTint = FontColor;
+                canvas.State.TextFont = DisplayFont;
+                canvas.DrawText (new[] { DrillString }, 2 * margin + DrillIconSize.X, 2 * margin + ScoreIconSize.Y + DrillIconSize.Y / 2, 0, Duality.Alignment.Left, false);
+            }
+            catch (NullReferenceException /*ex*/) {
+                // do fckn nothing
+            }
 		}
 	}
 }

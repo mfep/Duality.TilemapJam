@@ -36,6 +36,14 @@ namespace TilemapJam
 			}
 		}
 
+        GameManager gameManager
+        {
+            get
+            {
+                return GameObj.ParentScene.FindComponent<GameManager> ();
+            }
+        }
+
 		public bool TryDrill (Vector2 direction)
 		{
 			if (direction == Vector2.Zero) {
@@ -62,7 +70,12 @@ namespace TilemapJam
 		}
 
 		void DoDrill (RayCastData rayCastData, Vector2 direction)
-		{			
+		{
+            if (gameManager.PlayerDrillCount <= 0)
+                return;
+
+            gameManager.PlayerDrillCount--;
+
 			Vector2 EpsVec = direction.Normalized;		
 
 			var tilemap = rayCastData.GameObj.GetComponent<TilemapCollider> ().CollisionSource [0].SourceTilemap;

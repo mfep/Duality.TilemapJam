@@ -8,6 +8,7 @@
   </assetInfo>
   <source dataType="String">uniform sampler2D mainTex;
 uniform sampler2D noiseTex;
+uniform float alphaPow;
 uniform float GameTime;
 varying vec3 worldPos;
 varying vec2 screenPos;
@@ -38,7 +39,7 @@ void main()
 	float khi = mix (hori.x * vert.y, hori.y * vert.x, cos (GameTime + worldPos.y / 100.0));
 	vec3 col = mix (col1, col2, khi);
 		
-	gl_FragColor = vec4 (mix (mix(col1, col2 * 0.8, screen), col, noiseSample * 2), texSample.a * gl_Color.a);
+	gl_FragColor = vec4 (mix (mix(col1, col2 * 0.8, screen), col, noiseSample * 2), pow(texSample.a * gl_Color.a, alphaPow));
 	// gl_FragColor = vec4 (vec3 (screen), texSample.a * gl_Color.a);
 }</source>
 </root>
