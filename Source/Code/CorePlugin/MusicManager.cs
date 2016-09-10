@@ -10,9 +10,14 @@ namespace TilemapJam
 
         static public void PlayMusic (ContentRef<Sound> musicRef)
         {
-            if (musicSoundInstance == null || musicSoundInstance.Sound != musicRef) {
+            if (musicSoundInstance == null) {
                 musicSoundInstance = DualityApp.Sound.PlaySound (musicRef);
                 musicSoundInstance.Looped = true;
+            } else if (musicSoundInstance.Sound != musicRef) {
+                musicSoundInstance.FadeOut (2);
+                musicSoundInstance = DualityApp.Sound.PlaySound (musicRef);
+                musicSoundInstance.Looped = true;
+                musicSoundInstance.BeginFadeIn (2);
             }
         }
     }

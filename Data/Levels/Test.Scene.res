@@ -206,7 +206,7 @@
                     </body>
                   </tileData>
                   <tileset dataType="Struct" type="Duality.ContentRef`1[[Duality.Plugins.Tilemaps.Tileset]]">
-                    <contentPath dataType="String">Data\Tileset\New_Tileset.Tileset.res</contentPath>
+                    <contentPath dataType="String">Data\Tileset\level_01_tileset.Tileset.res</contentPath>
                   </tileset>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapRenderer" id="2961839734">
@@ -300,7 +300,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">3018</_version>
+                    <_version dataType="Int">3026</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -2832,7 +2832,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\psy_mat.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2916,7 +2916,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\psy_mat.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3000,7 +3000,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\psy_mat.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -3916,7 +3916,7 @@
           </item>
           <item dataType="Struct" type="TilemapJam.FXManager" id="564932316">
             <_x003C_ParticleSystem_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-              <contentPath dataType="String">Data\Prefabs\FXPoint.Prefab.res</contentPath>
+              <contentPath dataType="String">Data\Prefabs\FX\FXPoint_01.Prefab.res</contentPath>
             </_x003C_ParticleSystem_x003E_k__BackingField>
             <_x003C_ParticleSystemDuration_x003E_k__BackingField dataType="Float">0.7</_x003C_ParticleSystemDuration_x003E_k__BackingField>
             <active dataType="Bool">true</active>

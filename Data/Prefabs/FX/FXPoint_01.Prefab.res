@@ -71,7 +71,7 @@
           <_x003C_IsEnabled_x003E_k__BackingField dataType="Bool">true</_x003C_IsEnabled_x003E_k__BackingField>
           <_x003C_IsVisible_x003E_k__BackingField dataType="Bool">true</_x003C_IsVisible_x003E_k__BackingField>
           <_x003C_Material_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-            <contentPath dataType="String">Data\Tileset\Shader\psy_mat.Material.res</contentPath>
+            <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
           </_x003C_Material_x003E_k__BackingField>
           <_x003C_MovementSpeed_x003E_k__BackingField dataType="Struct" type="Duality.Vector2">
             <X dataType="Float">-200</X>
