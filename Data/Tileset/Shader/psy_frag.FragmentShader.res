@@ -10,6 +10,8 @@
 uniform sampler2D noiseTex;
 uniform float alphaPow;
 uniform float GameTime;
+uniform vec3 color1;
+uniform vec3 color2;
 varying vec3 worldPos;
 varying vec2 screenPos;
 
@@ -33,13 +35,10 @@ void main()
 	t = worldPos.y / 256.0;
 	vec2 vert = sinCosVect (t);
 	
-	vec3 col1 = vec3 (0.24, 0.56, 0.4);
-	vec3 col2 = vec3 (0.56, 0.24, 0.24);
-	
 	float khi = mix (hori.x * vert.y, hori.y * vert.x, cos (GameTime + worldPos.y / 100.0));
-	vec3 col = mix (col1, col2, khi);
+	vec3 col = mix (color1, color2, khi);
 		
-	gl_FragColor = vec4 (mix (mix(col1, col2 * 0.8, screen), col, noiseSample * 2), pow(texSample.a * gl_Color.a, alphaPow));
+	gl_FragColor = vec4 (mix (mix(color1, color2 * 0.8, screen), col, noiseSample * 2), pow(texSample.a * gl_Color.a, alphaPow));
 }</source>
 </root>
 <!-- XmlFormatterBase Document Separator -->

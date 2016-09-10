@@ -580,7 +580,7 @@
                   <tileData dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapData" id="447107595" custom="true">
                     <body>
                       <version dataType="Int">3</version>
-                      <data dataType="Array" type="System.Byte[]" id="3897546870">H4sIAAAAAAAEADNiYGDgAmJ+BhDYqwCmGEYpKlGQYC2HUHMHhZOGEQUJ1vTR0CWdggAmCMWBVclIDl2Ip5kglBeE4qGBDZSGLgTgjUbCjmiDUB3Y5FiIEMRmWBeE4kKh8KUzUcKGQePBB48pLSg8mqRdiJnHIFQfHt9qQShNPKYcxSboik1QDUKtJNO5rEQYBhEUhlBS2LzCiaKS9NCFaHCDUOewhSDUIm0IZUm80Sg2pEGo8xBqDoqcOzbBVMJmsuHJJK4ovKckuxqbmdDQvUuqvucQ6j+E+kuhWwjbcBebHKrgcQh1D0KdwWYm9jBD0f4PJVLvUOYHaOjeR3HZOTzUOwj1HsXvxGsngsJnwz8UOayCWJ30DiXM7hG2j1yPwSIVWwoZpSil0CIcAOektOS0DQAA</data>
+                      <data dataType="Array" type="System.Byte[]" id="3897546870">H4sIAAAAAAAEADNiYGDgAmJ+BhDYqwCmGEYpKlGQYC2HUHMHhZOGEQUJ1vTR0B0NXZr4nQlCeUEoHhrYQGnoQgAThOIg0xFtEKoDmxwLEYLYDOuCUFwoFHYHQuRECRsGjQcfPKa0oPBoknYhZh6DUH14fKsFoTTxmHIUm6ArNkE1CLWSTOeyEmEYRFAYQklh8wonikrSQxeiwQ1CncMWglCLtCGUJfFGo9iQBqHOQ6g5KHLu2ARTCZvJhieTuKLwnpLsamxmQkP3Lqn6nkOo/xDqL4VuIWzDXWxyqILHIdQ9CHUGm5nYwwxF+z+USL1DmR+goXsfxWXn8FDvINR7FL8Tr50ICp8N/1DksApiddI7lDC7R9g+cj0Gi1RsKWSUopRCi3AA6vzMGrQNAAA=</data>
                     </body>
                   </tileData>
                   <tileset dataType="Struct" type="Duality.ContentRef`1[[Duality.Plugins.Tilemaps.Tileset]]">
@@ -678,7 +678,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="8" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">2972</_version>
+                    <_version dataType="Int">3010</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -4206,8 +4206,8 @@
                   <_items dataType="Array" type="Duality.Component[]" id="2360868096" length="8">
                     <item dataType="Struct" type="Duality.Components.Transform" id="1240359560">
                       <active dataType="Bool">true</active>
-                      <angle dataType="Float">0</angle>
-                      <angleAbs dataType="Float">0</angleAbs>
+                      <angle dataType="Float">0.9334175</angle>
+                      <angleAbs dataType="Float">0.9334175</angleAbs>
                       <angleVel dataType="Float">0</angleVel>
                       <angleVelAbs dataType="Float">0</angleVelAbs>
                       <deriveAngle dataType="Bool">true</deriveAngle>
@@ -4215,13 +4215,13 @@
                       <ignoreParent dataType="Bool">false</ignoreParent>
                       <parentTransform />
                       <pos dataType="Struct" type="Duality.Vector3">
-                        <X dataType="Float">3127.11084</X>
-                        <Y dataType="Float">152.555542</Y>
+                        <X dataType="Float">3104</X>
+                        <Y dataType="Float">544</Y>
                         <Z dataType="Float">0</Z>
                       </pos>
                       <posAbs dataType="Struct" type="Duality.Vector3">
-                        <X dataType="Float">3127.11084</X>
-                        <Y dataType="Float">152.555542</Y>
+                        <X dataType="Float">3104</X>
+                        <Y dataType="Float">544</Y>
                         <Z dataType="Float">0</Z>
                       </posAbs>
                       <scale dataType="Float">1</scale>
@@ -4233,9 +4233,9 @@
                       <active dataType="Bool">true</active>
                       <colorTint dataType="Struct" type="Duality.Drawing.ColorRgba">
                         <A dataType="Byte">255</A>
-                        <B dataType="Byte">255</B>
-                        <G dataType="Byte">255</G>
-                        <R dataType="Byte">255</R>
+                        <B dataType="Byte">125</B>
+                        <G dataType="Byte">125</G>
+                        <R dataType="Byte">217</R>
                       </colorTint>
                       <customMat />
                       <flipMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+FlipMode" name="None" value="0" />
@@ -4250,7 +4250,7 @@
                       </rect>
                       <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                       <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                        <contentPath dataType="String">Default:Material:Checkerboard</contentPath>
+                        <contentPath dataType="String">Default:Material:SolidWhite</contentPath>
                       </sharedMat>
                       <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                     </item>
