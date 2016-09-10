@@ -10,9 +10,9 @@
   <soundDopplerFactor dataType="Float">1</soundDopplerFactor>
   <speedOfSound dataType="Float">360</speedOfSound>
   <startScene dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]">
-    <contentPath dataType="String">Data\Test_map.Scene.res</contentPath>
+    <contentPath dataType="String">Data\Levels\Level_01.Scene.res</contentPath>
   </startScene>
-  <version dataType="UInt">28</version>
-  <websiteUrl dataType="String">http://www.adamslair.net</websiteUrl>
+  <version dataType="UInt">514</version>
+  <websiteUrl dataType="String"></websiteUrl>
 </root>
 <!-- XmlFormatterBase Document Separator -->

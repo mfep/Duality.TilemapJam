@@ -176,13 +176,13 @@
                           <ignoreParent dataType="Bool">false</ignoreParent>
                           <parentTransform />
                           <pos dataType="Struct" type="Duality.Vector3">
-                            <X dataType="Float">305.196259</X>
-                            <Y dataType="Float">428.188</Y>
+                            <X dataType="Float">288</X>
+                            <Y dataType="Float">544</Y>
                             <Z dataType="Float">0</Z>
                           </pos>
                           <posAbs dataType="Struct" type="Duality.Vector3">
-                            <X dataType="Float">305.196259</X>
-                            <Y dataType="Float">428.188</Y>
+                            <X dataType="Float">288</X>
+                            <Y dataType="Float">544</Y>
                             <Z dataType="Float">0</Z>
                           </posAbs>
                           <scale dataType="Float">1</scale>
@@ -192,8 +192,8 @@
                         </parentTransform>
                         <pos dataType="Struct" type="Duality.Vector3" />
                         <posAbs dataType="Struct" type="Duality.Vector3">
-                          <X dataType="Float">305.196259</X>
-                          <Y dataType="Float">428.188</Y>
+                          <X dataType="Float">288</X>
+                          <Y dataType="Float">544</Y>
                           <Z dataType="Float">0</Z>
                         </posAbs>
                         <scale dataType="Float">1</scale>
@@ -250,7 +250,7 @@
                     </header>
                     <body />
                   </identifier>
-                  <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+                  <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
                   <name dataType="String">Shovel</name>
                   <parent dataType="ObjectRef">2296195233</parent>
                   <prefabLink />
@@ -322,7 +322,7 @@
                   <linearVel dataType="Struct" type="Duality.Vector2" />
                   <revolutions dataType="Float">0</revolutions>
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="4241217697">
-                    <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="2576509038" length="4">
+                    <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="2576509038">
                       <item dataType="Struct" type="Duality.Components.Physics.PolyShapeInfo" id="2031924816">
                         <density dataType="Float">1</density>
                         <friction dataType="Float">0.3</friction>
@@ -350,7 +350,7 @@
                       </item>
                     </_items>
                     <_size dataType="Int">1</_size>
-                    <_version dataType="Int">6</_version>
+                    <_version dataType="Int">2</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="TilemapJam.PlayerHealth" id="108972226">
@@ -432,11 +432,30 @@
               </header>
               <body />
             </identifier>
-            <initState dataType="Enum" type="Duality.InitState" name="Initialized" value="1" />
+            <initState dataType="Enum" type="Duality.InitState" name="Disposed" value="3" />
             <name dataType="String">Player</name>
             <parent />
             <prefabLink dataType="Struct" type="Duality.Resources.PrefabLink" id="3051057338">
-              <changes />
+              <changes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Resources.PrefabLink+VarMod]]" id="1019593812">
+                <_items dataType="Array" type="Duality.Resources.PrefabLink+VarMod[]" id="4116065508" length="4">
+                  <item dataType="Struct" type="Duality.Resources.PrefabLink+VarMod">
+                    <childIndex dataType="Struct" type="System.Collections.Generic.List`1[[System.Int32]]" id="787454152">
+                      <_items dataType="Array" type="System.Int32[]" id="273988204"></_items>
+                      <_size dataType="Int">0</_size>
+                      <_version dataType="Int">1</_version>
+                    </childIndex>
+                    <componentType dataType="ObjectRef">2643184000</componentType>
+                    <prop dataType="MemberInfo" id="1562043102" value="P:Duality.Components.Transform:RelativePos" />
+                    <val dataType="Struct" type="Duality.Vector3">
+                      <X dataType="Float">288</X>
+                      <Y dataType="Float">544</Y>
+                      <Z dataType="Float">0</Z>
+                    </val>
+                  </item>
+                </_items>
+                <_size dataType="Int">1</_size>
+                <_version dataType="Int">9</_version>
+              </changes>
               <obj dataType="ObjectRef">2296195233</obj>
               <prefab dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
                 <contentPath dataType="String">Data\Prefabs\Player.Prefab.res</contentPath>

@@ -36,6 +36,7 @@
         </item>
         <item dataType="Struct" type="TilemapJam.Pickup" id="1090162829">
           <_x003C_Count_x003E_k__BackingField dataType="Int">1</_x003C_Count_x003E_k__BackingField>
+          <_x003C_type_x003E_k__BackingField dataType="Enum" type="TilemapJam.Pickup+Type" name="Score" value="0" />
           <active dataType="Bool">true</active>
           <gameobj dataType="ObjectRef">3844112519</gameobj>
         </item>

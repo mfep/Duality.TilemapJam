@@ -20,13 +20,13 @@
           <ignoreParent dataType="Bool">false</ignoreParent>
           <parentTransform />
           <pos dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">736</X>
-            <Y dataType="Float">352</Y>
+            <X dataType="Float">672</X>
+            <Y dataType="Float">416</Y>
             <Z dataType="Float">0</Z>
           </pos>
           <posAbs dataType="Struct" type="Duality.Vector3">
-            <X dataType="Float">736</X>
-            <Y dataType="Float">352</Y>
+            <X dataType="Float">672</X>
+            <Y dataType="Float">416</Y>
             <Z dataType="Float">0</Z>
           </posAbs>
           <scale dataType="Float">1</scale>
@@ -61,7 +61,7 @@
           </rect>
           <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
           <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-            <contentPath dataType="String">Data\Sprites\Carrot\Carrot.Material.res</contentPath>
+            <contentPath dataType="String">Data\Sprites\Shovel\shovel_icon.Material.res</contentPath>
           </sharedMat>
           <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
         </item>
@@ -96,7 +96,7 @@
               </item>
             </_items>
             <_size dataType="Int">1</_size>
-            <_version dataType="Int">2</_version>
+            <_version dataType="Int">8</_version>
           </shapes>
         </item>
         <item dataType="Struct" type="TilemapJam.IdleMovement" id="2914974299">
