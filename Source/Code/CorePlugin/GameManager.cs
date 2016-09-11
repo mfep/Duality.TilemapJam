@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Duality;
 using Duality.Resources;
+using MFEP.Duality.Plugins.InputPlugin;
 
 namespace TilemapJam
 {
@@ -73,9 +74,25 @@ namespace TilemapJam
 					invokes.Remove (invoke);
 				}
 			}
+            CheckExit ();
+            CheckRestartLevel ();
 		}
 
-		public void AddInvoke (Action func, TimeSpan when)
+        void CheckRestartLevel ()
+        {
+            if (InputManager.IsButtonHit ("Restart")) {
+                Scene.Reload ();
+            }
+        }
+
+        void CheckExit ()
+        {
+            if (InputManager.IsButtonHit ("Exit")) {
+                DualityApp.Terminate ();
+            }
+        }
+
+        public void AddInvoke (Action func, TimeSpan when)
 		{
 			invokes.Add (new FunctionInvoke (func, when));
 		}

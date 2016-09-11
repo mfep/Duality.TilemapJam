@@ -128,6 +128,62 @@
         </invocationList>
       </ButtonChanged>
     </Drill>
+    <Exit dataType="Struct" type="MFEP.Duality.Plugins.InputPlugin.VirtualButton" id="2795227297">
+      <_x003C_Name_x003E_k__BackingField dataType="String">Exit</_x003C_Name_x003E_k__BackingField>
+      <associatedKeys dataType="Struct" type="System.Collections.Generic.HashSet`1[[Duality.Input.Key]]" id="3128982074">
+        <m_buckets dataType="Array" type="System.Int32[]" id="337980672">0, 0, 1</m_buckets>
+        <m_comparer dataType="Struct" type="System.Collections.Generic.EnumEqualityComparer`1[[Duality.Input.Key]]" id="3204518350" />
+        <m_count dataType="Int">1</m_count>
+        <m_freeList dataType="Int">-1</m_freeList>
+        <m_lastIndex dataType="Int">1</m_lastIndex>
+        <m_siInfo />
+        <m_slots dataType="Array" type="System.Collections.Generic.HashSet`1+Slot[[Duality.Input.Key]][]" id="1737371548" length="3">
+          <item dataType="Struct" type="System.Collections.Generic.HashSet`1+Slot[[Duality.Input.Key]]">
+            <hashCode dataType="Int">50</hashCode>
+            <next dataType="Int">-1</next>
+            <value dataType="Enum" type="Duality.Input.Key" name="Escape" value="50" />
+          </item>
+        </m_slots>
+        <m_version dataType="Int">1</m_version>
+      </associatedKeys>
+      <ButtonChanged dataType="Delegate" type="System.Action" id="2043499194" multi="true">
+        <method dataType="ObjectRef">411997508</method>
+        <target dataType="Struct" type="MFEP.Duality.Plugins.InputPlugin.InputManager+&lt;&gt;c__DisplayClass8_0" id="1299873152">
+          <button dataType="ObjectRef">2795227297</button>
+        </target>
+        <invocationList dataType="Array" type="System.Delegate[]" id="3096357070">
+          <item dataType="ObjectRef">2043499194</item>
+        </invocationList>
+      </ButtonChanged>
+    </Exit>
+    <Restart dataType="Struct" type="MFEP.Duality.Plugins.InputPlugin.VirtualButton" id="2384594084">
+      <_x003C_Name_x003E_k__BackingField dataType="String">Restart</_x003C_Name_x003E_k__BackingField>
+      <associatedKeys dataType="Struct" type="System.Collections.Generic.HashSet`1[[Duality.Input.Key]]" id="1596850563">
+        <m_buckets dataType="Array" type="System.Int32[]" id="2687235878">0, 1, 0</m_buckets>
+        <m_comparer dataType="ObjectRef">3204518350</m_comparer>
+        <m_count dataType="Int">1</m_count>
+        <m_freeList dataType="Int">-1</m_freeList>
+        <m_lastIndex dataType="Int">1</m_lastIndex>
+        <m_siInfo />
+        <m_slots dataType="Array" type="System.Collections.Generic.HashSet`1+Slot[[Duality.Input.Key]][]" id="485542586" length="3">
+          <item dataType="Struct" type="System.Collections.Generic.HashSet`1+Slot[[Duality.Input.Key]]">
+            <hashCode dataType="Int">100</hashCode>
+            <next dataType="Int">-1</next>
+            <value dataType="Enum" type="Duality.Input.Key" name="R" value="100" />
+          </item>
+        </m_slots>
+        <m_version dataType="Int">1</m_version>
+      </associatedKeys>
+      <ButtonChanged dataType="Delegate" type="System.Action" id="651678136" multi="true">
+        <method dataType="ObjectRef">411997508</method>
+        <target dataType="Struct" type="MFEP.Duality.Plugins.InputPlugin.InputManager+&lt;&gt;c__DisplayClass8_0" id="4090950889">
+          <button dataType="ObjectRef">2384594084</button>
+        </target>
+        <invocationList dataType="Array" type="System.Delegate[]" id="3431121088">
+          <item dataType="ObjectRef">651678136</item>
+        </invocationList>
+      </ButtonChanged>
+    </Restart>
   </body>
 </root>
 <!-- XmlFormatterBase Document Separator -->
