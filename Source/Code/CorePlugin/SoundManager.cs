@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Duality;
 using Duality.Audio;
 using Duality.Resources;
 
 namespace TilemapJam
 {
-    public class SoundManager : Component
+    public class SoundManager : Component, ICmpInitializable
     {
         public enum SoundEnum
         {
@@ -50,6 +51,22 @@ namespace TilemapJam
             }
 
             return DualityApp.Sound.PlaySound (soundRef);
+        }
+
+        void MakeSoundsAvailable ()
+        {
+            foreach (var soundRes in new[] { Sound_Pickup, Sound_PlayerDeath, Sound_Drill, Sound_ExitReached, Sound_Jump}) {
+                soundRes.MakeAvailable ();
+            }
+        }
+
+        public void OnInit (InitContext context)
+        {
+            MakeSoundsAvailable ();
+        }
+
+        public void OnShutdown (ShutdownContext context)
+        {
         }
     }
 }

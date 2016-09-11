@@ -12,7 +12,7 @@
   <startScene dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Scene]]">
     <contentPath dataType="String">Data\Levels\Level_01.Scene.res</contentPath>
   </startScene>
-  <version dataType="UInt">514</version>
+  <version dataType="UInt">538</version>
   <websiteUrl dataType="String"></websiteUrl>
 </root>
 <!-- XmlFormatterBase Document Separator -->
