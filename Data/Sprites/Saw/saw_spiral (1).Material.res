@@ -16,7 +16,7 @@
       <header />
       <body>
         <mainTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-          <contentPath dataType="String">Default:Texture:White</contentPath>
+          <contentPath dataType="String">Data\Sprites\Saw\saw_spiral.Texture.res</contentPath>
         </mainTex>
         <noiseTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
           <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\level_02_psytex.Texture.res</contentPath>
@@ -26,13 +26,13 @@
     <uniforms dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.String],[System.Single[]]]" id="649525530" surrogate="true">
       <header />
       <body>
-        <GameTime dataType="Array" type="System.Single[]" id="411997508">0</GameTime>
-        <CameraFocusDist dataType="Array" type="System.Single[]" id="1885627030">0</CameraFocusDist>
-        <CameraParallax dataType="Array" type="System.Single[]" id="766962944">0</CameraParallax>
-        <CameraPosition dataType="Array" type="System.Single[]" id="1352645666">0, 0, 0</CameraPosition>
+        <CameraFocusDist dataType="Array" type="System.Single[]" id="411997508">0</CameraFocusDist>
+        <CameraParallax dataType="Array" type="System.Single[]" id="1885627030">0</CameraParallax>
+        <CameraPosition dataType="Array" type="System.Single[]" id="766962944">0, 0, 0</CameraPosition>
+        <GameTime dataType="Array" type="System.Single[]" id="1352645666">0</GameTime>
         <alphaPow dataType="Array" type="System.Single[]" id="3754462812">0.7</alphaPow>
-        <color1 dataType="Array" type="System.Single[]" id="3208881918">0, 0.6, 0.6</color1>
-        <color2 dataType="Array" type="System.Single[]" id="1006437560">0.8, 0, 0.53</color2>
+        <color1 dataType="Array" type="System.Single[]" id="3208881918">0.5, 0.6, 0.6</color1>
+        <color2 dataType="Array" type="System.Single[]" id="1006437560">0.8, 0.6, 0.53</color2>
       </body>
     </uniforms>
   </info>
