@@ -16,6 +16,7 @@ namespace TilemapJam
 
 		void CalculateSawSpeed ()
 		{
+            if (Saw == null) return;
 			float mapSizeX = Map.Size.X * Map.Tileset.Res.TileSize.X;
 			Saw.HorizontalSpeed = mapSizeX / LevelTime;
 		}
@@ -24,7 +25,8 @@ namespace TilemapJam
 		{
 			if (context == InitContext.Activate && DualityApp.ExecContext == DualityApp.ExecutionContext.Game) {
 				CalculateSawSpeed ();
-                MusicManager.PlayMusic (LevelMusic);
+                if (LevelMusic != null)
+                    MusicManager.PlayMusic (LevelMusic);
 			}
 		}
 
