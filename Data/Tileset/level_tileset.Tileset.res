@@ -224,7 +224,7 @@
   </autoTileConfig>
   <baseMaterial dataType="Struct" type="Duality.Drawing.BatchInfo" id="2035693768">
     <dirtyFlag dataType="Enum" type="Duality.Drawing.BatchInfo+DirtyFlag" name="None" value="0" />
-    <hashCode dataType="Int">2088807135</hashCode>
+    <hashCode dataType="Int">-1487510699</hashCode>
     <mainColor dataType="Struct" type="Duality.Drawing.ColorRgba">
       <A dataType="Byte">255</A>
       <B dataType="Byte">255</B>
@@ -241,7 +241,7 @@
           <contentPath dataType="String">Default:Texture:White</contentPath>
         </mainTex>
         <noiseTex dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
-          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\level_02_psytex.Texture.res</contentPath>
+          <contentPath dataType="String">Default:Texture:White</contentPath>
         </noiseTex>
       </body>
     </textures>
@@ -253,8 +253,8 @@
         <CameraParallax dataType="Array" type="System.Single[]" id="2240739423">0</CameraParallax>
         <CameraPosition dataType="Array" type="System.Single[]" id="2301142486">0, 0, 0</CameraPosition>
         <alphaPow dataType="Array" type="System.Single[]" id="1665323393">0.7</alphaPow>
-        <color1 dataType="Array" type="System.Single[]" id="1049412260">0, 0.6, 0.6</color1>
-        <color2 dataType="Array" type="System.Single[]" id="2762584907">0.8, 0, 0.53</color2>
+        <color1 dataType="Array" type="System.Single[]" id="1049412260">0, 0, 0</color1>
+        <color2 dataType="Array" type="System.Single[]" id="2762584907">0, 0, 0</color2>
       </body>
     </uniforms>
   </baseMaterial>

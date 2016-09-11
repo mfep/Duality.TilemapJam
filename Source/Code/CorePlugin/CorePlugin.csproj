@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CorePlugin.cs" />
+    <Compile Include="GraphicsApplier.cs" />
     <Compile Include="MusicManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controller2D.cs" />

@@ -370,7 +370,7 @@
                     </body>
                   </tileData>
                   <tileset dataType="Struct" type="Duality.ContentRef`1[[Duality.Plugins.Tilemaps.Tileset]]">
-                    <contentPath dataType="String">Data\Tileset\level_01_tileset.Tileset.res</contentPath>
+                    <contentPath dataType="String">Data\Tileset\level_tileset.Tileset.res</contentPath>
                   </tileset>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapRenderer" id="2961839734">
@@ -464,7 +464,7 @@
                   <shapes dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Components.Physics.ShapeInfo]]" id="1028086938">
                     <_items dataType="Array" type="Duality.Components.Physics.ShapeInfo[]" id="633251712" length="16" />
                     <_size dataType="Int">0</_size>
-                    <_version dataType="Int">3410</_version>
+                    <_version dataType="Int">3746</_version>
                   </shapes>
                 </item>
                 <item dataType="Struct" type="Duality.Plugins.Tilemaps.TilemapCollider" id="1256524341">
@@ -1243,7 +1243,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -1327,7 +1327,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -1411,7 +1411,7 @@
                         </rect>
                         <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                         <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level_01.Material.res</contentPath>
+                          <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level.Material.res</contentPath>
                         </sharedMat>
                         <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                       </item>
@@ -2069,7 +2069,7 @@
                   </rect>
                   <rectMode dataType="Enum" type="Duality.Components.Renderers.SpriteRenderer+UVMode" name="Stretch" value="0" />
                   <sharedMat dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
-                    <contentPath dataType="String">Data\Sprites\Saw\saw_spiral (1).Material.res</contentPath>
+                    <contentPath dataType="String">Data\Sprites\Saw\saw_spiral.Material.res</contentPath>
                   </sharedMat>
                   <visibilityGroup dataType="Enum" type="Duality.Drawing.VisibilityFlag" name="Group0" value="1" />
                 </item>
@@ -2253,7 +2253,7 @@
       <active dataType="Bool">true</active>
       <children />
       <compList dataType="Struct" type="System.Collections.Generic.List`1[[Duality.Component]]" id="2171466837">
-        <_items dataType="Array" type="Duality.Component[]" id="178359542" length="4">
+        <_items dataType="Array" type="Duality.Component[]" id="178359542">
           <item dataType="Struct" type="TilemapJam.LevelManager" id="2953727690">
             <_x003C_exit_x003E_k__BackingField dataType="ObjectRef">2501326834</_x003C_exit_x003E_k__BackingField>
             <_x003C_LevelMusic_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Sound]]">
@@ -2278,15 +2278,43 @@
           </item>
           <item dataType="Struct" type="TilemapJam.FXManager" id="1169356514">
             <_x003C_ParticleSystem_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Prefab]]">
-              <contentPath dataType="String">Data\Prefabs\FX\FXPoint_01.Prefab.res</contentPath>
+              <contentPath dataType="String">Data\Prefabs\FXPoint.Prefab.res</contentPath>
             </_x003C_ParticleSystem_x003E_k__BackingField>
             <_x003C_ParticleSystemDuration_x003E_k__BackingField dataType="Float">0.7</_x003C_ParticleSystemDuration_x003E_k__BackingField>
             <active dataType="Bool">true</active>
             <gameobj dataType="ObjectRef">1726165719</gameobj>
           </item>
+          <item dataType="Struct" type="TilemapJam.GraphicsApplier" id="2110935953">
+            <_x003C_SawMaterial_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Sprites\Saw\saw_spiral.Material.res</contentPath>
+            </_x003C_SawMaterial_x003E_k__BackingField>
+            <_x003C_SceneMaterial_x003E_k__BackingField dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Material]]">
+              <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\Psy_Level.Material.res</contentPath>
+            </_x003C_SceneMaterial_x003E_k__BackingField>
+            <active dataType="Bool">true</active>
+            <gameobj dataType="ObjectRef">1726165719</gameobj>
+            <mapColor1 dataType="Struct" type="Duality.Drawing.ColorRgba">
+              <A dataType="Byte">255</A>
+              <B dataType="Byte">154</B>
+              <G dataType="Byte">154</G>
+              <R dataType="Byte">127</R>
+            </mapColor1>
+            <mapColor2 dataType="Struct" type="Duality.Drawing.ColorRgba">
+              <A dataType="Byte">255</A>
+              <B dataType="Byte">136</B>
+              <G dataType="Byte">154</G>
+              <R dataType="Byte">205</R>
+            </mapColor2>
+            <noiseTexture dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
+              <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\level_01_psytex.Texture.res</contentPath>
+            </noiseTexture>
+            <sawNoiseTexture dataType="Struct" type="Duality.ContentRef`1[[Duality.Resources.Texture]]">
+              <contentPath dataType="String">Data\Tileset\Shader\Level_Materials\level_02_psytex.Texture.res</contentPath>
+            </sawNoiseTexture>
+          </item>
         </_items>
-        <_size dataType="Int">3</_size>
-        <_version dataType="Int">3</_version>
+        <_size dataType="Int">4</_size>
+        <_version dataType="Int">4</_version>
       </compList>
       <compMap dataType="Struct" type="System.Collections.Generic.Dictionary`2[[System.Type],[Duality.Component]]" id="714267976" surrogate="true">
         <header />
@@ -2295,11 +2323,13 @@
             <item dataType="Type" id="1337091374" value="TilemapJam.LevelManager" />
             <item dataType="Type" id="2373578954" value="TilemapJam.GameManager" />
             <item dataType="Type" id="754430110" value="TilemapJam.FXManager" />
+            <item dataType="Type" id="2481812698" value="TilemapJam.GraphicsApplier" />
           </keys>
           <values dataType="Array" type="System.Object[]" id="3595573088">
             <item dataType="ObjectRef">2953727690</item>
             <item dataType="ObjectRef">2440107330</item>
             <item dataType="ObjectRef">1169356514</item>
+            <item dataType="ObjectRef">2110935953</item>
           </values>
         </body>
       </compMap>
